@@ -6,7 +6,9 @@ title:
 status: draft
 refs:
   - "[[../../sources/istoria-postei-1916/text]]"
+  - "[[../../sources/dragomir-stampilografie-1990/text]]"
   - "[[postal-history-romania]]"
+  - "[[pre-stamp-postal-markings]]"
   - "[[geopolitics-1800s]]"
   - "[[foreign-post-offices]]"
   - "[[../places/old-post-buildings]]"
@@ -173,6 +175,23 @@ entrepreneur, in effect, held the mails of the future Romania.
 > "1" as "4" (136→"436", 138→"438"), so the printed number can look like *437*/*438*.
 > An earlier draft of [[postal-history-romania]] carried that misread (*p.437*); it
 > has been corrected to p.137–138 to match the verified pages used here.
+
+## The seals the relay houses left
+
+The menzil system is not only a documentary abstraction — it left **physical
+markings**. The seals of the **Casa Menzilului Moldovei** are the oldest postal
+devices Kiriac Dragomir catalogues, and they run in step with the very leases
+described above. The earliest, **[[../handstamps/SM22|SM22]]** (1822), survives as a
+single known impression on a postal order of 7 September 1825 issued under
+*"trienalul antreprizei Scufa, 1822/25"* — Scufa's lease made tangible
+([[../../sources/dragomir-stampilografie-1990/text|Dragomir, Ștampilografie]] photo
+11). Successive three-year terms brought new dies: **[[../handstamps/SM27|SM27]]**
+(1827, a double circle showing a postillion sounding a horn between two trees) and
+**[[../handstamps/SM30|SM30]]** (1830, already bearing the bull's-head arms). The
+Cyrillic legend *"PECETEA KĂSII MENZILULUI MOLDAVIEI"* names the institution this
+page describes. The full series, and the Wallachian counterpart (*Casa Menzilurilor
+Valahiei*, [[../handstamps/README|SV27 ff.]]), is catalogued at
+[[pre-stamp-postal-markings]].
 
 ## Why the system bred its own reform
 

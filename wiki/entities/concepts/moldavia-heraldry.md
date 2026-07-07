@@ -248,6 +248,37 @@ device that runs from the Maramureș seals of the 1380s, through the groat of
 Petru Mușat and the seal of Roman I, to Stephen the Great and beyond
 ([[../../sources/tiron-2020-stema-moldovei/text|Tiron 2020]] pp.63–77).
 
+## On the post's own seals, 1822–1858
+
+There is a nearer link between the medieval arms and the 1858 stamp than the coins
+and monastery stonework: the **Moldavian post was already striking the bull's head
+on its own seals** for decades before the *Cap de bour*. Kiriac Dragomir's
+*Ștampilografie Poștală* catalogues the postal seals from **1822** onward and states
+the principle plainly — *"the principal element of the heraldic seals of Moldavia is
+the cap de bour, and of Wallachia the eagle"* — adding that the bull's head *"appears
+for the first time **in philately** on the cap de bour stamps"* of 22 July and 1
+November 1858 ([[../../sources/dragomir-stampilografie-1990/text|Ștampilografie]]
+photo 10). The qualifier *in philately* is the point: on the **seals** the charge was
+in continuous postal use well before.
+
+- The **1830 seal of the Casa Menzilului Moldovei** ([[../handstamps/SM30|SM30]])
+  already shows the bull's head with a **star between the horns** and flanking
+  branches — the arms of the land on the relay-post's own die
+  ([[../../sources/dragomir-stampilografie-1990/text|Ștampilografie]] Plate 1).
+- The **1858 seal of the Directorate of Posts and Diligences**
+  ([[../handstamps/SM58|SM58]]) carries the full achievement — a shield with the
+  *cap de bour*, a closed crown, two flanking dolphins and a postal horn dated 1858
+  — struck in the very year the stamp was issued
+  ([[../../sources/dragomir-stampilografie-1990/text|Ștampilografie]] Fig. 28).
+- After the 1859 Union, the Iași bureau seal (`SM59`) sets the **Moldavian bull's
+  head beside the Wallachian eagle** under the legend "PRINCIPATELE UNITE" — the same
+  pairing that later appears on the *Principatele Unite* stamps
+  ([[../../sources/dragomir-stampilografie-1990/text|Ștampilografie]] Fig. 32).
+
+So the 1858 stamp did not reach for a museum emblem; it reproduced the charge the
+Moldavian post handled every day. The pre-stamp seals are catalogued at
+[[../concepts/pre-stamp-postal-markings]] and [[../handstamps/README|the device index]].
+
 ## Images to use
 
 - `p0027_x674.jpeg` — Heraldic plate (Tiron 2020, p.27): seals of the Maramureș

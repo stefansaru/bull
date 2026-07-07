@@ -40,6 +40,7 @@ deep, cited concept pages. *(flagship [[entities/concepts/why-bull-heads-matter]
   [[entities/concepts/caimacam-regency-moldavia]] · [[entities/events/ad-hoc-divans-1857]] ·
   [[entities/events/paris-convention-1858]] · [[entities/events/union-of-principalities-1859]]
 - **Postal history:** [[entities/concepts/postal-history-romania]] ·
+  [[entities/concepts/pre-stamp-postal-markings|pre-stamp markings (1822–58, both provinces)]] ·
   [[entities/concepts/menzil-relay-system]] · [[entities/concepts/foreign-post-offices]] ·
   [[entities/concepts/bull-head-stamp-distribution-1858]] · [[entities/concepts/franco-porto-apparatus-1858]] ·
   [[entities/places/atelia-timbrului]] · [[entities/places/old-post-buildings]] ·
@@ -56,16 +57,23 @@ deep, cited concept pages. *(flagship [[entities/concepts/why-bull-heads-matter]
   postmark occurrences, blocks/strips, forgeries and printing/survival quantities, each cited. Raw data in `data/records.csv`.
 - **Issues:** [[entities/issues/issue-bull-1|🐃 1 — First issue (27/54/81/108 parale)]] ·
   [[entities/issues/issue-bull-2|🐃 2 — Second issue (5/40/80 parale)]]
-- **Handstamps:** [[entities/handstamps/PM52|PM52]] · [[entities/handstamps/M1|M1]] ·
-  [[entities/handstamps/M2|M2]] · [[entities/handstamps/M3|M3]] · [[entities/handstamps/C1|C1]]
+- **Handstamps & seals:** [[entities/handstamps/README|device index]] ·
+  *obliterators* [[entities/handstamps/PM52|PM52]] · [[entities/handstamps/M1|M1]] ·
+  [[entities/handstamps/M2|M2]] · [[entities/handstamps/M3|M3]] · [[entities/handstamps/C1|C1]] ·
+  *Moldavian seals* [[entities/handstamps/SM22|SM22]] · [[entities/handstamps/SM27|SM27]] ·
+  [[entities/handstamps/SM30|SM30 🐂]] · [[entities/handstamps/SM58|SM58 🐂]]
+  (from [[entities/references/dragomir-stampilografie-1990|Dragomir 1990]]; both provinces, 1822–)
 - **Postmarks:** [[entities/postmarks/kiriac-figures|Kiriac figure catalogue]] (the devices —
   from Kiriac 1974) · [[entities/postmarks/census|Auction postmark census]] — 329 markings
   (98 on Bull's Head) from the auction catalogues ·
   [[entities/concepts/bull-head-postmarks-from-documents|Postmarks in the postal archives]] (25 towns, Wertheimer-Ghika 1944).
 - **Raw sources:** [[sources/README|sources/]] — Kiriac 1974, Istoria Poștei 1916, Unirea vol. II,
-  and Wertheimer-Ghika 1944 (99-photo OCR) — raw text.
+  Wertheimer-Ghika 1944 (99-photo OCR), and **4 newly photographed references** —
+  [[sources/dragomir-stampilografie-1990/text|Dragomir *Ștampilografie* (155 photos)]],
+  Cârjan-Manole 2006, Spineanu 1984, Chiricheș-Pascariu — raw text.
 - **References:** [[entities/references/README|Auction catalogues]] (16 mined) ·
   [[entities/references/kiriac-1974|Kiriac 1974]] · [[entities/references/wertheimer-ghika-1944|Wertheimer-Ghika 1944]] ·
+  [[entities/references/dragomir-stampilografie-1990|Dragomir *Ștampilografie* 1990]] ·
   [[entities/references/bulls-head-lots|Notable lots EN/RO]] ·
   Michel · Scott · Stanley-Gibbons · Yvert-Tellier · LP
 - **Concepts:** [[entities/concepts/aurochs|🐃 Aurochs]] · bison/wisent · paper · colours · currencies · calendars
