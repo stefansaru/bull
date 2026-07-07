@@ -93,9 +93,33 @@ Gathered in `Planșă 7` (station seals, Fig.71–82).
 > [[../concepts/franco-porto-apparatus-1858]]. The town post-station seals ("ПОШТА
 > [town] АНУЛ [year]") are the separate [[SV-stations]] series.
 
-## Pre-philatelic & remaining service classes (to be built out)
+## Prefilatelice (`PM`/`PV`): town datestamps before the 1858 stamp (Part 2)
 
-Further Dragomir sections — `PM`/`PV` pre-philatelic town handstamps, the
-maritime/river/rural services and the post-classic period to 1910 — are inventoried in
-the raw source and will get per-device pages in subsequent passes. See
-[[../../sources/dragomir-stampilografie-1990/text|the raw OCR]].
+| Code | Family | Fig. | Notes |
+|------|--------|------|-------|
+| [[PM52]] | *FRANKO* Cyrillic town marks, Moldavia (1852–58) | Fig.205–222 (Pl.15) | 18 devices ⚠ (text also says 19/17 offices — [[../../meta/errata|errata #14]]) |
+| [[PM57]] | *MOLDOVA* prephilatelic datestamps (1857) | Pl.18 / Fig.287 | **same dies as [[M1]]** — catalogued twice ([[../../meta/errata|errata #16]]) |
+| [[PV53]] | Wallachian bilinear dated handstamps (1853–62) | Pl.16/17 | 26-device table; Tabel 2 (APV53) |
+| [[PV55]] | oval "cu ramuri": *POȘTA PREDEALU*, *BUKUREȘTI* (1855) | Fig.267–268 | Cyrillic legends |
+| [[PV59]] | round *BUCAREST/WALACHEI* (1859) + its *PV62* re-worded state | Fig.269–270 | same die, two states |
+
+## Auxiliary sigillary classes (Part 2): district, village, telegraph, customs
+
+Not in the front-matter *ABREVIERI* key — introduced in §2.2–§2.5. Overview:
+[[../concepts/auxiliary-sigillary-stamps]]. Many carry the **cap de bour cu stea**.
+
+| Code | Class | Fig. (Plate) | Notes |
+|------|-------|--------------|-------|
+| [[SAD]] | Ștampile sigilare **districtuale** (county) | Fig.173–178 (Pl.11) | 6 seals, Herța 1824 – Botoșani 1831 |
+| [[SAS]] | Ștampile sigilare **sătești** (village) | Fig.179–183 (Pl.12) | 6 figured + 3 listed |
+| [[ST]] | Ștampile **telegrafice** (telegraph) | Fig.185–191 (Pl.13) | 11 devices — **coded `TL`, not `ST`** ([[../../meta/errata|errata #10a]]) |
+| [[SAV]] | Ștampile **vamale** (customs) | Fig.193–200 (Pl.14) | 72-office list — coded `SV`/`SAV` ([[../../meta/errata|errata #10b]]) |
+
+## Post-classic classes — not in the photographed source
+
+The *ABREVIERI* key also lists the **post-classic** service classes (`B`, `CFR`, `PA`,
+`OB`, `OS`, `OT`, `SMR`, `NFR`, `R`, `A`, `S`, `D`, `DR`, `GN`, `GR`, `H`, `SD`, `AS`,
+`BA`), but the **photographed 155 pages end at the classic obliterators `M1`/`M2`/`M3`**;
+those classes appear only in the key, not as catalogued chapters, so they have no
+per-device pages here (see [[../../meta/errata|errata — scope note]]). All inconsistencies
+found in Dragomir are logged at [[../../meta/errata|meta/errata]].

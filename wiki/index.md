@@ -75,6 +75,12 @@ deep, cited concept pages. *(flagship [[entities/concepts/why-bull-heads-matter]
       [[entities/handstamps/CpV|captains]] · [[entities/handstamps/SV-sigilii-cu-pene|feather-seals]]
     - *Service classes:* [[entities/handstamps/FV|FV]] · [[entities/handstamps/FM|FM]] (road-post forms) ·
       [[entities/handstamps/K|K]] 🩺 (quarantine)
+    - *Prefilatelice (town datestamps):* [[entities/handstamps/PM52|PM52]] (FRANKO) ·
+      [[entities/handstamps/PM57|PM57]] (MOLDOVA) · [[entities/handstamps/PV53|PV53]] ·
+      [[entities/handstamps/PV55|PV55]] · [[entities/handstamps/PV59|PV59]]
+    - *Auxiliary sigillary:* [[entities/handstamps/SAD|SAD]] (district) ·
+      [[entities/handstamps/SAS|SAS]] (village) · [[entities/handstamps/ST|ST/TL]] (telegraph) ·
+      [[entities/handstamps/SAV|SAV]] (customs) — see [[entities/concepts/auxiliary-sigillary-stamps]]
 - **Postmarks:** [[entities/postmarks/kiriac-figures|Kiriac figure catalogue]] (the devices —
   from Kiriac 1974) · [[entities/postmarks/census|Auction postmark census]] — 329 markings
   (98 on Bull's Head) from the auction catalogues ·
