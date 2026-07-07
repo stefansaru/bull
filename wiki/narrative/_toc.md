@@ -156,6 +156,12 @@ Generated in reading order. English master; translations in `.i18n.yml` sidecars
   - [1859 📅 🐃 1: Investigation and Tragedy at the Post Office 🌍 Iaşi (Jassy)](05-1859/005-1859-1-investigation-and-tragedy-at-the-post-office-iaşi-jas.md)
   - [1859 📅 🐃 1: Return of Unused Stamps 🌍 Iaşi (Jassy)](05-1859/006-1859-1-return-of-unused-stamps-iaşi-jassy.md)
 - [1865 📅 🧭 Postal Routes 🌍 Romania](06-1865-postal-routes-romania/001-1865-postal-routes-romania.md)
+- [🖋 Before the Stamp — Postal Seals of the Two Principalities](06b-pre-stamp-seals/001-pre-stamp-seals.md) *(draft addendum — hand-authored from Dragomir 1990, outside the generated pipeline)*
+  - [🖋 The Relay Houses and Their Seals, 1822–1834](06b-pre-stamp-seals/002-the-menzil-houses.md)
+  - [🐂 Moldavia's Bull's Head — on the Post's Own Seals](06b-pre-stamp-seals/003-moldavia-bull-head-seals.md)
+  - [🦅 Wallachia's Eagle and the Seven Post Roads](06b-pre-stamp-seals/004-wallachia-eagle-post-roads.md)
+  - [🩺 The Quarantine Cordon and the Franco Marks](06b-pre-stamp-seals/005-quarantine-and-franco.md)
+  - [🖋→⨀ From Seal to Obliterator: the Eve of 1858](06b-pre-stamp-seals/006-from-seal-to-obliterator.md)
 - [⨀ PM52](07-pm52/001-pm52.md)
   - [⨀ PM52 Prephilatelic Moldavia 📅 1852](07-pm52/002-pm52-prephilatelic-moldavia-1852.md)
   - [⨀ PM52 Applied rarely on stamps](07-pm52/003-pm52-applied-rarely-on-stamps.md)
