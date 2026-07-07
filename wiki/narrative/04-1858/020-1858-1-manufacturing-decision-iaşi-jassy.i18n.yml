@@ -1,0 +1,21 @@
+page: narrative/04-1858/020-1858-1-manufacturing-decision-iaşi-jassy
+title: {}
+units:
+  u00533:
+    kind: quad
+    en_hash: 4fe5db48
+    ro:
+      status: ok
+      text: 'Decizie de fabricație
+
+        Ministerul Finanțelor (M.F.) emite decizia nr. 4258 de fabricare a timbrelor poştale la Atelierul de Timbre (A.T.) din Iaşi şi aprobă comanda de achiziție a „peceţilor acelor marce” respective.'
+    fr:
+      status: ok
+      text: 'Décision de fabrication
+
+        Le ministère des Finances (M.F.) prend la décision n° 4258 de fabriquer les timbres-poste à l''Atelier des timbres (A.T.) de Iaşi et approuve le bon de commande pour les matrices respectives.'
+    de:
+      status: ok
+      text: 'Entscheidung zur Herstellung
+
+        Das Finanzministerium (M.F.) erlässt den Beschluss Nr. 4258 zur Herstellung der Briefmarken in der Briefmarkenwerkstatt (A.T.) in Iaşi und genehmigt die Bestellung der entsprechenden Stempel.'

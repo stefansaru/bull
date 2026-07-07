@@ -1,0 +1,21 @@
+page: narrative/04-1858/036-1858-2-at-requests-metal-dies-from-mf-iaşi-jassy
+title: {}
+units:
+  u00666:
+    kind: quad
+    en_hash: 01187914
+    ro:
+      status: ok
+      text: 'Clişee metalice
+
+        La 18 octombrie (J), Atelierul de Timbre solicită clişeele metalice de la Ministerul de Finanțe.'
+    fr:
+      status: ok
+      text: 'Matrices métalliques
+
+        L''atelier timbre, le 18 octobre (J), demande les matrices métalliques au ministère des Finances.'
+    de:
+      status: ok
+      text: 'Metallstempel
+
+        Die Briefmarkenwerkstatt fordert am 18. Oktober (J) die Metallstempel beim Finanzministerium an.'

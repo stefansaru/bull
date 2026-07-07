@@ -1,0 +1,21 @@
+page: narrative/11-27-parale/019-27-parale
+title: {}
+units:
+  u01150:
+    kind: quad
+    en_hash: cbb90929
+    ro:
+      status: ok
+      text: 'Figure 202: 📜 Heimbüchler 📅 2000
+
+        ⏭ Figure 194, p.251'
+    fr:
+      status: ok
+      text: 'Figure 203: 📜 Bloch 📅 1983
+
+        ⏭ Figure 196, p.252'
+    de:
+      status: ok
+      text: 'Figure 204: 📜 Gmach 📅 2022
+
+        ⏭ Figure 196, p.252'

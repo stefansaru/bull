@@ -1,0 +1,44 @@
+page: narrative/02-the-aurochs/021-drinking-horns
+title: {}
+units:
+  u00116:
+    kind: quad
+    en_hash: e605818d
+    ro:
+      status: ok
+      text: '🐃 Coarne de băut
+
+        Coarnele lor mari şi curbate, cândva o armă formidabilă în natură, au fost transformate în vase de băut ornamentate. Coarnele, simboluri ale puterii şi statutului, au fost adesea folosite de nobilime şi regalitate, devenind un mod prestigios de a închina un toast pentru victorie şi onoare. Romanii şi popoarele germanice foloseau coarnele de bour în timpul meselor festive şi de ofrandă, deoarece oamenii credeau că puterea animalelor trăieşte în vasul de băut. Băutul împreună şi folosirea unui singur vas întăreau frăția şi, desigur, nu se puteau pune jos coarnele de băut. Din acest motiv, cornul trebuia să fie transmis din mână în mână. Acest ritual asigura că băutura era împărțită între toate persoanele prezente, astfel încât era mai puțin probabil ca cineva prezent să otrăvească băutura.'
+    fr:
+      status: ok
+      text: '🐃 Cornes à boire
+
+        Ces grandes cornes incurvées, qui constituaient autrefois une arme redoutable dans la nature, ont été transformées en vases à boire ornés. Les cornes, symboles de pouvoir et de statut, étaient souvent utilisées par la noblesse et la royauté, devenant une manière prestigieuse de porter un toast à la victoire et à l''honneur. Les Romains et les peuples germaniques utilisaient les cornes d''aurochs lors de repas festifs et d''offrandes, car ils pensaient que le pouvoir des animaux se perpétuait dans le récipient. Le fait de boire ensemble et d''utiliser un seul récipient renforçait la fraternité et, par conséquent, les cornes à boire ne pouvaient pas être déposées. C''est pourquoi la corne devait être transmise de main en main. Ce rituel permettait de s''assurer que la boisson était partagée par toutes les personnes présentes, de sorte qu''il était moins probable qu''une personne présente empoisonne la boisson.'
+    de:
+      status: ok
+      text: '🐃 Trinkhörner
+
+        Ihre großen, gebogenen Hörner, die in der Natur einst eine mächtige Waffe waren, wurden zu kunstvollen Trinkgefäßen umfunktioniert. Die Hörner, Symbole für Macht und Status, wurden häufig von Adeligen und Königen verwendet und wurden zu einem prestigeträchtigen Mittel, um auf Sieg und Ehre anzustoßen. Römer und Germanen benutzten die Hörner des Auerochsen bei Fest- und Opfermahlzeiten, weil man glaubte, dass die Kraft der Tiere in dem Trinkgefäß weiterlebte. Gemeinsames Trinken und die Verwendung eines einzigen Gefäßes stärkten die Brüderlichkeit, weshalb Trinkhörner nicht abgesetzt werden durften. Aus diesem Grund musste das Horn von Hand zu Hand weitergereicht werden. Dieses Ritual stellte sicher, dass das Getränk von allen Anwesenden geteilt wurde, so dass es weniger wahrscheinlich war, dass jemand das Getränk vergiftete.'
+  u00120:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: 🌍 Cambridge, Corpus Christi College
+  u00124:
+    kind: quad
+    en_hash: 405cd17e
+    ro:
+      status: ok
+      text: '🐃 Corn de băut cu picioare pentru suprafețe plane
+
+        Unele cornuri de băut erau împodobite cu metale prețioase şi aveau picioruşe de metal pentru a asigura stabilitatea pe suprafețe plane, cum ar fi cornul de la Corpus Christi College, Cambridge.
+
+        Se crede că acest corn de băut precede data înființării colegiului, ceea ce indică faptul că a fost confecționat din cornul unui bour care a trăit cu ceva timp înainte de 1352.
+
+        Acest corn de băut specific a fost înfrumusețat mai târziu, în secolul al XVII-lea, când a fost gravat cu stema colegiului, o practică tipică pentru obiectele ceremoniale, pentru a indica proprietatea și pentru a le spori atractivitatea estetică.'
+    fr:
+      status: ok
+      text: "\U0001F403 Cornet à boire avec pieds pour surfaces planes\nCertaines cornes à boire étaient ornées de métaux précieux et possédaient de petits pieds en métal pour assurer leur stabilité sur des surfaces planes, comme la corne à boire du Corpus Christi College, à Cambridge.\nLa corne à boire serait antérieure à la fondation du collège en 1352, ce qui indique qu'elle a été fabriquée à partir de la corne d'un aurochs qui vivait quelque temps avant cette période. \nCette corne à boire spécifique a été embellie au XVIIe siècle lorsqu'elle a été gravée avec les armoiries du collège, une pratique typique pour les objets cérémoniels afin d'en indiquer la propriété et d'en améliorer l'attrait esthétique."
+    de:
+      status: ok
+      text: "\U0001F403 Trinkhorn mit Füßen für ebene Flächen\nEinige Trinkhörner waren mit Edelmetallen verziert und hatten kleine Metallfüße, die für Stabilität auf ebenen Flächen sorgten, wie z. B. das Trinkhorn aus dem Corpus Christi College in Cambridge.\nDas Trinkhorn stammt vermutlich aus der Zeit vor der Gründung der Hochschule im Jahr 1352, was darauf hindeutet, dass es aus dem Horn eines Auerochsen gefertigt wurde, der irgendwann vor dieser Zeit lebte. \nDieses spezielle Trinkhorn wurde später im 17. Jahrhundert verschönert, als es mit dem Wappen der Hochschule graviert wurde, eine Praxis, die für Zeremonialgegenstände typisch ist, um den Besitz zu kennzeichnen und ihren ästhetischen Reiz zu erhöhen."

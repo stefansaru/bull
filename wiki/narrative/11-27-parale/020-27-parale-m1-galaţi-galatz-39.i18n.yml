@@ -1,0 +1,25 @@
+page: narrative/11-27-parale/020-27-parale-m1-galaţi-galatz-39
+title: {}
+units:
+  u01155:
+    kind: quad
+    en_hash: 49e6befb
+    ro:
+      status: ok
+      text: Perechea de 27 de timbre Parale Tête-bêche, care a făcut parte din impresionanta colecție de timbre a regelui Carol al II-lea al României, este una dintre cele mai rare din lume. Ultima dată a fost văzută în public în 1950, la Expoziția internațională de timbre de la Londra. După ce regele Carol al II-lea a fost forțat să plece în exil, se crede că a folosit unele dintre timbrele sale valoroase, inclusiv această pereche, pentru a-şi finanța noua viață în străinătate. Locul exact în care se află aceste timbre a devenit un mister după moartea sa în 1953. Faimoasa pereche Tête-Bêche ar putea face parte în prezent dintr-o colecție privată.
+    fr:
+      status: ok
+      text: La paire de 27 timbres Parale Tête-bêche, qui faisait partie de l'impressionnante collection de timbres du roi Carol II de Roumanie, est l'une des plus rares au monde. Elle a été vue pour la dernière fois en public en 1950, lors de l'exposition internationale de timbres de Londres. Après que le roi Charles II a été contraint à l'exil, on pense qu'il a utilisé certains de ses timbres de valeur, dont cette paire, pour financer sa nouvelle vie à l'étranger. L'endroit exact où se trouvaient ces timbres est devenu un mystère après sa mort en 1953. La célèbre paire Tête-Bêche pourrait aujourd'hui faire partie d'une collection privée.
+    de:
+      status: ok
+      text: Das Paar von 27 Parale Tête-bêche-Briefmarken, das zur beeindruckenden Briefmarkensammlung von König Carol II. von Rumänien gehörte, ist eine der seltensten Briefmarken der Welt. Es wurde zuletzt 1950 auf der Internationalen Briefmarkenausstellung in London ausgestellt. Nachdem König Karl II. ins Exil gezwungen wurde, wird angenommen, dass er einige seiner wertvollen Briefmarken, darunter dieses Paar, zur Finanzierung seines neuen Lebens im Ausland verwendete. Der genaue Verbleib dieser Briefmarken wurde nach seinem Tod im Jahr 1953 zu einem Rätsel. Das berühmte Tête-Bêche-Paar könnte sich heute in einer Privatsammlung befinden.
+  u01160:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Carte poştală | Carte postale | Postkarte
+  u01162:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: 1922 📅 Philip Ferrary de La Renotière  Arthur Hind

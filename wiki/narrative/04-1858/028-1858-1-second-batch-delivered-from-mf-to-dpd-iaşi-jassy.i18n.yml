@@ -1,0 +1,21 @@
+page: narrative/04-1858/028-1858-1-second-batch-delivered-from-mf-to-dpd-iaşi-jassy
+title: {}
+units:
+  u00640:
+    kind: quad
+    en_hash: a6dcb4b8
+    ro:
+      status: ok
+      text: 'A doua tranșă a fost livrată la D.P.D.
+
+        A doua (și ultima) tranşă de 18080 de timbre a fost livrată D.P.D.'
+    fr:
+      status: ok
+      text: 'Deuxième tranche livrée à D.P.D.
+
+        Le deuxième (et dernier) lot de 18 080 timbres a été livré à D.P.D.'
+    de:
+      status: ok
+      text: 'Zweite Tranche an D.P.D. geliefert
+
+        Die zweite (und letzte) Tranche von 18.080 Briefmarken wurde an D.P.D. geliefert.'

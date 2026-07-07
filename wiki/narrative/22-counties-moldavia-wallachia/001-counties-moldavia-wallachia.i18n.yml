@@ -1,0 +1,18 @@
+page: narrative/22-counties-moldavia-wallachia/001-counties-moldavia-wallachia
+title:
+  ro: Judeţe
+  fr: Comtés
+  de: Landkreise
+units:
+  u01520:
+    kind: quad
+    en_hash: 86c2fff3
+    ro:
+      status: ok
+      text: Termenul "județ" pentru diviziunile administrative din România are rădăcini care datează din epoca medievală. Acesta se referea la o regiune administrativă condusă de un "jude" (judecător sau conducător), care este similar cu un județ.
+    fr:
+      status: ok
+      text: 'Le terme "județ" (pluriel : "județe") pour désigner les divisions administratives en Roumanie remonte à l''époque médiévale. Il désignait une région administrative gouvernée par un "jude" (juge ou chef), semblable à un comté.'
+    de:
+      status: ok
+      text: 'Der Begriff "județ" (Plural: "județe") für Verwaltungseinheiten in Rumänien hat Wurzeln, die bis ins Mittelalter zurückreichen. Er bezeichnete eine Verwaltungsregion, die von einem "jude" (Richter oder Vorsteher) regiert wurde, ähnlich wie eine Grafschaft.'

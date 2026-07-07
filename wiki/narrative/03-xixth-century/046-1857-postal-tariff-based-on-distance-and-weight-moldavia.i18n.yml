@@ -1,0 +1,21 @@
+page: narrative/03-xixth-century/046-1857-postal-tariff-based-on-distance-and-weight-moldavia
+title: {}
+units:
+  u00446:
+    kind: quad
+    en_hash: 6c5def8a
+    ro:
+      status: ok
+      text: 'Tarif poștal bazat pe distanță și greutate
+
+        A fost pus în aplicare tariful poștal bazat pe distanță și greutate.'
+    fr:
+      status: ok
+      text: 'Tarif postal basé sur la distance et le poids
+
+        Le tarif postal basé sur la distance et le poids a été mis en place.'
+    de:
+      status: ok
+      text: 'Posttarif auf der Grundlage von Entfernung und Gewicht
+
+        Der entfernungs- und gewichtsabhängige Posttarif wurde eingeführt.'

@@ -1,0 +1,20 @@
+page: narrative/11-27-parale/027-27-parale-replica-stiedl-billig
+title: {}
+units:
+  u01197:
+    kind: quad
+    en_hash: 6dab7c49
+    ro:
+      status: ok
+      text: 🆁 Type 2
+    fr:
+      status: ok
+      text: 🆁 Type 3
+    de:
+      status: ok
+      text: 🆁 Type 4
+  u01198:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: 'Figure 224: 27 Parale 🆁 Replica ⏭ 📖 Stiedl-Billig'

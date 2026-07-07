@@ -1,0 +1,531 @@
+page: narrative/28-figures/001-figures
+title:
+  ro: Figuri
+  fr: Figures
+  de: Abbildungen
+units:
+  u01750:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 2: \U0001F403 \U0001F9ED Maximum Historic Range\t19"
+  u01767:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 19: \U0001F403 Adad \U0001F30D Ishtar Gate\t31"
+  u01769:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 21: Electrum coin \U0001F4B0 Lydian Lion\t32"
+  u01781:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 33: \U0001F4B0 Silver Groshen \U0001F403 \U0001F319 \U0001F338 Petru Muşat\t50"
+  u01786:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 38: Coat of arms \U0001F30D Putna Monastery\t55"
+  u01788:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 40: \U0001F403 Hunting horn of Sigismund III of Poland\t57"
+  u01791:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 43: 3 Para + 1 Denghi = 5 Kopecks \U0001F4B0 Sadagura \U0001F4C5 1771\t62"
+  u01792:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 44: 1 Para = 3 Denghi \U0001F4B0 Sadagura \U0001F4C5 1772\t63"
+  u01793:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 45: 2 Para = 3 Kopecks \U0001F4B0 Sadagura \U0001F4C5 1773\t64"
+  u01798:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 50: \U0001F9ED Fener \U0001F30D Istanbul \U0001F4C5 Today\t71"
+  u01799:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 51: Fener \U0001F30D Istanbul \U0001F4C5 Today\t72"
+  u01800:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 52: \U0001F9ED Counties \U0001F30D Moldavia, Wallachia \U0001F4C5 1800\t74"
+  u01803:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 55: \U0001F9ED Battle of Slobozia \U0001F30D Europe \U0001F4C5 1811\t77"
+  u01804:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 56: \U0001F9ED Treaty of Bucharest \U0001F30D Bessarabia  Russia \U0001F4C5 1812\t78"
+  u01805:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 57: Litograph \U0001F30D Manuc’s Inn \U0001F4C5 1841\t79"
+  u01806:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 58: Photograph \U0001F30D Manuc’s Inn \U0001F4C5 2012\t79"
+  u01807:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 59: Restaurant Hanu’ Lui Manuc \U0001F4C5 Today\t80"
+  u01808:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 60: \U0001F9ED Hanu’ Lui Manuc \U0001F30D Bucharest \U0001F4C5 Today\t81"
+  u01810:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 62: \U0001F4B0 1000 Lei \U0001F30D People's Republic of Romania \U0001F4C5 1948\t83"
+  u01813:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 65: \U0001F9ED Russo-Turkish War \U0001F30D Europe \U0001F4C5 1828 – 1829\t85"
+  u01814:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 66: \U0001F9ED End of Russo-Turkish War \U0001F30D Europe \U0001F4C5 1829 – 1830\t85"
+  u01815:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 67: \U0001F9ED Treaty of Adrianople \U0001F30D Moldavia, Wallachia \U0001F4C5 1829\t86"
+  u01816:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 68: Crossing the Buzău river✍ Auguste Raffet \U0001F30D Wallachia \U0001F4C5 1837\t90"
+  u01817:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 69: Menzil \U0001F4EF Poste aux Chevaux ✍ Auguste Raffet \U0001F30D Moldavia \U0001F4C5 1837\t91"
+  u01818:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 70: Menzil \U0001F4EF Poste aux Chevaux ✍ Auguste Raffet \U0001F30D Bessarabie \U0001F4C5 1837\t91"
+  u01822:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 74: \U0001F9ED Europe \U0001F30D Moldavian Revolution \U0001F4C5 1848-03-28\t97"
+  u01823:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 75: \U0001F9ED Europe \U0001F30D Wallachian Revolution \U0001F4C5 1848-06-21\t97"
+  u01825:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 77: \U0001F9ED Baltalimanı \U0001F30D Istanbul \U0001F4C5 Today\t101"
+  u01828:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 80: Grigore Alexandru Ghica V\t102"
+  u01840:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 92: Battle \U0001F30D Olteniţa \U0001F4C5 1853-11-04\t112"
+  u01842:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 94: \U0001F9ED \U0001F4EF Postal Routes \U0001F30D Moldavia & Wallachia \U0001F4C5 1854\t114"
+  u01845:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 97: Timbru Domnesc – Wet\t124"
+  u01848:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 100: 1857 \U0001F4C5 Timbru Domnesc ⨀ „Principatul Moldaviei / Divanul Domnesc 1849”\t126"
+  u01850:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 102: XIXth Century \U0001F4C5 Fiscal tax stamps \U0001F30D France\t128"
+  u01851:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 103: Timbru Domnesc – Complaint regarding stolen horses\t129"
+  u01852:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 104: 1862 \U0001F4C5 Timbru Domnesc \U0001F30D United Principalities ⨀\t130"
+  u01853:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 105: \U0001F9ED Treaty of Paris \U0001F30D Moldavia, Wallachia \U0001F4C5 1856\t131"
+  u01857:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 109: \U0001F9ED Treaty of Paris \U0001F30D Europe \U0001F4C5 1856\t134"
+  u01859:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 111: \U0001F9ED Counties \U0001F30D Moldavia, Wallachia \U0001F4C5 1856 – 1878\t135"
+  u01860:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "Figure 112: Résidence Château du Mée \U0001F4C5 Today\t142"
+  u01861:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "Figure 113: \U0001F9ED Résidence Château du Mée \U0001F30D Le Mée-sur-Seine \U0001F4C5 Today\t143"
+  u01884:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 136: 1 Ducat \U0001F4B0 Francis Joseph I \U0001F4C5 1852 – 1859\t155"
+  u01885:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 137: 20 Kreuzers \U0001F4B0 Francis Joseph I \U0001F4C5 1852 – 1856\t156"
+  u01886:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 138: 1 Kreuzer \U0001F4B0 Francis Joseph I \U0001F4C5 1858 – 1881\t157"
+  u01887:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 139: 1 Para \U0001F4B0 Abdülmecid I \U0001F4C5 1846 – 1859\t159"
+  u01888:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 140: 1 Kuruş / Piastre \U0001F4B0 Abdülmecid I \U0001F4C5 1844 – 1861\t160"
+  u01889:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 141: 100 Kurush \U0001F4B0 Abdülmecid I \U0001F4C5 1843 – 1861\t161"
+  u01891:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 143: 1 Poltina \U0001F4B0 Nikolai I / Aleksander II \U0001F4C5 1832 – 1858\t164"
+  u01895:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 147: 27 Parale: Metal die\t170"
+  u01896:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 148: 54 Parale: Metal die\t170"
+  u01897:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 149: 81 Parale: Metal die\t170"
+  u01898:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 150: 108 Parale: Metal die\t170"
+  u01907:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 159: 10 Parale \U0001F4F0 Metal Die\t191"
+  u01915:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 167: 1865 \U0001F4C5 \U0001F9ED Postal Routes \U0001F30D Romania\t210"
+  u01916:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 168: 1859-11-03 J \U0001F4C5 ✉ 40 Parale ⨀ PM52 \U0001F30D Bacău (Bakeu)\t214"
+  u01917:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 169: 1859-10-01 J \U0001F4C5 ✉ ⨀ PM52 \U0001F30D Bârlad (Berlad)\t214"
+  u01918:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 170: 1859-01-30 J \U0001F4C5 ✉ 80 Parale ⨀ PM52 \U0001F30D Botoşani (Botuschani)\t215"
+  u01921:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 173: 1852-03-10 J \U0001F4C5 ✉ ⨀ PM52 \U0001F30D Iaşi (Jassy) I\t218"
+  u01922:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 174: 1859-06-09 J \U0001F4C5 ✉ ⨀ PM52 \U0001F30D Iaşi (Jassy) II\t218"
+  u01923:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 175: 1859-01-30 J \U0001F4C5 ✉ 40 Parale ⨀ PM52 \U0001F30D Izmail (Ismail)\t219"
+  u01928:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "Figure 180: \U0001F403 1 \U0001F181 Replica ⏭ François Fournier\t235"
+  u01939:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 191: 27 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 18/9\t251"
+  u01940:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 192: 27 Parale ⨀ M1 \U0001F30D Focşani (Fokschani) \U0001F4C5 6/9\t251"
+  u01941:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 193: 27 Parale ⨀ M1 \U0001F30D Focşani (Fokschani) \U0001F4C5 22/9\t251"
+  u01942:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 194: 27 Parale ⨀ M1 \U0001F30D Galaţi (Galatz) \U0001F4C5 24/9\t252"
+  u01943:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 195: 27 Parale ⨀ M1 \U0001F30D Galaţi (Galatz) 8/? \U0001F4C5 1858\t252"
+  u01944:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 196: 27 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 14/10\t253"
+  u01945:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 197: 27 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 1858-??-22\t253"
+  u01946:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 198: 27 Parale ⨀ M1 \U0001F30D Tecuci (Tekutsch) \U0001F4C5 2/9\t254"
+  u01947:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 199: 27 Parale △ ⨀ M1 \U0001F30D Vaslui (Waslui) \U0001F4C5 22/10\t254"
+  u01950:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 202: \U0001F4DC Heimbüchler \U0001F4C5 2000\t255"
+  u01953:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 205: \U0001F4DC Heimbüchler \U0001F4C5 1997\t256"
+  u01955:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 207: \U0001F4DC Heimbüchler \U0001F4C5 2010\t256"
+  u01956:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 208: 27 Parale ⨀ M1 \U0001F30D Galaţi (Galatz) \U0001F4C5 3/9\t257"
+  u01965:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 217: \U0001F4F0 Daily Mirror \U0001F30D Sydney \U0001F4C5 1950-05-15 ⏭ p.6\t261"
+  u01967:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 219: 27 Parale \U0001F181 Replica ⏭ Vertical laid paper (instead of Horizontal laid paper)\t263"
+  u01968:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 220: 27 Parale \U0001F181 Replica ⏭ Modern reproduction\t263"
+  u01969:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 221: 27 Parale \U0001F181 Replica ⏭ „Wikipedia-style”\t264"
+  u01970:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 222: 27 Parale \U0001F181 Replica ⏭ „Wikipedia-style”\t264"
+  u01971:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 223: 27 Parale \U0001F181 Replica ⏭ „Wikipedia-style”\t264"
+  u01972:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 224: 27 Parale \U0001F181 Replica ⏭ \U0001F4D6 Stiedl-Billig\t265"
+  u01973:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 225: 27 Parale \U0001F181 Replica ⏭ UPU XIXth Congress\t266"
+  u01984:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 236: 54 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 23/9\t271"
+  u01986:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 238: 54 Parale ✂ △ ⨀ M1 \U0001F30D Bacău (Bakeu) \U0001F4C5 8/10\t272"
+  u01987:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 239: 54 Parale ⨀ M1 \U0001F30D Galaţi (Galatz) \U0001F4C5 6/10\t273"
+  u01988:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 240: 54 Parale △ ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 18/8\t273"
+  u01989:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 241: 54 Parale ⨀ M1 \U0001F30D Bârlad (Berlad) \U0001F4C5 9/2\t274"
+  u01990:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 242: 54 Parale △ ⨀ M1 \U0001F30D Dorohoi (Dorohoj) \U0001F4C5 24/10\t275"
+  u01992:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 244: 54 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 11/10\t276"
+  u01993:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 245: 54 Parale ⨀ M1 \U0001F30D Focşani (Fokschani) 8/8\t276"
+  u01995:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 247: \U0001F4DC Philatelic Society, Zoscsak \U0001F4C5 1897, 1938\t277"
+  u01996:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 248: \U0001F4DC Heimbüchler \U0001F4C5 1981\t277"
+  u01998:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 250: \U0001F4DC Heimbüchler \U0001F4C5 2010\t278"
+  u02000:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 252: \U0001F4DC Heimbüchler \U0001F4C5 1986\t278"
+  u02001:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 253: 81 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 10/8\t281"
+  u02003:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 255: 81 Parale ✾ ⨀ C1 ⨀ M1 \U0001F30D Focşani (Fokschani)\t282"
+  u02004:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 256: 81 Parale ✂ ⨀ M1 \U0001F30D Focşani (Fokschani) 16/10\t283"
+  u02006:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 258: \U0001F4DC Heimbüchler \U0001F4C5 2010\t284"
+  u02007:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 259: 81 Parale \U0001F181 Replica ⏭ Charade \U0001F4C5 1963\t286"
+  u02010:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 262: 108 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 5/8\t290"
+  u02011:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 263: 108 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 10/10\t290"
+  u02012:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 264: 108 Parale ✉ ⨀ C1 ⨀ M1 \U0001F30D Piatra Neamţ (Piatra) \U0001F4C5 13/10\t291"
+  u02014:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Figure 266: 108 Parale ⨀ M1 \U0001F181 Replica ⏭ Sperati\t292"
+  u02018:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 270: \U0001F9FB Laid | Vărgată | Rayé | Gestreiftem\t342"
+  u02019:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Figure 271: \U0001F9FB Wove | Simplă | Ordinaire | Einfachem\t342"

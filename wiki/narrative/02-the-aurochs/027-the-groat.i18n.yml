@@ -1,0 +1,37 @@
+page: narrative/02-the-aurochs/027-the-groat
+title: {}
+units:
+  u00147:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: 📅 1375 – 1391 (Petru Muşat) 🌍 Moldova
+  u00148:
+    kind: quad
+    en_hash: 91c39504
+    ro:
+      status: ok
+      text: '💰 Groşul
+
+        Groş (gros), o formă timpurie a monedei moldovenești, a fost o parte fundamentală a economiei medievale a Moldovei între 1375 și 1665. Aceste monede de argint au jucat un rol important în schimburi și comerț și au fost printre primele care au fost bătute în Principatul Moldovei. Introducerea groşului sub domnia lui Petru Mușat a marcat o etapă importantă în dezvoltarea unui sistem monetar standardizat în Europa de Est. Groșii moldovenești purtau inscripții și iconografie distincte, reflectând adesea suveranitatea și identitatea culturală a domnitorului emitent. Moneda prezenta de obicei stema Moldovei, care includea simboluri precum capul de bour cu o stea între coarne, alături de alte elemente precum floarea și semiluna, subliniind heraldica regiunii. Circulația groşilor a facilitat nu doar comerțul local, ci și cel internațional, conectând Moldova cu țările și teritoriile învecinate. Unele dintre cele mai vechi reprezentări rămase ale stemei Moldovei sunt sigiliile și monedele care datează din timpul domniei lui Petru Mușat (1375 - 1391).'
+    fr:
+      status: ok
+      text: '💰 Le groat
+
+        Le groat, une des premières formes de monnaie moldave, a joué un rôle fondamental dans l''économie médiévale de la Moldavie entre 1375 et 1665. Ces pièces d''argent ont joué un rôle important dans les échanges et le commerce et ont été parmi les premières à être frappées dans la Principauté de Moldavie. L''introduction du groat sous le règne de Petru Muşat a marqué une étape importante dans le développement d''un système monétaire standardisé en Europe de l''Est. Les groats moldaves portaient des inscriptions et une iconographie distinctives, reflétant souvent la souveraineté et l''identité culturelle du prince émetteur. La pièce comportait généralement les armoiries moldaves, qui comprenaient des symboles tels que la tête d''aurochs avec une étoile entre les cornes, ainsi que d''autres éléments tels que la fleur et le croissant de lune, soulignant ainsi l''héraldique de la région. La circulation des groats facilitait non seulement le commerce local, mais aussi le commerce international, reliant la Moldavie aux pays et territoires voisins. Les sceaux et les pièces de monnaie datant du règne de Petru Muşat (1375 - 1391) comptent parmi les plus anciennes représentations des armoiries de la Moldavie.'
+    de:
+      status: ok
+      text: '💰 Der Groschen
+
+        Der Groschen, eine frühe Form der moldawischen Währung, war ein wesentlicher Bestandteil der mittelalterlichen Wirtschaft Moldawiens zwischen 1375 und 1665. Diese Silbermünzen spielten eine wichtige Rolle in Handel und Gewerbe und gehörten zu den ersten Münzen, die im Fürstentum Moldau geprägt wurden. Die Einführung des Groschens unter der Herrschaft von Petru Muşat war ein wichtiger Meilenstein in der Entwicklung eines einheitlichen Geldsystems in Osteuropa. Die moldawischen Groschen trugen unverwechselbare Inschriften und Ikonografien, die häufig die Souveränität und kulturelle Identität des ausgebenden Fürsten widerspiegelten. Auf der Münze war in der Regel das moldawische Wappen abgebildet, das Symbole wie den Kopf eines Auerochsen mit einem Stern zwischen seinen Hörnern sowie andere Elemente wie die Blume und die Mondsichel enthielt, die die Heraldik der Region betonten. Der Umlauf von Groschen erleichterte nicht nur den lokalen, sondern auch den internationalen Handel und verband Moldawien mit den benachbarten Ländern und Gebieten. Einige der ältesten erhaltenen Darstellungen des moldauischen Wappens sind Siegel und Münzen aus der Regierungszeit von Petru Muşat (1375 - 1391).'
+  u00149:
+    kind: quad
+    en_hash: '36338301'
+    ro:
+      status: ok
+      text: "\U0001F4B0 Groş de argint \U0001F403\nAversul monedei de argint de 1 Groş reprezintă un cap de bour, o stea cu 5 vârfuri între coarne, o floare cu 5 petale în dreapta, o semilună în stânga și un inel cu perle în jurul ei. \nLitere: + SI PETRI ? WOIWOI \nTraducere: SI(gillum) PETRI ? WOIWO(d)I = monedă oficială a voievodului (domnului) Petru (Peter). \n\"?\" poate reprezenta o margaretă. \"Mușat\", numele domnului (Petru Mușat), moștenit de la mama sa \"Mușata\" înseamnă margaretă în dialectul local.\nReversul prezintă stema, un scut despicat, în stânga trei bare; în dreapta 7 fleurs de lys (crini). Un fleur de lys deasupra scutului.\nLitere: + SI MOLDAVIENSI\nTraducere: SI(gillum) MOLDAVIENSI(s) = sigiliu al Moldovei."
+  u00150:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: 'Figure 33: 💰 Silver Groshen 🐃 🌙 🌸 Petru Muşat'

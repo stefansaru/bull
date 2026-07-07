@@ -1,0 +1,28 @@
+page: narrative/09-c1/005-c1-c1a-frame-size
+title:
+  ro: Dimensiunea cadrului
+  fr: Dimension du cadre
+  de: Maße des Rahmens
+units:
+  u00878:
+    kind: quad
+    en_hash: 59eb9411
+    ro:
+      status: ok
+      text: "Există diferențe între măsurătorile publicate de Kiriac în catalogul din 1974, în Ștampilografie poștală (1990) și cele consemnate de Heimbüchler (1994). Tabelul de mai jos prezintă măsurătorile documentate de Heimbüchler. În timp ce Kiriac (1990) menționa ca dată cea mai timpurie 10.11.1857, Heimbüchler sugerează—pe baza unei scrisori existente datate 10.10.1857—că ștampila C1 a fost folosită chiar mai devreme.\nDeoarece ștampilele au fost gravate manual, apar variații în lățimea, înălțimea și înclinația diferitelor amprente. În cazul supratușării sau subtusării, dimensiunile pot varia cu până la aproximativ 0,4 mm. \nCuloarea tușului diferă, însă este foarte probabil să fie aceeași utilizată pentru ștampilele M1, inclusiv perioada scurtă în care la Iași s-a folosit tuș roșu. Cu toate acestea, o amprentă clară și bine aplicată poate fi atribuită fără echivoc unui anumit oficiu poștal."
+    fr:
+      status: ok
+      text: "Il existe des divergences entre les mesures publiées par Kiriac dans le catalogue de 1974, dans Ștampilografie poștală (1990), et celles relevées par Heimbüchler (1994). Le tableau ci-dessous présente les mesures documentées par Heimbüchler. Alors que Kiriac (1990) indiquait comme première date connue le 10-11-1857, Heimbüchler suggère—sur la base d’une lettre existante datée du 10-10-1857—que le cachet C1 a été utilisé encore plus tôt.\nComme les cachets étaient gravés manuellement, des variations existent dans la largeur, la hauteur et l’inclinaison des empreintes. En cas de sur-encrage ou de sous-encrage, les dimensions peuvent varier d’environ 0,4 mm. \n\nLa couleur de l’encre varie également, mais il est très probable qu’il s’agisse de la même encre que celle utilisée pour les cachets M1, y compris la courte période d’usage de l’encre rouge à Jassy. Néanmoins, une empreinte nette et bien frappée peut être attribuée sans ambiguïté à un bureau de poste spécifique."
+    de:
+      status: ok
+      text: "Es bestehen Unterschiede zwischen den von Kiriac im Katalog von 1974, in Ștampilografie poștală (1990) veröffentlichten Maßen und denjenigen, die Heimbüchler (1994) dokumentiert hat. Die folgende Tabelle zeigt die von Heimbüchler festgehaltenen Maße. Während Kiriac (1990) den 10.11.1857 als frühestes bekanntes Datum angibt, weist Heimbüchler—basierend auf einem erhaltenen Brief vom 10.10.1857—darauf hin, dass der C1-Stempel bereits früher verwendet wurde.\nDa die Handstempel handgraviert waren, treten Unterschiede in Breite, Höhe und Neigung der Abschläge auf. Bei Über- oder Unterfärbung können die gemessenen Dimensionen um bis zu etwa 0,4 mm abweichen. \nAuch die Stempelfarbe variiert, wahrscheinlich handelt es sich jedoch um dieselbe Tinte wie bei den M1-Stempeln, einschließlich der kurzzeitig verwendeten roten Tinte in Jassy. Dennoch lässt sich ein klarer und sauberer Abschlag eindeutig einem bestimmten Postamt zuordnen."
+  u00881:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: 📖 Fritz Heimbüchler I 📅 1994, p.52
+  u00884:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: 📖 Fritz Heimbüchler I 📅 1994, p.52

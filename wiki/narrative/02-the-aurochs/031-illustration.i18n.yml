@@ -1,0 +1,15 @@
+page: narrative/02-the-aurochs/031-illustration
+title: {}
+units:
+  u00171:
+    kind: quad
+    en_hash: 6334b347
+    ro:
+      status: ok
+      text: 'Potrivit lui Sigismund von Herberstein, bourul era negru închis, cu o dungă gri caracteristică de-a lungul spatelui. Bourul era adesea confundat cu un bizon, după cum sugerează traducerea: "Eu sunt Urus, Tur în poloneză, Aurox în germană; ignoranții mi-au dat numele de bizon".'
+    fr:
+      status: ok
+      text: 'Selon Sigismund von Herberstein, l''aurochs était d''un noir absolu avec une bande grise distinctive le long du dos. L''aurochs était souvent confondu avec un bison, comme le suggère la traduction : "Je suis Urus, Tur en polonais, Aurox en allemand ; les ignorants m''ont donné le nom de bison".'
+    de:
+      status: ok
+      text: 'Nach Sigismund von Herberstein war der Auerochse pechschwarz und hatte einen ausgeprägten grauen Streifen auf dem Rücken. Der Auerochse wurde oft mit einem Bison verwechselt, wie die Übersetzung nahelegt: "Ich bin Urus, Tur auf Polnisch, Aurox auf Deutsch; die Unwissenden gaben mir den Namen Bison."'

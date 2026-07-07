@@ -1,0 +1,26 @@
+page: narrative/27-tables/001-tables
+title:
+  ro: Tabele
+  fr: Tableaux
+  de: Tabellen
+units:
+  u01713:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Table 5: 1858 \U0001F4C5 \U0001F403 1: First batch delivered from A.T. to M.F. \U0001F30D Iaşi (Jassy)\t182"
+  u01714:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "Table 6: 1858 \U0001F4C5 \U0001F403 1: Second batch delivered from A.T. to M.F. \U0001F30D Iaşi (Jassy)\t184"
+  u01719:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Table 11: \U0001F403 1: Return of Unused Stamps\t209"
+  u01729:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "Table 20: Counties \U0001F30D Moldavia, Wallachia \U0001F4C5 1800-1878\t332"

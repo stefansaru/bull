@@ -1,0 +1,21 @@
+page: narrative/00-front-matter/004-2026-01-23
+title: {}
+units:
+  u00010:
+    kind: quad
+    en_hash: 1f76f5cb
+    ro:
+      status: ok
+      text: Bucureşti România
+    fr:
+      status: ok
+      text: Bucarest Roumanie
+    de:
+      status: ok
+      text: Bukarest Rumänien
+  u00011:
+    kind: quad
+    en_hash: 82f484c8
+    ro:
+      status: ok
+      text: Fără povestea sa, un timbru poștal este doar o altă bucată de hârtie.

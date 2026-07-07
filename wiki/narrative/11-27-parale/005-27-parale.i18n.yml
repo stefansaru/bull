@@ -1,0 +1,172 @@
+page: narrative/11-27-parale/005-27-parale
+title: {}
+units:
+  u01017:
+    kind: quad
+    en_hash: e3b0c442
+    ro:
+      status: ok
+      text: DDEEJJ
+    fr:
+      status: ok
+      text: ⏭ Figure 196 🔍
+    de:
+      status: ok
+      text: ⏭ Figure 194 🔍
+  u01018:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Ambele coarne au două linii, una subțire în stânga şi una groasă în dreapta.
+  u01019:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Urechea din dreapta este mai mare decât cea din stânga.
+  u01020:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Urechea din dreapta are o linie curbată şi întreruptă (mai jos).
+  u01021:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Ambele sprâncene au linii mici şi subțiri, cea din stânga este mai plată, iar cea din dreapta este mai rotunjită.
+  u01023:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Irisul din stânga are linii care se intersectează.
+  u01024:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Botul are o linie curbată în stânga.
+  u01025:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Botul are o linie întreruptă în dreapta.
+  u01026:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Nările seamănă cu o literă C (cu 3 segmente) orientată în jos.
+  u01027:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Buza inferioară nu este lipită de cornul poştal, aşa cum este cazul celorlalte timbre din această emisiune.
+  u01028:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: Les deux cornes ont deux lignes, une fine à gauche et une épaisse à droite.
+  u01029:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: L'oreille de droite est plus grande que celle de gauche.
+  u01030:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: L'oreille droite a une ligne courbe et interrompue (inférieure).
+  u01031:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: Les deux sourcils ont de petites lignes fines, celui de gauche est plus plat et celui de droite est plus arrondi.
+  u01032:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: L'iris de droite a un point.
+  u01033:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: L'iris de gauche a des lignes qui se croisent
+  u01034:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: Le museau présente une ligne courbe à gauche.
+  u01035:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: Le museau présente une ligne interrompue à droite.
+  u01036:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: Les narines ressemblent à une lettre C (avec 3 segments) orientée vers le bas.
+  u01037:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: La lèvre inférieure n'est pas jointe à la corne postale comme c'est le cas pour les autres timbres de cette émission.
+  u01039:
+    kind: quad
+    en_hash: 92f089f2
+    ro:
+      status: ok
+      text: EEDD
+    fr:
+      status: ok
+      text: ⏭ Figure 193 🔍
+    de:
+      status: ok
+      text: ⏭ JJFigure 197 🔍
+  u01040:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: Beide Hörner haben zwei Linien, eine dünne auf der linken und eine dicke auf der rechten Seite.
+  u01041:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: Das Ohr auf der rechten Seite ist größer als das Ohr auf der linken Seite.
+  u01042:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: Das rechte Ohr hat eine gebogene und unterbrochene (untere) Linie.
+  u01043:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: Beide Augenbrauen haben kleine dünne Linien, die linke ist flacher und die rechte ist runder.
+  u01044:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: Die Iris auf der rechten Seite hat einen Punkt.
+  u01045:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: Die Iris auf der linken Seite hat sich kreuzende Linien.
+  u01046:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: Die Schnauze hat auf der linken Seite eine gebogene Linie.
+  u01047:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: Die Schnauze hat auf der rechten Seite eine unterbrochene Linie.
+  u01048:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: Die Nasenlöcher ähneln einem Buchstaben C (mit 3 Segmenten), der nach unten zeigt.
+  u01049:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: Die Unterlippe ist nicht mit dem Posthorn verbunden, wie es bei den anderen Marken dieser Ausgabe der Fall ist.

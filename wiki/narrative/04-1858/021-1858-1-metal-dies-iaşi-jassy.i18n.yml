@@ -1,0 +1,46 @@
+page: narrative/04-1858/021-1858-1-metal-dies-iaşi-jassy
+title: {}
+units:
+  u00536:
+    kind: quad
+    en_hash: c93520b7
+    ro:
+      status: ok
+      text: 'Clişeele metalice
+
+        Ministerul Finanțelor (M.F. cu adresa nr. 5895) anunță „Dumieisale Secretariul Ateliei Timbrului” (A.T.) că au fost realizate cele patru tipuri de clişee necesare.
+
+        Aceste matrițe din oțel gravat sunt rotunde şi au două deschideri pentru conectarea la dispozitivul de imprimare. Matrițele au costat 389 de lei.
+
+        De asemenea, M.F. anunță că se vor tipări cu aceste patru tipuri de clişee, un număr total de 24.000 de timbre, care vor fi distribuite „conform tarifelor stabilite”, după cum urmează:'
+  u00537:
+    kind: quad
+    en_hash: 447a34a2
+    ro:
+      status: ok
+      text: 'Stamps Timbre
+
+        Timbres Briefmarken'
+    fr:
+      status: ok
+      text: 27 Parale
+    de:
+      status: ok
+      text: 6`000
+  u00538:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Metal die | Clişeu metalic | Matrice métallique | Metallstempel
+  u00539:
+    kind: quad
+    en_hash: e4281f20
+    ro:
+      status: ok
+      text: 'Figure 148: 54 Parale: Metal die'
+    fr:
+      status: ok
+      text: 'Figure 149: 81 Parale: Metal die'
+    de:
+      status: ok
+      text: 'Figure 150: 108 Parale: Metal die'

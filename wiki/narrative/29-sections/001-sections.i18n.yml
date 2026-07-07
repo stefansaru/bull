@@ -1,0 +1,761 @@
+page: narrative/29-sections/001-sections
+title:
+  ro: Secţiuni
+  fr: Sections
+  de: Sektionen
+units:
+  u02088:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§2.22. \U0001F403 The legend of Dragoş\t46"
+  u02098:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§2.31.1. 1771 \U0001F4C5 \U0001F4B0 3 Para + 1 Dengi = 5 Kopecks \U0001F30D Russian Empire\t62"
+  u02099:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§2.31.2. 1772 \U0001F4C5 \U0001F4B0 1 Para = 3 Dengi \U0001F30D Russian Empire\t63"
+  u02100:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§2.31.3. 1773 \U0001F4C5 \U0001F4B0 2 Para = 3 Kopecks \U0001F30D Russian Empire\t64"
+  u02104:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.1. 1800 \U0001F4C5 \U0001F9ED Phanariote Regime \U0001F30D Moldavia, Wallachia\t69"
+  u02105:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.2. 1800 \U0001F4C5 \U0001F4EF Postal Services \U0001F30D Moldavia, Wallachia\t73"
+  u02107:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.4. 1806 \U0001F4C5 \U0001F9ED Russo-Turkish War \U0001F30D Moldavia, Wallachia\t75"
+  u02111:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.8. 1828 \U0001F4C5 \U0001F9ED Russo-Turkish War \U0001F30D Moldavia, Wallachia\t84"
+  u02114:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.11. 1835 \U0001F4C5 Alexandru Ghica \U0001F4B0 Leu \U0001F30D Wallachia\t88"
+  u02115:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.12. 1837 \U0001F4C5 Crossing the Buzău river \U0001F30D Wallachia\t90"
+  u02122:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.19. 1850 \U0001F4C5 First Austrian Postage Stamp \U0001F30D Austrian Empire\t103"
+  u02123:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.20. 1851 \U0001F4C5 First \U0001F4F0 Newspaper Stamp \U0001F30D Austrian Empire\t104"
+  u02128:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.25. 1853 \U0001F4C5 \U0001F9ED Crimean War begins \U0001F30D Wallachia, Moldavia\t110"
+  u02129:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.26. 1853 \U0001F4C5 Exile of Ghica and Ştirbey \U0001F30D Wallachia, Moldavia  Vienna\t112"
+  u02132:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.29. 1854 \U0001F4C5 \U0001F9ED \U0001F4EF Postal Routes \U0001F30D Moldavia & Wallachia\t114"
+  u02133:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.30. 1854 \U0001F4C5 Ghica and Ştirbey return \U0001F30D Vienna  Wallachia, Moldavia\t115"
+  u02134:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.31. 1855 \U0001F4C5 Ghica’s progressive policies \U0001F30D Iaşi (Jassy)\t115"
+  u02137:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.34. 1856 \U0001F4C5 \U0001F4EF „Atelia Timbrului” \U0001F30D Iaşi (Jassy)\t122"
+  u02138:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.35. 1856 \U0001F4C5 \U0001F4EF „Timbru Domnesc” \U0001F30D Iaşi (Jassy)\t123"
+  u02140:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.37. 1856 \U0001F4C5 \U0001F9ED New Counties in Moldavia \U0001F30D Cahul, Bolgrad, Ismail\t135"
+  u02141:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.38. 1856 \U0001F4C5 „Unirea” Society \U0001F30D Iaşi (Jassy)\t136"
+  u02142:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.39. 1856 \U0001F4C5 Still under Austrian occupation \U0001F30D Moldavia, Wallachia\t136"
+  u02143:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.40. 1856 \U0001F4C5 Teodor Balş \U0001F30D Moldavia\t137"
+  u02149:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.46. 1857 \U0001F4C5 \U0001F4EF New printing press \U0001F30D Iaşi (Jassy)\t144"
+  u02150:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.47. 1857 \U0001F4C5 \U0001F4EF New ⨀ M1 Handstamps \U0001F30D Iaşi (Jassy)\t144"
+  u02151:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.48. 1857 \U0001F4C5 \U0001F4EF New Postal Headquarters \U0001F30D Iaşi (Jassy)\t145"
+  u02152:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§3.49. 1857 \U0001F4C5 \U0001F4EF The Moldavian Government acquires Teodor Ghica’s postal service \U0001F30D Iaşi (Jassy)\t146"
+  u02153:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§3.50. 1857 \U0001F4C5 First Russian Postage Stamp \U0001F30D Russian Empire\t148"
+  u02159:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§4.3.2. 1858 \U0001F4C5 \U0001F4B0 1 Ducat („Galben”) \U0001F30D Austrian Empire\t155"
+  u02160:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.3.3. 1858 \U0001F4C5 \U0001F4B0 20 Kreuzer / Zwanziger („Sfanţ”) \U0001F30D Austrian Empire\t156"
+  u02161:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.3.4. 1858 \U0001F4C5 \U0001F4B0 1 Kreuzer („Creiţar”) \U0001F30D Austrian Empire\t157"
+  u02164:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§4.3.7. 1858 \U0001F4C5 \U0001F4B0 1 Kurush / Piastre \U0001F30D Ottoman Empire\t160"
+  u02165:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§4.3.8. 1858 \U0001F4C5 \U0001F4B0 100 Kurush / 1 Lira \U0001F30D Ottoman Empire\t161"
+  u02170:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.4. 1858 \U0001F4C5 \U0001F4EF Postal Reform \U0001F30D Iaşi (Jassy)\t166"
+  u02171:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.5. 1858 \U0001F4C5 \U0001F4EF D.P.D. and Central Postal Office \U0001F30D Iaşi (Jassy)\t167"
+  u02172:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.6. 1858 \U0001F4C5 \U0001F403 1: Manufacturing Request \U0001F30D Iaşi (Jassy)\t168"
+  u02173:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.7. 1858 \U0001F4C5 \U0001F403 1: Manufacturing Decision  \U0001F30D Iaşi (Jassy)\t168"
+  u02174:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.8. 1858 \U0001F4C5 \U0001F403 1: Metal Dies \U0001F30D Iaşi (Jassy)\t169"
+  u02176:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.10. 1858 \U0001F4C5 \U0001F403 1: Printing process \U0001F30D Iaşi (Jassy)\t173"
+  u02177:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.11. 1858 \U0001F4C5 \U0001F403 1: First batch delivered from A.T. to M.F. \U0001F30D Iaşi (Jassy)\t182"
+  u02178:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.12. 1858 \U0001F4C5 \U0001F403 1: First batch delivered from M.F. to D.P.D. \U0001F30D Iaşi (Jassy)\t183"
+  u02179:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.13. 1858 \U0001F4C5 \U0001F403 1: D.P.D. confirms reception of the first batch \U0001F30D Iaşi (Jassy)\t183"
+  u02180:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.14. 1858 \U0001F4C5 \U0001F403 1: Second batch delivered from A.T. to M.F. \U0001F30D Iaşi (Jassy)\t184"
+  u02181:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.15. 1858 \U0001F4C5 \U0001F403 1: Second batch delivered from M.F. to D.P.D \U0001F30D Iaşi (Jassy)\t184"
+  u02183:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.17. 1858 \U0001F4C5 \U0001F403 1: Putting into circulation \U0001F30D Iaşi (Jassy)\t187"
+  u02185:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.19. 1858 \U0001F4C5 \U0001F4EF Postal Instructors join D.P.D. \U0001F30D Iaşi (Jassy)\t189"
+  u02186:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.20. 1858 \U0001F4C5 \U0001F4EF 10 Parale \U0001F4F0 Newspaper stamp \U0001F30D Iaşi (Jassy)\t191"
+  u02188:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.22. 1858 \U0001F4C5 \U0001F403 2: Manufacturing Request \U0001F30D Iaşi (Jassy)\t193"
+  u02189:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.23. 1858 \U0001F4C5 \U0001F403 2: A.T. requests metal dies from M.F. \U0001F30D Iaşi (Jassy)\t193"
+  u02190:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.24. 1858 \U0001F4C5 \U0001F403 2: Printing process \U0001F30D Iaşi (Jassy)\t194"
+  u02191:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.25. 1858 \U0001F4C5 \U0001F403 2: First batch delivered from A.T. to D.P.D. \U0001F30D Iaşi (Jassy)\t195"
+  u02192:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.26. 1858 \U0001F4C5 \U0001F403 2: Official announcement \U0001F4F0 Gazeta de Moldova \U0001F30D Iaşi (Jassy)\t195"
+  u02193:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.27. 1858 \U0001F4C5 \U0001F403 1: Withdraw from circulation \U0001F30D Iaşi (Jassy)\t196"
+  u02194:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§4.28. 1858 \U0001F4C5 \U0001F403 1: Sales per postal office \U0001F30D Iaşi (Jassy)\t197"
+  u02196:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§5.1. 1859 \U0001F4C5 Grigore Sturdza \U0001F30D Iaşi (Jassy)\t198"
+  u02197:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§5.2. 1859 \U0001F4C5 Alexandru Ioan Cuza \U0001F30D Iaşi (Jassy)\t199"
+  u02198:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§5.3. 1859 \U0001F4C5 \U0001F9ED Alexandru Ioan Cuza \U0001F30D Bucureşti\t203"
+  u02199:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§5.4. 1859 \U0001F4C5 \U0001F403 1: Investigation and Tragedy at the Post Office \U0001F30D Iaşi (Jassy)\t206"
+  u02200:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§5.5. 1859 \U0001F4C5 \U0001F403 1: Return of Unused Stamps \U0001F30D Iaşi (Jassy)\t208"
+  u02207:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§7.5. ⨀ PM52 \U0001F30D Bacău (Bakeu)\t214"
+  u02208:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§7.6. ⨀ PM52 \U0001F30D Bârlad (Berlad)\t214"
+  u02210:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§7.8. ⨀ PM52 \U0001F30D Botoşani (Botuschani)\t215"
+  u02213:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§7.11. ⨀ PM52 \U0001F30D Focşani (Fokschani)\t217"
+  u02214:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§7.12. ⨀ PM52 \U0001F30D Fălticeni (Foltitscheni)\t217"
+  u02215:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§7.13. ⨀ PM52 \U0001F30D Galaţi (Galatz)\t217"
+  u02216:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§7.14. ⨀ PM52 \U0001F30D Huşi (Husch)\t217"
+  u02217:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§7.15. ⨀ PM52 \U0001F30D Iaşi (Jassy)\t218"
+  u02219:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§7.17. ⨀ PM52 \U0001F30D Mihăileni (Michaleni)\t220"
+  u02220:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§7.18. ⨀ PM52 \U0001F30D Piatra Neamţ (Piatra)\t220"
+  u02227:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§8.3. ⨀ M1 \U0001F30D Bacău (Bakeu)\t222"
+  u02228:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§8.4. ⨀ M1 \U0001F30D Bârlad (Berlad)\t222"
+  u02229:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§8.5. ⨀ M1 \U0001F30D Botoşani (Botuschani)\t222"
+  u02231:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§8.7. ⨀ M1 \U0001F30D Focşani (Fokschani)\t223"
+  u02232:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§8.8. ⨀ M1 \U0001F30D Fălticeni (Foltitscheni)\t223"
+  u02233:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§8.9. ⨀ M1 \U0001F30D Galaţi (Galatz)\t224"
+  u02234:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§8.10. ⨀ M1 \U0001F30D Huşi (Husch)\t224"
+  u02235:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§8.11. ⨀ M1 \U0001F30D Iaşi (Jassy)\t225"
+  u02236:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§8.12. ⨀ M1 \U0001F30D Mihăileni (Michaleni)\t226"
+  u02237:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§8.13. ⨀ M1 \U0001F30D Piatra Neamţ (Piatra)\t226"
+  u02259:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§11.2.1. 27 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 18/9\t251"
+  u02260:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§11.2.2. 27 Parale ⨀ M1 \U0001F30D Focşani (Fokschani) \U0001F4C5 6/9\t251"
+  u02261:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§11.2.3. 27 Parale ⨀ M1 \U0001F30D Focşani (Fokschani) \U0001F4C5 22/9\t251"
+  u02262:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§11.2.4. 27 Parale ⨀ M1 \U0001F30D Galaţi (Galatz) \U0001F4C5 24/9\t252"
+  u02263:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§11.2.5. 27 Parale ⨀ M1 \U0001F30D Galaţi (Galatz) 8/? \U0001F4C5 1858\t252"
+  u02264:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§11.2.6. 27 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 14/10\t253"
+  u02265:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§11.2.7. 27 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 1858-??-22\t253"
+  u02270:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§11.4. 27 Parale ⨀ M1 \U0001F30D Galaţi (Galatz) \U0001F4C5 3/9\t257"
+  u02271:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§11.4.1. International Stamp Exhibition \U0001F30D London \U0001F4C5 1950-05-06..13\t258"
+  u02274:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§11.5.1. 27 Parale \U0001F181 Replica ⏭ Vertical laid paper (instead of Horizontal laid paper)\t263"
+  u02277:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§11.5.4. 27 Parale \U0001F181 Replica ⏭ \U0001F4D6 Stiedl-Billig\t265"
+  u02284:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§12.2.1. 54 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 23/9\t271"
+  u02286:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§12.2.3. 54 Parale ✂ △ ⨀ M1 \U0001F30D Bacău (Bakeu) \U0001F4C5 8/10\t272"
+  u02287:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§12.2.4. 54 Parale ⨀ M1 \U0001F30D Galaţi (Galatz) \U0001F4C5 6/10\t273"
+  u02288:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§12.2.5. 54 Parale △ ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 18/8\t273"
+  u02289:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§12.2.6. 54 Parale ⨀ M1 \U0001F30D Bârlad (Berlad) \U0001F4C5 9/2\t274"
+  u02292:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§12.2.9. 54 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 11/10\t276"
+  u02293:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§12.2.10. 54 Parale ⨀ M1 \U0001F30D Focşani (Fokschani) 8/8\t276"
+  u02296:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§12.4.1. 54 Parale \U0001F181 Replica ⏭ \U0001F4D6 Stiedl-Billig\t279"
+  u02301:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§13.2.1. 81 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 10/8\t281"
+  u02303:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§13.2.3. 81 Parale ✾ ⨀ C1 ⨀ M1 \U0001F30D Focşani (Fokschani)\t282"
+  u02304:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§13.2.4. 81 Parale ✂ ⨀ M1 \U0001F30D Focşani (Fokschani) 16/10\t283"
+  u02309:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§13.4.2. 81 Parale \U0001F181 Replica ⏭ \U0001F4D6 Stiedl-Billig\t287"
+  u02315:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§14.2.2. 108 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 5/8\t290"
+  u02316:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§14.2.3. 108 Parale ⨀ M1 \U0001F30D Iaşi (Jassy) \U0001F4C5 10/10\t290"
+  u02317:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§14.2.4. 108 Parale ✉ ⨀ C1 ⨀ M1 \U0001F30D Piatra Neamţ (Piatra) \U0001F4C5 13/10\t291"
+  u02352:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.2. \U0001F30D Bacău (Bakeu)\t335"
+  u02353:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.3. \U0001F30D Bârlad (Berlad)\t335"
+  u02355:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.5. \U0001F30D Botoşani (Botuschani)\t336"
+  u02358:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.8. \U0001F30D Focşani (Fokschani)\t337"
+  u02359:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.9. \U0001F30D Fălticeni (Foltitscheni)\t337"
+  u02360:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.10. \U0001F30D Galaţi (Galatz)\t338"
+  u02361:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.11. \U0001F30D Huşi (Husch)\t338"
+  u02362:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.12. \U0001F30D Iaşi (Jassy)\t339"
+  u02364:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.14. \U0001F30D Mihăileni (Michaleni)\t340"
+  u02365:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.15. \U0001F30D Piatra Neamţ (Piatra)\t340"
+  u02367:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.17. \U0001F30D Târgu Ocna (Stadt Okna)\t341"
+  u02368:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§23.18. \U0001F30D Târgu Neamţ (Niamtz)\t341"
+  u02372:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§24.1. \U0001F9FB Laid | Vărgată | Rayé | Gestreiftem\t342"
+  u02373:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§24.2. \U0001F9FB Wove | Simplă | Ordinaire | Einfachem\t342"
+  u02376:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§25.2. \U0001F3A8 Pale blueish | Albăstrui palid | Bleuâtre pâle | Blassbläulich\t343"
+  u02377:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§25.3. \U0001F3A8 Light blue | Albastru deschis | Bleu clair | Hellblau\t343"
+  u02378:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§25.4. \U0001F3A8 Medium blue | Albastru mediu | Bleu moyen | Mittelblau\t343"
+  u02379:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "§25.5. \U0001F3A8 Greenish blue | Albastru verzui | Bleu verdâtre | Grünliches blau\t344"
+  u02380:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§25.6. \U0001F3A8 Grayish blue | Albastru cenuşiu | Bleu grisâtre | Gräuliches blau\t344"
+  u02381:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "§25.7. \U0001F3A8 Dark blue | Albastru închis | Bleu foncé | Dunkelblau\t344"
+  u02382:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "§25.8. \U0001F3A8 Dark greenish blue | Albastru verzui închis | Bleu verdâtre foncé | Dunkles grünliches Blau\t344"
+  u02383:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§25.9. \U0001F3A8 Light green | Verde deschis | Vert clair | Hellgrün\t345"
+  u02384:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§25.10. \U0001F3A8 Medium green | Verde mediu | Vert moyen | Mittelgrün\t345"
+  u02385:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§25.11. \U0001F3A8 Blueish green | Verde albăstrui | Vert bleuté | Bläuliches grün\t345"
+  u02386:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§25.12. \U0001F3A8 Yellowish green | Verde gălbui | Vert jaune | Gelblich grün\t345"
+  u02387:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "§25.13. \U0001F3A8 Verona green | Verde veronez | Vert vérone | Verona grün\t345"
+  u02388:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "§25.14. \U0001F3A8 Pale Greenish | Verzui palid | Vert pâle | Blassgrün\t345"
+  u02389:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§25.15. \U0001F3A8 Light Greenish | Verzui deschis | Vertes clair | Blassgrünes\t345"
+  u02390:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "§25.16. \U0001F3A8 Dark Greenish | Verzui închis | Vertes foncé | Dunkelgrünes\t345"
+  u02391:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "§25.17. \U0001F3A8 Dark green | Verde închis | Vert foncé | Dunkelgrün\t346"
+  u02392:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§25.18. \U0001F3A8 Pale rose | Roze palid | Rose pâle | Blassrosa\t347"
+  u02393:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§25.19. \U0001F3A8 Pale red | Roşu palid | Rouge pâle | Blassrot\t347"
+  u02394:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§25.20. \U0001F3A8 Light red | Roşu deschis | Rouge clair | Hellrot\t347"
+  u02395:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "§25.21. \U0001F3A8 Carmine red | Roşu carmin | Rouge carmin | Karminrot\t347"
+  u02396:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§25.22. \U0001F3A8 Black | Negru | Noir | Schwarz\t347"
+  u02397:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§25.23. \U0001F3A8 White | Alb | Blanc | Weiß\t347"
+  u02401:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§26.1.2. \U0001F4D6 Otto E. Stiedl, Fritz Billig \U0001F4C5 1938\t348"
+  u02409:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§26.1.10. \U0001F4D6 Fritz Heimbüchler I \U0001F4C5 1994\t350"
+  u02410:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§26.1.11. \U0001F4D6 Fritz Heimbüchler III \U0001F4C5 2007\t350"
+  u02412:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§26.2.1. \U0001F4D6 David Feldman \U0001F4C5 2006 - Classic Romania\t351"
+  u02415:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "§26.2.4. \U0001F4D6 Corinphila Edition d'Or XII \U0001F4C5 2009 - Golden Edition XII: Romania. The Fritz Heimbüchler Collection\t352"
+  u02419:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§26.2.8. \U0001F4D6 Corinphila 182 \U0001F4C5 2013 - Österreich & The Smith Collection Austrian Levant, Romania\t353"
+  u02420:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§26.2.9. \U0001F4D6 David Feldman \U0001F4C5 2013 - Europe & Overseas\t354"
+  u02422:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§26.2.11. \U0001F4D6 David Feldman \U0001F4C5 2014 - All World\t354"
+  u02424:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§26.2.13. \U0001F4D6 David Feldman \U0001F4C5 2022-12 - Europe & Overseas\t355"
+  u02438:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "§28.5. Figures ⏭ 1865 \U0001F4C5 \U0001F9ED Postal Routes \U0001F30D Romania (§6)\t396"

@@ -1,0 +1,108 @@
+page: narrative/11-27-parale/003-27-parale-порто
+title: {}
+units:
+  u00934:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "O1,2\tPrimul O este mai lat decât al doilea."
+  u00935:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "П\tExistă câteva puncte între partea din stânga sus a crestei şi cercul înconjurător."
+  u00936:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "П\tCălcâiul mic stâng este uşor rotit înspre stânga."
+  u00937:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "П\tCălcâiul mic drept este uşor curbat înspre dreapta."
+  u00938:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "P\tTalpa bilaterală este rotunjită."
+  u00939:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "T\tCălcâiul are o liniuță (punct) izolată spre P."
+  u00940:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "T\tPiciorul lui T este uşor curbat."
+  u00943:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "O1,2\tLe premier O est plus large que le second."
+  u00944:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "П\tIl y a plusieurs points entre le haut gauche de la crête et le cercle qui l'entoure."
+  u00945:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "П\tLe petit talon gauche est légèrement tourné vers la gauche."
+  u00946:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "П\tLe petit talon droit est légèrement incurvé vers la droite."
+  u00947:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "P\tLa semelle bilatérale est arrondie."
+  u00948:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "T\tLe talon présente un tiret (pointe) isolé vers P."
+  u00949:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "T\tLe pied de T est légèrement incurvé."
+  u00950:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "O1,2\tDas erste O ist breiter als das zweite."
+  u00951:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "П\tEs gibt mehrere Punkte zwischen dem linken oberen Rand und dem umgebenden Kreis."
+  u00952:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "П\tDer kleine linke Absatz ist leicht nach links gedreht."
+  u00953:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "П\tDer kleine rechte Absatz ist leicht nach rechts gekrümmt."
+  u00954:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "P\tDie beidseitige Sohle ist abgerundet."
+  u00955:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "T\tDer Absatz hat einen nach P isolierten Strich (Spitze)."
+  u00956:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "T\tDer Fuß von T ist leicht gebogen."

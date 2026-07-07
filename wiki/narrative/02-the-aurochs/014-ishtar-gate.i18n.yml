@@ -1,0 +1,17 @@
+page: narrative/02-the-aurochs/014-ishtar-gate
+title: {}
+units:
+  u00083:
+    kind: quad
+    en_hash: c06794cf
+    ro:
+      status: ok
+      text: '🐃 Poarta Ishtar
+
+        Construită în timpul domniei regelui Nabucodonosor al II-lea, în jurul anului 575 î.Hr., Poarta Ishtar a fost împodobită cu reliefuri din cărămidă smălțuită care înfățișează diverse animale, inclusiv lei, dragoni și bouri. În mitologia mesopotamiană, bourii erau adesea asociați cu zeul furtunilor Adad (cunoscut și sub numele de Hadad în unele culturi), care era venerat ca zeu al furtunilor, al ploilor și al fertilității, elemente esențiale pentru societățile agricole. Bourul, cu puterea sa imensă și natura sa neîmblânzită, era un simbol adecvat pentru Adad, întruchipând forțele brute și incontrolabile ale naturii pe care le comanda.'
+    fr:
+      status: ok
+      text: 'Figure 19: 🐃 Adad 🌍 Ishtar Gate'
+    de:
+      status: ok
+      text: 'Figure 20: 🐃 📖 MI DD 1229'

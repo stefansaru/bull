@@ -1,0 +1,21 @@
+page: narrative/04-1858/041-1858-1-sales-per-postal-office-iaşi-jassy
+title: {}
+units:
+  u00683:
+    kind: quad
+    en_hash: 1336cb54
+    ro:
+      status: ok
+      text: 'Vânzări per oficiu poștal
+
+        Unele oficii poștale au raportat următoarele vânzări în perioada 4 august - 31 octombrie 1858 (J).'
+    fr:
+      status: ok
+      text: 'Ventes par bureau de poste
+
+        Certains bureaux de poste ont signalé les ventes suivantes entre le 4 août et le 31 octobre 1858 (J).'
+    de:
+      status: ok
+      text: 'Verkäufe pro Postamt
+
+        Einige Postämter haben für den Zeitraum vom 4. August bis 31. Oktober 1858 folgende Verkäufe gemeldet (J).'

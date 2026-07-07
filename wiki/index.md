@@ -1,0 +1,87 @@
+---
+id: index
+type: meta
+title:
+  en: Bull's Head Wiki — Home
+status: living
+---
+
+# 🐃 Bull's Head Wiki — Home
+
+The knowledge base for the **Moldavian Bull's Head (*Cap de bour*) stamps of 1858**.
+The wiki is the source of truth; the book is generated from it. Start with
+[[concept]] and [[AGENTS]].
+
+## Orient
+
+- [[concept]] — what this is and why.
+- [[AGENTS]] — how to work here; the **concepts → narrative → pagination** pipeline.
+- [[meta/ontology]] · [[meta/glossary]] (symbols & abbreviations) ·
+  [[meta/terminology]] (bilingual EN/RO glossary of terms) · [[meta/conventions]] · [[meta/style]]
+- [[meta/requirements]] · [[meta/audit-procedure]]
+- [[meta/decisions/README|Decisions (DR)]]
+
+## Strategy
+
+- [[strategy/vision-mission-objectives]]
+- [[strategy/market-research]] · [[strategy/target-audience]]
+- [[strategy/multilanguage-analysis]] — *should the book stay 4-up? (recommends: no)*
+
+## Context & story — why the Bull's Heads matter
+
+The heritage-led enrichment ([[strategy/enrichment-plan]], [[meta/decisions/DR-013-heritage-thesis-and-enrichment|DR-013]]) —
+deep, cited concept pages. *(flagship [[entities/concepts/why-bull-heads-matter]] + present-day in progress.)*
+
+- **The aurochs & its symbol:** [[entities/concepts/aurochs]] · [[entities/concepts/aurochs-symbolism]] ·
+  [[entities/concepts/moldavia-heraldry]] · [[entities/concepts/aurochs-vs-wisent]] *(debated)* ·
+  [[entities/events/dragos-founding-moldova]] *(legend)*
+- **Geopolitics 1800s → Union:** [[entities/concepts/geopolitics-1800s]] ·
+  [[entities/events/1812-treaty-of-bucharest]] · [[entities/events/crimean-war-principalities]] ·
+  [[entities/concepts/caimacam-regency-moldavia]] · [[entities/events/ad-hoc-divans-1857]] ·
+  [[entities/events/paris-convention-1858]] · [[entities/events/union-of-principalities-1859]]
+- **Postal history:** [[entities/concepts/postal-history-romania]] ·
+  [[entities/concepts/menzil-relay-system]] · [[entities/concepts/foreign-post-offices]] ·
+  [[entities/concepts/bull-head-stamp-distribution-1858]] · [[entities/concepts/franco-porto-apparatus-1858]] ·
+  [[entities/places/atelia-timbrului]] · [[entities/places/old-post-buildings]] ·
+  [[entities/events/unification-of-posts-1862]] · [[entities/events/beginnings-romanian-telegraph]]
+- **The philatelic story:** [[entities/concepts/scarcity-of-bull-heads]] · [[entities/concepts/forgeries]] ·
+  [[entities/concepts/bull-head-authentication-and-fantasy-stamps]] *(debated)* ·
+  [[entities/concepts/bull-head-postmarks-from-documents]] ·
+  [[entities/people/famous-collectors]] · [[entities/concepts/early-philatelic-study]]
+
+## Concepts (entity graph)
+
+- **📋 Evidence census:** [[entities/census/bull-head-evidence-census|Bull's Head evidence census (Issue I & II)]] —
+  **1,012 documented instances** (429 Issue I · 551 Issue II) across 26 sources: covers, specimens,
+  postmark occurrences, blocks/strips, forgeries and printing/survival quantities, each cited. Raw data in `data/records.csv`.
+- **Issues:** [[entities/issues/issue-bull-1|🐃 1 — First issue (27/54/81/108 parale)]] ·
+  [[entities/issues/issue-bull-2|🐃 2 — Second issue (5/40/80 parale)]]
+- **Handstamps:** [[entities/handstamps/PM52|PM52]] · [[entities/handstamps/M1|M1]] ·
+  [[entities/handstamps/M2|M2]] · [[entities/handstamps/M3|M3]] · [[entities/handstamps/C1|C1]]
+- **Postmarks:** [[entities/postmarks/kiriac-figures|Kiriac figure catalogue]] (the devices —
+  from Kiriac 1974) · [[entities/postmarks/census|Auction postmark census]] — 329 markings
+  (98 on Bull's Head) from the auction catalogues ·
+  [[entities/concepts/bull-head-postmarks-from-documents|Postmarks in the postal archives]] (25 towns, Wertheimer-Ghika 1944).
+- **Raw sources:** [[sources/README|sources/]] — Kiriac 1974, Istoria Poștei 1916, Unirea vol. II,
+  and Wertheimer-Ghika 1944 (99-photo OCR) — raw text.
+- **References:** [[entities/references/README|Auction catalogues]] (16 mined) ·
+  [[entities/references/kiriac-1974|Kiriac 1974]] · [[entities/references/wertheimer-ghika-1944|Wertheimer-Ghika 1944]] ·
+  [[entities/references/bulls-head-lots|Notable lots EN/RO]] ·
+  Michel · Scott · Stanley-Gibbons · Yvert-Tellier · LP
+- **Concepts:** [[entities/concepts/aurochs|🐃 Aurochs]] · bison/wisent · paper · colours · currencies · calendars
+- **Places / People / References** — see `entities/`.
+
+## Narrative (the book, in order)
+
+The 29 chapters, faithfully ingested. See `narrative/` and the generated
+[[_toc|table of contents]] (built by the structuring pass). Backbone:
+
+1. Introduction · 2. 🐃 The Aurochs · 3. XIXth Century · 4. 1858 · 5. 1859 ·
+6. 1865 Postal Routes · 7–9. Handstamps PM52/M1/C1 · 10. 🐃 1 · 11–14. 27/54/81/108
+Parale · 15–16. M2/M3 · 17. 🐃 2 · 18–20. 5/40/80 Parale · 21. Calendar ·
+22–25. Counties/Cities/Paper/Colours · 26. References · 27–29. Tables/Figures/Sections.
+
+## Status
+
+Pass 1 — ingestion. Architecture + strategy scaffolded; extractor/structurer built;
+narrative generation and entity seeding in progress. See [[concept]] §6.

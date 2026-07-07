@@ -1,0 +1,21 @@
+page: narrative/00-front-matter/001-front-matter
+title: {}
+units:
+  u00000:
+    kind: quad
+    en_hash: 39db2f9e
+    ro:
+      status: ok
+      text: Contextul istoric eclectic al timbrelor românești cap de bour
+  u00002:
+    kind: quad
+    en_hash: f37695a2
+    ro:
+      status: ok
+      text: Ediția
+    fr:
+      status: ok
+      text: Édition
+    de:
+      status: ok
+      text: Ausgabe

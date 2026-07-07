@@ -1,0 +1,13 @@
+page: narrative/21-calendar/001-calendar
+title: {}
+units:
+  u01499:
+    kind: quad
+    en_hash: e3edfefc
+    ro:
+      status: ok
+      text: 'Zilele săptămânii iuliene și gregoriene
+
+        Zilele săptămânii în calendarele gregorian și iulian rămân aceleași, deoarece ambele calendare urmează un ciclu săptămânal continuu de șapte zile care nu a fost întrerupt niciodată de la începuturile sale. Cu toate acestea, datele diferă din cauza modului în care fiecare calendar calculează anii bisecți. Calendarul iulian supraestimează durata anului, provocând o deviere de aproximativ o zi la fiecare 128 de ani față de anul solar. Pentru a corecta această deviație, în 1582 a fost introdus calendarul gregorian, care a ajustat regulile privind anii bisecți pentru a se alinia mai bine cu anul solar. Până în 1859, această diferență a crescut la 12 zile, ceea ce înseamnă că, deși zilele săptămânii se potriveau (de exemplu, o miercuri în calendarul iulian era tot o miercuri în calendarul gregorian), datele din calendarul iulian rămâneau în urmă cu 12 zile.
+
+        Austria a adoptat calendarul gregorian la scurt timp după decretul Papei Grigore al XIII-lea în 1583, alături de restul lumii catolice europene. Rusia a făcut tranziția în 1918, Imperiul Otoman în 1917 (cu adoptare completă în 1926), iar România în 1919.'

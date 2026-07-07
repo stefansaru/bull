@@ -1,0 +1,25 @@
+page: narrative/07-pm52/004-pm52-early-and-late-dates
+title: {}
+units:
+  u00731:
+    kind: quad
+    en_hash: bbce61b6
+    ro:
+      status: ok
+      text: "Data timpurie şi târzie\nConform \U0001F4D6 ⨀ Kiriac, p.70 \n1852-03-10 J \U0001F4C5 : Dată timpurie \n1859-10-20 J \U0001F4C5 : Data târzie \nDar este furnizată și o imagine a PM52 cu o dată ulterioară ⏭ \U0001F4D6 ⨀ Kiriac, p.73, Fig.226."
+    fr:
+      status: ok
+      text: "Dates précoces et tardives\nD'après \U0001F4D6 ⨀ Kiriac, p.70\n1852-03-10 J \U0001F4C5 : Date précoce \n1859-10-20 J \U0001F4C5 : Date tardive \nMais une image de PM52 est fournie avec une date plus tardive ⏭ \U0001F4D6 ⨀ Kiriac, p.73, Fig.226."
+    de:
+      status: ok
+      text: "Frühe und späte Daten\nNach \U0001F4D6 ⨀ Kiriac, S.70\n1852-03-10 J \U0001F4C5 : Frühes Datum \n1859-10-20 J \U0001F4C5 : Spätes Datum \nEs gibt jedoch eine Abbildung der PM52 mit einem späteren Datum ⏭ \U0001F4D6 ⨀ Kiriac, p.73, Fig.226."
+  u00732:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: 'Figure 173, p.217: 1852-03-10 J 📅 ✉ ⨀ PM52 🌍 Iaşi (Jassy) I ⏭ 📖 ⨀ Kiriac, p.74, Fig.229'
+  u00733:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: 'Figure 168, p.213: 1859-11-03 J 📅 ✉ 40 Parale ⨀ PM52 🌍 Bacău (Bakeu) ⏭ 📖 ⨀ Kiriac, p.73, Fig.226'

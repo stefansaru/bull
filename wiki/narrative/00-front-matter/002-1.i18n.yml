@@ -1,0 +1,15 @@
+page: narrative/00-front-matter/002-1
+title: {}
+units:
+  u00004:
+    kind: quad
+    en_hash: d95082a2
+    ro:
+      status: ok
+      text: Autor
+    fr:
+      status: ok
+      text: Auteur
+    de:
+      status: ok
+      text: Autor

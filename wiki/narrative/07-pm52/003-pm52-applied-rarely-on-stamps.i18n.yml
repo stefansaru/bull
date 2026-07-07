@@ -1,0 +1,32 @@
+page: narrative/07-pm52/003-pm52-applied-rarely-on-stamps
+title: {}
+units:
+  u00727:
+    kind: quad
+    en_hash: 11a5f240
+    ro:
+      status: ok
+      text: 'Aplicate rar pe timbre
+
+        Ștampilele prefilatelice P52 nu s-au regăsit pe timbrele de la prima emisiune, deși s-a dat instrucțiunea ca acestea să fie anulate și „cu jumătatea francului ca urmare să nu mai poată rămâne mijloc încă de a lor validitate”.
+
+        Ştampilele P52 au fost aplicate, foarte rar, pe timbre. Au existat scrisori cu timbre de 40 Parale din a doua emisiune și anulate cu ștampila de mână P52.'
+    fr:
+      status: ok
+      text: 'Rarement appliquée sur les timbres
+
+        Les cachets à main préphilatéliques P52 n''ont pas été retrouvés sur les timbres de la première émission, bien que la consigne ait été donnée de les oblitérer également "avec la moitié du franc[o] pour qu''ils ne puissent plus rester valables".
+
+        Les cachets P52 ont été apposés, très rarement, sur des timbres. Il y avait des lettres avec 40 Parale timbres de la deuxième émission et oblitérées avec le timbre à main P52.'
+    de:
+      status: ok
+      text: 'Selten auf Briefmarken verwendet
+
+        Die vorphilatelistischen P52-Handstempel waren auf den Briefmarken der ersten Ausgabe nicht zu finden, obwohl die Anweisung gegeben wurde, dass auch sie "mit der Hälfte des Franc[o] entwertet werden sollten, damit sie nicht mehr gültig bleiben konnten".
+
+        Die P52-Handstempel wurden nur sehr selten auf Briefmarken angebracht. Es gab Briefe mit 40 Parale aus der zweiten Ausgabe, die mit dem Handstempel P52 entwertet wurden.'
+  u00729:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: 'Figure 175, p.218: 1859-01-30 J 📅 ✉ 40 Parale ⨀ PM52 🌍 Izmail (Ismail)'

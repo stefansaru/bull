@@ -1,0 +1,21 @@
+page: narrative/04-1858/025-1858-1-first-batch-delivered-from-mf-to-dpd-iaşi-jassy
+title: {}
+units:
+  u00628:
+    kind: quad
+    en_hash: f6fb3bda
+    ro:
+      status: ok
+      text: 'Prima tranşă livrată la D.P.D.
+
+        Ministerul Finanțelor livrează prima tranşă la Poşta Moldovei (D.P.D.), conform documentului M.F. nr. 6313 din 12 iulie 1858.'
+    fr:
+      status: ok
+      text: 'Premier tranche livré à D.P.D.
+
+        Le ministère des finances remet le premier tranche à la poste moldave (D.P.D.) conformément au document du ministère des finances n° 6313 du 12 juillet 1858.'
+    de:
+      status: ok
+      text: 'Erste Tranche an D.P.D. geliefert
+
+        Das Finanzministerium liefert die erste Tranche an die moldawische Post (D.P.D.) gemäß M.F. Dokument Nummer 6313 vom 12. Juli 1858.'

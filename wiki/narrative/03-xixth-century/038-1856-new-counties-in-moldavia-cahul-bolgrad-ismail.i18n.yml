@@ -1,0 +1,31 @@
+page: narrative/03-xixth-century/038-1856-new-counties-in-moldavia-cahul-bolgrad-ismail
+title: {}
+units:
+  u00414:
+    kind: quad
+    en_hash: 358135b8
+    ro:
+      status: ok
+      text: 'Județe noi în Moldova
+
+        După Războiul Crimeii, Rusia a fost nevoită să ofere sudul Basarabiei (Cahul, Bolgrad și Ismail) Principatului Moldovei, în special pentru a împiedica accesul direct al acestuia la Dunăre și pentru a-i slăbi influența în regiune.'
+    fr:
+      status: ok
+      text: 'Nouveaux comtés en Moldavie
+
+        Après la guerre de Crimée, la Russie a été contrainte de fournir la Besserabie méridionale (Cahul, Bolgrad et Ismail) à la Principauté de Moldavie, en grande partie pour empêcher son accès direct au Danube et affaiblir son influence dans la région.'
+    de:
+      status: ok
+      text: 'Neue Landkreise in Moldawien
+
+        Nach dem Krimkrieg war Russland gezwungen, Süd-Besserabien (Cahul, Bolgrad und Ismail) an das Fürstentum Moldawien abzutreten, um dessen direkten Zugang zur Donau zu verhindern und seinen Einfluss in der Region zu schwächen.'
+  u00415:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: Counties | Județe | Comtés | Landkreise
+  u00419:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: 'Table 20, p.331: Counties 🌍 Moldavia, Wallachia 📅 1800-1878'

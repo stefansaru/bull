@@ -1,0 +1,14 @@
+# raw external source material (4 GB: source PDFs, docx, zips, page photos);
+# the useful derivatives live in wiki/sources/ (OCR text) and wiki/assets/ (figures)
+input/
+# intermediate extraction artifacts (regenerable from input/)
+work/
+# generated books
+output/*.docx
+output/*.pdf
+# python
+__pycache__/
+*.pyc
+.venv/
+# office lock files
+~$*

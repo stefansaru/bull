@@ -1,0 +1,15 @@
+page: narrative/25-colors/002-pantone
+title: {}
+units:
+  u01593:
+    kind: quad
+    en_hash: 89fa36b0
+    ro:
+      status: ok
+      text: 'Majoritatea acestor culori sunt denumite folosind un număr din trei sau patru cifre urmat de litera C sau U. Sufixul literei se referă la tipul de hârtie pe care este tipărită: „C” pentru hârtie cretată sau lucioasă sau „U” pentru hârtie necretată. Numerele de culori Pantone Process încep cu litera P, urmată de un număr din una până la trei cifre, o cratimă și un număr din una până la două cifre.'
+    fr:
+      status: ok
+      text: 'La majorité de ces couleurs sont désignées par un numéro à trois ou quatre chiffres suivi d’un C ou d’un U. La lettre en suffixe fait référence au type de papier sur lequel elles sont imprimées : un « C » pour papier couché ou glacé, ou un « U » pour papier non couché. Les numéros de couleurs Pantone Process commencent par la lettre P, suivie d’un nombre d’un à trois chiffres, d’un tiret, puis d’un nombre d’un à deux chiffres.'
+    de:
+      status: ok
+      text: 'Die Mehrheit dieser Farben wird mit einer drei- oder vierstelligen Zahl bezeichnet, gefolgt von einem C oder U. Der Buchstabenzusatz bezieht sich auf das Papier, auf dem sie gedruckt werden: ein „C“ für gestrichenes oder glänzendes Papier oder ein „U“ für ungestrichenes Papier. Pantone-Process-Farbnummern beginnen mit dem Buchstaben P, gefolgt von einer ein- bis dreistelligen Zahl, einem Bindestrich und einer ein- bis zweistelligen Zahl.'

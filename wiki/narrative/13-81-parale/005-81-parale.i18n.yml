@@ -1,0 +1,33 @@
+page: narrative/13-81-parale/005-81-parale
+title: {}
+units:
+  u01339:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: ✍ Heimbüchler BPP
+  u01340:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: '📖 Heimbüchler I (p.364, 365, #2)'
+  u01341:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: '📖 Corinphila Edition d''Or XII (p.49, #6)'
+  u01342:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: 📜 Heimbüchler 📅 2010 ⏭ Figure 258, p.283
+  u01343:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: Messrs Luder ⏭ 📜 Heinrich Köhler 📅 1924
+  u01344:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: 'Provenance: Messrs Luder ⏭ Corinphila 📅 1924'

@@ -1,0 +1,15 @@
+page: narrative/00-front-matter/003-jini-solutions
+title: {}
+units:
+  u00007:
+    kind: quad
+    en_hash: 99c40ab4
+    ro:
+      status: ok
+      text: Data
+    fr:
+      status: ok
+      text: Date
+    de:
+      status: ok
+      text: Datum

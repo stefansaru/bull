@@ -1,0 +1,34 @@
+page: narrative/12-54-parale/014-54-parale
+title: {}
+units:
+  u01311:
+    kind: quad
+    en_hash: b23b9b6e
+    ro:
+      status: ok
+      text: 'Figure 247: 📜 Philatelic Society, Zoscsak 📅 1897, 1938
+
+        ⏭ Figure 238, p.271'
+    fr:
+      status: ok
+      text: 'Figure 248: 📜 Heimbüchler 📅 1981
+
+        ⏭ Figure 238, p.271'
+    de:
+      status: ok
+      text: 'Figure 249: 📜 Gmach 📅 2022
+
+        ⏭ Figure 196, p.252'
+  u01312:
+    kind: quad
+    en_hash: 45db38de
+    fr:
+      status: ok
+      text: 'Figure 250: 📜 Heimbüchler 📅 2010
+
+        ⏭ Figure 241, p.273'
+    de:
+      status: ok
+      text: 'Figure 251: 📜 Diena 📅 1964
+
+        ⏭ Figure 241, p.273'

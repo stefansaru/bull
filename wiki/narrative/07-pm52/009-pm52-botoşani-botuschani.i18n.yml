@@ -1,0 +1,15 @@
+page: narrative/07-pm52/009-pm52-botoşani-botuschani
+title: {}
+units:
+  u00750:
+    kind: quad
+    en_hash: 1abceb0d
+    ro:
+      status: ok
+      text: Scrisoare francată cu două timbre 80 P. reutilizate în detrimentul oficiului poștal, purtând ștampila PM52.
+    fr:
+      status: ok
+      text: Lettre affranchie avec deux timbres 80 P. réutilisés au détriment de la poste, portant le cachet PM52.
+    de:
+      status: ok
+      text: Brief frankiert mit zwei wiederverwendeten 80 P. Briefmarken zum Nachteil des Postamtes, mit dem Handstempel PM52

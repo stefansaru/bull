@@ -1,0 +1,15 @@
+page: narrative/04-1858/007-1858-20-kreuzer-zwanziger-sfanţ-austrian-empire
+title: {}
+units:
+  u00490:
+    kind: quad
+    en_hash: c7b03ef1
+    ro:
+      status: ok
+      text: Monedă de argint originară din Imperiul Austriac, zwanziger (sau „sfanţ” în termeni locali) a fost un mijloc de schimb popular în Principatele Dunărene. Avea o valoare relativ mică, 20 de kreuzeri, și era adesea folosită pentru cumpărăturile de zi cu zi.
+    fr:
+      status: ok
+      text: "Obverse\n „FRANC.IOS.I.D.G.AVSTRIAE IMPERATOR.”\nFranz Joseph I, by the grace of God, Austrian Emperor\n„A” \U0001F30D Vienna mint mark below bust\n„A\" \U0001F30D Marca monetăriei din Viena sub bust\n« A » \U0001F30D Marque d'atelier de Vienne sous le buste\n„A\" \U0001F30D Wiener Münzzeichen unter der Büste"
+    de:
+      status: ok
+      text: "Reverse\n „HVNG. BOH. LOMB. ET VEN. (20) GAL. LOD. ILL. REX. A. A. 1852”\nKing of Hungary, Bohemia, Lombardy and Venetia, Dalmatia, Galicia and Lodomeria, Illyria, Archduke of Austria. 20 (Kreuzer) 1852"

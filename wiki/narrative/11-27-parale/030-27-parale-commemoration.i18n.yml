@@ -1,0 +1,18 @@
+page: narrative/11-27-parale/030-27-parale-commemoration
+title:
+  ro: Comemorare
+  fr: Commémoration
+  de: Gedenken
+units:
+  u01208:
+    kind: quad
+    en_hash: 24c82184
+    ro:
+      status: ok
+      text: 'Figure 227: 📖 MI RO 2189'
+  u01215:
+    kind: quad
+    en_hash: 529b5cbe
+    ro:
+      status: ok
+      text: 'Figure 232: 📖 MI RO 7076'

@@ -1,0 +1,56 @@
+page: narrative/04-1858/004-1858-currency-moldavia-wallachia
+title: {}
+units:
+  u00472:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: 1 Leu = 40 Parale = 1 Kuruş (=Piastre)      1 Leu = 10 Kreuzer
+  u00473:
+    kind: quad
+    en_hash: '51681998'
+    ro:
+      status: ok
+      text: 'Valuta
+
+        O varietate de monede din Imperiul Austriac, Imperiul Rus și Imperiul Otoman au circulat în Principatele Dunărene, reflectând influența politică și economică a acestor puteri în regiune.
+
+        Un aspect notabil al acestei perioade a fost leul românesc, care a existat doar ca monedă contabilă fără o formă fizică până în 1867. Leul a fost inspirat de moneda olandeză Leeuwendaalder, o monedă de argint cu circulație largă din secolele al XVI-lea și al XVII-lea care reprezenta un leu. Această monedă a influențat și denumirea monedei bulgare Lev (care înseamnă, de asemenea, „leu”). Deși leul a fost utilizat în înregistrările financiare și în contabilitate, el nu a fost bătut ca monedă fizică decât aproape un deceniu mai târziu.
+
+        📖 ZC menționează trei bancnote emise înainte de prima emisiune monetară oficială.
+
+        Un exemplu este bancnota de 100 lei (100 piaștri), emisă în 1856 de Banca Moldovei (fondată în 1852), care nu a fost pusă în circulație.
+
+        Un alt exemplu este biletul de bancă emis în 1853 prin hotărârea Comitetului Revoluționar Român, cu o valoare nominală de 10 ducați. Deși aceste bilete de împrumut au fost tipărite, ele nu au circulat niciodată.
+
+        În ciuda importanței simbolice a leului, guldenul austriac, rubla rusească și pirata otomană (împreună cu subdiviziunea sa, para) au fost monedele dominante în circulație zilnică.'
+    fr:
+      status: ok
+      text: 'Monnaie
+
+        Diverses pièces de l''Empire autrichien, de l''Empire russe et de l''Empire ottoman ont circulé dans les Principautés danubiennes, reflétant l''influence politique et économique de ces puissances dans la région.
+
+        Un aspect notable de cette période est le Leu roumain, qui n''a existé qu''en tant que monnaie comptable, sans forme physique, jusqu''en 1867. Le Leu (qui signifie « lion ») a été inspiré par le Leeuwendaalder néerlandais, une pièce d''argent des XVIe et XVIIe siècles qui circulait largement et qui représentait un lion. Cette pièce a également influencé le nom du Lev bulgare (qui signifie également « lion »). Bien que le Leu ait été utilisé dans les registres financiers et la comptabilité, il n''a été frappé en tant que pièce physique que près d''une décennie plus tard.
+
+        📖 ZC mentionne trois billets de banque émis avant la première émission officielle de pièces.
+
+        Un exemple est le billet de 100 lei (100 piastres), émis en 1856 par la Banque de Moldavie (fondée en 1852), qui n''a jamais été mis en circulation.
+
+        Un autre exemple est le billet de banque émis en 1853 suite à une décision du Comité Révolutionnaire Roumain, avec une valeur nominale de 10 ducats. Bien que ces billets de prêt aient été imprimés, ils ne sont jamais entrés en circulation.
+
+        Malgré l''importance symbolique du leu, le gulden autrichien, le rouble russe et la piastre ottomane (ainsi que sa subdivision, le para) étaient les monnaies dominantes en circulation quotidienne.'
+    de:
+      status: ok
+      text: 'Währung
+
+        In den Donaufürstentümern zirkulierte eine Vielzahl von Münzen aus dem Österreichischen Kaiserreich, dem Russischen Reich und dem Osmanischen Reich, die den politischen und wirtschaftlichen Einfluss dieser Mächte in der Region widerspiegeln.
+
+        Ein bemerkenswerter Aspekt dieser Periode war der rumänische Leu, der bis 1867 nur als Rechnungswährung ohne physische Form existierte. Der Leu (was „Löwe“ bedeutet) wurde durch den niederländischen Leeuwendaalder inspiriert, eine weit verbreitete Silbermünze aus dem 16. und 17. Diese Münze beeinflusste auch die Namensgebung des bulgarischen Lev (ebenfalls mit der Bedeutung „Löwe“). Obwohl der Leu in Finanzunterlagen und in der Buchhaltung verwendet wurde, wurde er erst fast ein Jahrzehnt später als echte Münze geprägt.
+
+        📖 ZC erwähnt drei Banknoten, die vor der ersten offiziellen Münzprägung ausgegeben wurden.
+
+        Ein Beispiel ist die 100-Lei-Banknote (100 Piaster), die 1856 von der Bank von Moldau (gegründet 1852) ausgegeben wurde und nie in Umlauf gebracht wurde.
+
+        Ein weiteres Beispiel ist der 1853 ausgestellte Geldschein, der auf Beschluss des Rumänischen Revolutionären Komitees mit einem Nennwert von 10 Dukaten ausgegeben wurde. Obwohl diese Kreditgeldscheine gedruckt wurden, gelangten sie nie in Umlauf.
+
+        Trotz der symbolischen Bedeutung des Leu waren der österreichische Gulden, der russische Rubel und der osmanische Piaster (mit seiner Untergruppe, dem Para) die dominierenden Währungen im täglichen Umlauf.'

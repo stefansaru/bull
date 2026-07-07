@@ -1,0 +1,26 @@
+page: narrative/04-1858/037-1858-2-printing-process-iaşi-jassy
+title: {}
+units:
+  u00670:
+    kind: quad
+    en_hash: 056f005f
+    ro:
+      status: ok
+      text: 'Procesul de tipărire
+
+        Toate timbrele din a doua emisiune au fost tipărite între 1858 și 1862, prin aceeași tehnică folosită la prima emisiune. Atelierul de timbre a fost mutat de la Iași la București în decembrie 1861, iar timbrele 5 Parale Tip II din 1862 au fost tipărite la București. Cele de 5 Parale tip I au fost tipărite la Iași, împreună cu cele de 40 și 80 Parale.'
+    fr:
+      status: ok
+      text: 'Procédé d''impression
+
+        Tous les timbres de la deuxième émission ont été imprimés entre 1858 et 1862, selon la même technique que celle utilisée pour la première émission. L''atelier de fabrication des timbres a été transféré de Iași à Bucarest en décembre 1861, et les 5 Parale de type II de 1862 ont été imprimés à Bucarest. Les 5 Parale de type I ont été imprimés à Iași, en même temps que les 40 et 80 Parale.'
+    de:
+      status: ok
+      text: 'Druckprozess
+
+        Alle Briefmarken der zweiten Ausgabe wurden zwischen 1858 und 1862 in der gleichen Technik wie die der ersten Ausgabe gedruckt. Die Briefmarkenwerkstatt wurde im Dezember 1861 von Iași nach Bukarest verlegt, und die 5 Parale Typ II von 1862 wurden in Bukarest gedruckt. Die 5 Parale Typ I wurden in Iași gedruckt, zusammen mit den 40 und 80 Parale.'
+  u00671:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: '§4.10, p.172: 1858 📅 🐃 1: Printing process 🌍 Iaşi (Jassy)'

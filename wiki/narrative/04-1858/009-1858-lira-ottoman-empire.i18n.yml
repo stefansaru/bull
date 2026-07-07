@@ -1,0 +1,25 @@
+page: narrative/04-1858/009-1858-lira-ottoman-empire
+title: {}
+units:
+  u00495:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: 40 Para = 1 Kuruş (Piastre)
+  u00496:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: 100 Kuruş = 1 Lira
+  u00497:
+    kind: quad
+    en_hash: b3153d78
+    ro:
+      status: ok
+      text: Multe monede otomane aflate în circulație în jurul anului 1858 poartă anul 1255 în calendarul islamic (Hijri) din cauza unei convenții specifice de batere a monedelor utilizate de Imperiul Otoman. În monetăria otomană, data înscrisă pe monede se referă adesea la anul începerii domniei sultanului, mai degrabă decât la anul exact în care moneda a fost bătută. În acest caz, 1255 AH (Anno Hegirae) corespunde anului 1839 AD, care este anul în care sultanul Abdülmecid I a urcat pe tron. Astfel, multe monede bătute în timpul domniei sultanului Abdülmecid (care a durat până în 1861) poartă anul de aderare 1255 AH, indiferent de anul real de batere. Pentru a indica anul specific de batere în timpul domniei sultanului, se adaugă adesea un număr suplimentar cunoscut sub numele de anul regnal, situat de obicei sub tughra (semnătura sultanului). Acest an regnal preciza câți ani au trecut de la venirea sultanului. Astfel, deși 1255 AH este frecvent întâlnit pe monedele bătute pe parcursul domniei sultanului, acest lucru nu înseamnă neapărat că moneda a fost bătută în 1839 (1255 AH), ci mai degrabă că a fost emisă în timpul domniei sale, anul exact al bătăii fiind indicat de anul regnal. De exemplu, 1255 AH + anul regnal 15 ar corespunde anului 1855 AD.
+    fr:
+      status: ok
+      text: De nombreuses pièces ottomanes en circulation vers 1858 portent l'année 1255 dans le calendrier islamique (Hijri) en raison d'une convention de frappe spécifique utilisée par l'Empire ottoman. Dans la monnaie ottomane, la date inscrite sur les pièces fait souvent référence à l'année d'accession du sultan régnant, plutôt qu'à l'année exacte où la pièce a été frappée. Dans ce cas, 1255 AH (Anno Hegirae) correspond à 1839 AD, année de l'accession au trône du sultan Abdülmecid Ier. Ainsi, de nombreuses pièces frappées sous le règne du sultan Abdülmecid (qui a duré jusqu'en 1861) portent l'année d'accession 1255 de l'Hégire, quelle que soit leur année de frappe réelle. Pour indiquer l'année de frappe spécifique au règne du sultan, un nombre supplémentaire, appelé année régnale, est souvent ajouté, généralement sous la tughra (signature du sultan). Cette année régnale précise le nombre d'années écoulées depuis l'accession du sultan. Ainsi, si l'année 1255 de l'Hégire apparaît fréquemment sur les pièces frappées tout au long du règne du sultan, cela ne signifie pas nécessairement que la pièce a été frappée en 1839 (1255 de l'Hégire), mais plutôt qu'elle a été émise pendant son règne, l'année exacte de frappe étant indiquée par l'année régnale. Par exemple, 1255 de l'Hégire + l'année régnale 15  correspondrait à 1855 de notre ère.
+    de:
+      status: ok
+      text: Viele osmanische Münzen, die um 1858 in Umlauf waren, tragen das Jahr 1255 des islamischen Kalenders (Hijri), was auf eine spezielle Prägekonvention des Osmanischen Reiches zurückzuführen ist. In der osmanischen Münzprägung bezieht sich das auf den Münzen angegebene Datum oft auf das Jahr der Thronbesteigung des regierenden Sultans und nicht auf das genaue Jahr, in dem die Münze geprägt wurde. In diesem Fall entspricht 1255 AH (Anno Hegirae) dem Jahr 1839 n. Chr., dem Jahr, in dem Sultan Abdülmecid I. den Thron bestieg. Daher tragen viele Münzen, die während der Herrschaft von Sultan Abdülmecid (die bis 1861 dauerte) geprägt wurden, das Beitrittsjahr 1255 AH, unabhängig von ihrem tatsächlichen Prägejahr. Um das genaue Jahr der Prägung während der Herrschaft des Sultans anzugeben, wird häufig eine zusätzliche Zahl, das so genannte Regierungsjahr, hinzugefügt, das sich in der Regel unter der Tughra (der Unterschrift des Sultans) befindet. Dieses Regierungsjahr gibt an, wie viele Jahre seit der Thronbesteigung des Sultans vergangen sind. Auch wenn die Jahreszahl 1255 AH häufig auf Münzen zu sehen ist, die während der Regierungszeit des Sultans geprägt wurden, bedeutet dies nicht unbedingt, dass die Münze 1839 (1255 AH) geprägt wurde, sondern vielmehr, dass sie während seiner Regierungszeit ausgegeben wurde, wobei das genaue Prägejahr durch das Regierungsjahr angegeben wird. Zum Beispiel würde 1255 AH + Regierungsjahr 15 dem Jahr 1855 n. Chr. entsprechen.

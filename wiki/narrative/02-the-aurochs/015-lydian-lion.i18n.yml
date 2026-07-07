@@ -1,0 +1,52 @@
+page: narrative/02-the-aurochs/015-lydian-lion
+title: {}
+units:
+  u00085:
+    kind: quad
+    en_hash: 7a3e7028
+    ro:
+      status: ok
+      text: 'Regatul Lydian 🌍 Asia Mică
+
+        Regatul Lydia, care a existat în ceea ce este astăzi vestul Turciei din jurul anului 1200 î.Hr. până în anul 546 î.Hr., nu a lăsat în urmă înregistrări detaliate ale heraldicii și simbolismului său, așa cum au făcut-o regatele europene ulterioare. Cu toate acestea, mai multe indicii sugerează că bourul ar fi putut fi folosit în mod simbolic în Lydia, în special prin intermediul monedelor sale.'
+    fr:
+      status: ok
+      text: 'Royaume lydien 🌍 Anatolie
+
+        Le royaume de Lydie, qui a existé dans ce qui est aujourd''hui l''ouest de la Turquie d''environ 1200 avant notre ère à 546 avant notre ère, n''a pas laissé de documents détaillés sur son héraldique et son symbolisme, comme l''ont fait plus tard les royaumes européens. Cependant, plusieurs indices suggèrent que l''aurochs a pu être utilisé symboliquement en Lydie, notamment par le biais de la frappe de monnaie'
+    de:
+      status: ok
+      text: 'Lydisches Königreich 🌍 Kleinasien
+
+        Das Königreich Lydien, das von etwa 1200 v. Chr. bis 546 v. Chr. in der heutigen Westtürkei existierte, hinterließ keine umfangreichen Aufzeichnungen über seine Heraldik und Symbolik, wie es spätere europäische Königreiche taten. Mehrere Hinweise deuten jedoch darauf hin, dass der Auerochse in Lydien symbolisch verwendet wurde, insbesondere durch seine Münzprägung.'
+  u00088:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: 'Figure 21: Electrum coin 💰 Lydian Lion'
+  u00089:
+    kind: quad
+    en_hash: 59b262a5
+    ro:
+      status: ok
+      text: '💰 Leul Lydian
+
+        Cele mai vechi monede cunoscute sunt realizate din electrum (un aliaj natural de aur și argint) și sunt atribuite Lydienilor. Unele dintre cele mai vechi monede prezintă un cap de leu sau o labă de leu, care sunt asociate cu regele lydian Alyattes (c. 619-560 î.Hr.).'
+    fr:
+      status: ok
+      text: '💰 Lion lydien
+
+        Les premières pièces de monnaie connues sont en électrum (un alliage naturel d''or et d''argent) et sont attribuées aux Lydiens. Certaines des premières pièces présentent une tête de lion ou une patte de lion, qui sont associées au roi lydien Alyattes (vers 619-560 avant J.-C.).'
+    de:
+      status: ok
+      text: '💰 Lydischer Löwe
+
+        Die frühesten bekannten Münzen sind aus Elektrum (einer natürlichen Legierung aus Gold und Silber) hergestellt und werden den Lydiern zugeschrieben. Einige der frühesten Münzen zeigen einen Löwenkopf oder eine Löwentatze, die mit dem lydischen König Alyattes (ca. 619-560 v. Chr.) in Verbindung gebracht werden.'
+  u00090:
+    kind: quad
+    en_hash: c655e53c
+    ro:
+      status: ok
+      text: '💰 🐃 şi Leul
+
+        În timpul domniei regelui Croesus, Lidia emite o serie de monede bimetalice, introducând monede separate de aur și argint. Unul dintre cele mai emblematice modele din această perioadă este moneda cu un leu și un taur în confruntare. Aceste monede înfățișează adesea un leu, un simbol al regalității și al forței, în fața unui taur, care este adesea interpretat ca fiind un bour, simbol al puterii brute și al fertilității. Lui Croesus i se atribuie emiterea primelor monede de aur și argint (numite Croeseid) cu o puritate standardizată pentru circulația generală, precum și primul sistem monetar bimetalic din lume.'

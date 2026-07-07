@@ -1,0 +1,21 @@
+page: narrative/04-1858/026-1858-1-dpd-confirms-reception-of-the-first-batch-iaşi-jassy
+title: {}
+units:
+  u00633:
+    kind: quad
+    en_hash: 1d3b6746
+    ro:
+      status: ok
+      text: 'Confirmarea D.P.D.
+
+        Casieria Direcției Poştelor (D.P.D.) emite adeverinţa  pentru primirea primei tranşe.'
+    fr:
+      status: ok
+      text: 'Confirmation du D.P.D.
+
+        La Caisse des Postes (D.P.D.) confirme formellement la réception du premier tranche.'
+    de:
+      status: ok
+      text: 'D.P.D.-Bestätigung
+
+        Die Postkasse (D.P.D.) bestätigt formell den Empfang der ersten Tranche.'

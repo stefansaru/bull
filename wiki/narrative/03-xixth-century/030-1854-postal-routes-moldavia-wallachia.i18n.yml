@@ -1,0 +1,15 @@
+page: narrative/03-xixth-century/030-1854-postal-routes-moldavia-wallachia
+title: {}
+units:
+  u00350:
+    kind: quad
+    en_hash: 7e917b10
+    ro:
+      status: ok
+      text: Această hartă rară care prezintă rutele poștale din Principatele Dunărene include o mențiune conform căreia a fost creată în 1848 și revizuită în 1854, cel mai probabil în timpul ocupației austriece, de către un oficial austriac.
+    fr:
+      status: ok
+      text: Cette rare carte montrant les routes postales dans les Principautés danubiennes comporte une mention indiquant qu'elle a été créée en 1848 et révisée en 1854, très probablement pendant l'occupation autrichienne, par un fonctionnaire autrichien.
+    de:
+      status: ok
+      text: Diese seltene Karte der Postrouten in den Donaufürstentümern enthält den Hinweis, dass sie 1848 erstellt und 1854, wahrscheinlich während der österreichischen Besatzung, von einem österreichischen Beamten überarbeitet wurde.

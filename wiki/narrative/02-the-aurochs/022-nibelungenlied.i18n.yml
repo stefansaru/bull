@@ -1,0 +1,27 @@
+page: narrative/02-the-aurochs/022-nibelungenlied
+title: {}
+units:
+  u00127:
+    kind: quad
+    en_hash: f9d67f01
+    ro:
+      status: ok
+      text: '🐃 Cântecul Nibelungilor
+
+        În poemul epic germanic „Nibelungenlied”, personajul Siegfried se remarcă prin incredibila sa faptă de forță atunci când vânează şi ucide patru bouri în pădure, punându-şi în evidență atributele eroice.
+
+        „Apoi i-au căzut în mână un bivol, un elan, patru bouri fioroşi și un urs, și nici un cerb sau o căprioară nu i-a putut scăpa, atât de iute și de puternic era.”'
+    fr:
+      status: ok
+      text: '🐃 Le chant des Nibelungen
+
+        Dans le poème épique germanique « Nibelungenlied », le personnage de Siegfried est remarqué pour son incroyable tour de force lorsqu''il chasse et tue quatre aurochs dans la forêt, démontrant ainsi ses attributs héroïques.
+
+        „Alors tombèrent sous sa main un buffle, un élan, quatre aurochs sinistres, un ours, et ni cerf ni biche ne purent lui échapper, tant il était rapide et vaillant.”'
+    de:
+      status: ok
+      text: '🐃 Nibelungenlied
+
+        Im germanischen Epos „Nibelungenlied“ wird die Figur Siegfried für seinen unglaublichen Kraftakt bekannt, als er vier Auerochsen im Wald jagt und tötet und damit seine heldenhaften Eigenschaften unter Beweis stellt.
+
+        „Da fielen ihm ein Büffel, ein Elch, vier grimmige Auerochsen und ein Bär in die Hände, und weder Hirsch noch Hirschkuh konnten ihm entkommen, so schnell und stark war er.”'

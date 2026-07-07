@@ -1,0 +1,38 @@
+page: narrative/03-xixth-century/006-1812-peace-treaty-bucharest
+title: {}
+units:
+  u00231:
+    kind: quad
+    en_hash: 798d161a
+    ro:
+      status: ok
+      text: În urma războiului ruso-turc din 1806-1812, Tratatul de pace din 1812 a fost semnat la Hanul lui Manuc din București. Ca urmare, teritoriul Basarabiei, situat între râurile Prut și Nistru, a fost rupt din Moldova și cedat Rusiei.
+    fr:
+      status: ok
+      text: Après la guerre russo-turque de 1806-1812, le traité de paix de 1812 a été signé à l'auberge de Manuc à Bucarest. Le territoire de la Bessarabie, situé entre les rivières Prut et Nistru, a été détaché de la Moldavie et cédé à la Russie.
+    de:
+      status: ok
+      text: Nach dem Russisch-Türkischen Krieg von 1806-1812 wurde im Gasthof des Manuc in Bukarest der Friedensvertrag von 1812 unterzeichnet. Infolgedessen wurde das zwischen den Flüssen Prut und Nistru gelegene Gebiet Bessarabien aus Moldawien herausgelöst und an Russland abgetreten.
+  u00235:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: Manuc’s Inn | Hanu’ lui Manuc | L'auberge de Manuc | Gasthof des Manuc
+  u00240:
+    kind: quad
+    en_hash: fe246126
+    ro:
+      status: ok
+      text: Hanul lui Manuc, locul istoric unde a fost semnat Tratatul de la București în 1812, continuă să prospere și astăzi ca un restaurant rustic și un reper cultural în inima Bucureștiului.
+  u00241:
+    kind: quad
+    en_hash: 5d029626
+    ro:
+      status: ok
+      text: Situat în inima vibrantului Centru Vechi al Bucureștiului, Hanul lui Manuc oferă nu numai o experiență culinară istorică, ci și o locație imbatabilă în apropierea celor mai captivante atracții ale orașului. La doar câteva minute distanță, vizitatorii pot asista la spectaculoasele Fântâni Dansante din Piața Unirii, un spectacol hipnotizant de apă, muzică, lumini și proiecții 3D care are loc în fiecare weekend din mai până în octombrie.
+    fr:
+      status: ok
+      text: Situé au cœur de la vieille ville animée de Bucarest, le Manuc's Inn offre non seulement une expérience gastronomique historique, mais aussi un emplacement imbattable à proximité des attractions les plus captivantes de la ville. À quelques minutes de là, les visiteurs peuvent assister aux spectaculaires fontaines dansantes de la place Unirii, un spectacle envoûtant d'eau, de musique, de lumières et de projections en 3D qui a lieu tous les week-ends de mai à octobre.
+    de:
+      status: ok
+      text: Der Gasthof des Manuc liegt im Herzen der pulsierenden Altstadt von Bukarest und bietet nicht nur ein historisches Restauranterlebnis, sondern auch eine unschlagbare Lage in der Nähe der faszinierendsten Sehenswürdigkeiten der Stadt. Nur wenige Minuten entfernt können Besucher die spektakulären Tanzenden Fontänen auf dem Unirii-Platz erleben, ein faszinierendes Schauspiel aus Wasser, Musik, Lichtern und 3D-Projektionen, das jedes Wochenende von Mai bis Oktober stattfindet.

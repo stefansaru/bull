@@ -1,0 +1,184 @@
+page: narrative/11-27-parale/004-27-parale-скрисори
+title: {}
+units:
+  u00970:
+    kind: quad
+    en_hash: e3b0c442
+    fr:
+      status: ok
+      text: ⏭ Figure 196 🔍
+    de:
+      status: ok
+      text: ⏭ Figure 194 🔍
+  u00971:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "C1\tVârfurile sunt foarte apropiate, dar nu se ating."
+  u00972:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "K\tPiciorul stâng are un călcâi lung."
+  u00973:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "K\tPartea superioară a brațului drept are o creastă lungă."
+  u00974:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "K\tPiciorul drept este ondulat."
+  u00975:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "И1\tLinia interioară se termină cu o umflătură pe piciorul stâng."
+  u00976:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "И1\tPiciorul drept are o creastă lungă în partea superioară."
+  u00977:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "C2\tSeamănă cu un G."
+  u00978:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "P2\tPiciorul stâng are o creastă vizibilă în partea superioară."
+  u00979:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "P2\tPartea din față a piciorului este uşor curbată."
+  u00980:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "И2\tPartea inferioară a liniei interioare este curbată spre piciorul stâng."
+  u00981:
+    kind: text
+    orphan_lang: ro
+    status: orphan
+    text: "И1,2\tИ1 este mai îngust decât И2."
+  u00982:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "C1\tLes sommets sont très proches, mais ne se touchent pas."
+  u00983:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "K\tLe pied gauche a un long talon."
+  u00984:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "K\tLa partie supérieure du bras droit présente une longue crête."
+  u00985:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "K\tLa jambe droite est ondulée."
+  u00986:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "И1\tLa ligne intérieure se termine par un bourrelet sur la jambe gauche."
+  u00987:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "И1\tLa jambe droite présente une longue crête sur la partie supérieure."
+  u00988:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "C2\tressemble à un G."
+  u00989:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "P2\tLe pied gauche présente une arête visible sur la partie supérieure."
+  u00990:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "P2\tL'avant du pied est légèrement incurvé."
+  u00991:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "И2\tLa partie inférieure de la ligne intérieure est incurvée vers la jambe gauche."
+  u00992:
+    kind: text
+    orphan_lang: fr
+    status: orphan
+    text: "И1,2\tИ1 est plus étroite que И2."
+  u00993:
+    kind: quad
+    en_hash: e3b0c442
+    ro:
+      status: ok
+      text: '1412813151617791011141281315161779101114128131516177910111412813151617791011'
+    fr:
+      status: ok
+      text: ⏭ Figure 193 🔍
+    de:
+      status: ok
+      text: ⏭ Figure 197 🔍
+  u00994:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "C1\tDie Spitzen sind sehr nahe beieinander, berühren sich aber nicht."
+  u00995:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "K\tDer linke Fuß hat eine lange Ferse."
+  u00996:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "K\tDer obere Teil des rechten Arms hat einen langen Grat."
+  u00997:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "K\tDas rechte Bein ist gewellt."
+  u00998:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "И1\tDie innere Linie endet mit einer Ausbuchtung am linken Bein."
+  u00999:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "И1\tDas rechte Bein hat auf der Oberseite einen langen Grat."
+  u01001:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "P2\tDer linke Fuß hat einen sichtbaren Grat auf der Oberseite."
+  u01002:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "P2\tDie Vorderseite des Fußes ist leicht gebogen."
+  u01003:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "И2\tDer untere Teil der inneren Linie ist zum linken Bein hin gekrümmt."
+  u01004:
+    kind: text
+    orphan_lang: de
+    status: orphan
+    text: "И1,2\tИ1 ist schmäler als И2."

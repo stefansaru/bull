@@ -1,0 +1,45 @@
+page: narrative/11-27-parale/007-27-parale
+title: {}
+units:
+  u01055:
+    kind: quad
+    en_hash: b57800c3
+    ro:
+      status: ok
+      text: Goarna poştală are pavilionul umbrit cu puncte clare (pătrate) dispuse pe şase diagonale, lăsând în dreapta un spațiu alb ca o semilună.
+  u01058:
+    kind: quad
+    en_hash: 0275c0ab
+    ro:
+      status: ok
+      text: 'Primele trei linii superioare ale cornului poştal sunt mai groase în partea stângă.
+
+        Piciorul lui "2 " nu atinge vârful.
+
+        Călcâiul lui "2" este triunghiular.
+
+        Buza nu atinge cornul poştal.
+
+        "7" are un unghi obtuz în stânga sus.
+
+        "7" are o creastă uşor curbată.
+
+        Călcâiul mic al literei "7" este curbat în sus.
+
+        Cele trei linii de sus din partea dreaptă nu ating bucla.
+
+        Există un punct pe muştiucul întunecat..
+
+        Sub "27", partea de jos a buclei este o linie subțire.'
+    fr:
+      status: ok
+      text: vv
+  u01060:
+    kind: quad
+    en_hash: e3b0c442
+    fr:
+      status: ok
+      text: ⏭ Figure 193 🔍
+    de:
+      status: ok
+      text: ⏭ Figure 197 🔍
