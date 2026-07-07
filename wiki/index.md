@@ -58,6 +58,10 @@ deep, cited concept pages. *(flagship [[entities/concepts/why-bull-heads-matter]
   postmark occurrences, blocks/strips, forgeries and printing/survival quantities, each cited. Raw data in `data/records.csv`.
 - **Issues:** [[entities/issues/issue-bull-1|🐃 1 — First issue (27/54/81/108 parale)]] ·
   [[entities/issues/issue-bull-2|🐃 2 — Second issue (5/40/80 parale)]]
+- **Denominations:** [[entities/denominations/27-parale|27]] · [[entities/denominations/54-parale|54]] ·
+  [[entities/denominations/81-parale|81 (rarity)]] · [[entities/denominations/108-parale|108]] parale (issue I) ·
+  [[entities/denominations/5-parale|5]] · [[entities/denominations/40-parale|40]] ·
+  [[entities/denominations/80-parale|80]] parale (issue II) — colours, catalogue №, tirages, valuations
 - **Handstamps & seals** ([[entities/handstamps/README|device index]]; from
   [[entities/references/dragomir-stampilografie-1990|Dragomir 1990]], both provinces 1822–):
     - *Obliterators/complementary:* [[entities/handstamps/PM52|PM52]] · [[entities/handstamps/M1|M1]] ·

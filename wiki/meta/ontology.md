@@ -25,7 +25,7 @@ The entity types of the Bull's Head wiki and how they relate. Every page in
 | `catalogue` | `entities/catalogues/` | A philatelic/numismatic reference catalogue | [[Michel]] (MI), [[Scott]] (SC), [[Stanley-Gibbons]] (SG), [[Yvert-Tellier]] (YT), [[LP]] |
 | `reference` | `entities/references/` | A cited bibliographic source | books, articles, archives |
 | `color` | `entities/colors/` | A colour used, with standards (RAL/AMS) | blacks, blues, etc. |
-| `concept` | `entities/concepts/` | A thing/idea with its own page | [[aurochs]], [[bison-wisent]], paper types, currencies, calendars |
+| `concept` | `entities/concepts/` | A thing/idea with its own page | [[aurochs]], [[aurochs-vs-wisent]], paper types, currencies, calendars |
 | `event` | narrative | A dated historical event (usually a narrative H2) | postal reform 1858, treaties, wars |
 
 ## Core relations (expressed via wikilinks + frontmatter)

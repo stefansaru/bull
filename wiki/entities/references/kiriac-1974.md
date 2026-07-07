@@ -32,7 +32,7 @@ Stage-1 raw OCR text under [[../../sources/README|sources/]]:
   [[../../sources/kiriac-1974/chapter-1-postmarks-1858|raw OCR]] ·
   [[../../sources/kiriac-1974/chapter-1-postmarks-1858.en|English]] ·
   [[../../sources/kiriac-1974/chapter-1-postmarks-1858.ro|Romanian (cleaned)]] — translated per
-  [[DR-012|DR-012]].
+  [[../../meta/decisions/DR-012-source-translations|DR-012]].
 
 > Source PDF: `input/references/1974-kiriac-catalogul-marcilor-postale-romanesti.pdf.pdf`
 > (622 pp, scanned). Romanian; OCR loses diacritics — restored when concepts are derived.

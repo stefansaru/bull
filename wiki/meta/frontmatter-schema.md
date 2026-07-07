@@ -38,7 +38,7 @@ status: verbatim                                   # verbatim | reviewed | impro
 The Moldavian post reorganised …                   # English prose (master)
 
 <!-- u:u00614 kind:figure -->
-![image0421.png](../../assets/media/image0421.png)
+![image1.png](../../assets/media/image1.png)
 *Figure 421: …*
 ```
 
