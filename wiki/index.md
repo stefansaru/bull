@@ -18,7 +18,7 @@ The wiki is the source of truth; the book is generated from it. Start with
 - [[AGENTS]] — how to work here; the **concepts → narrative → pagination** pipeline.
 - [[meta/ontology]] · [[meta/glossary]] (symbols & abbreviations) ·
   [[meta/terminology]] (bilingual EN/RO glossary of terms) · [[meta/conventions]] · [[meta/style]]
-- [[meta/requirements]] · [[meta/audit-procedure]]
+- [[meta/requirements]] · [[meta/audit-procedure]] · [[meta/errata|source errata]]
 - [[meta/decisions/README|Decisions (DR)]]
 
 ## Strategy

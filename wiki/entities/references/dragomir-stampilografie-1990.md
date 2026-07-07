@@ -33,6 +33,11 @@ device under a compact **code** and a **figure/plate** number, covering **both
 principalities from 1822** — Moldavia *and* Wallachia (Țara Românească) — through
 1910. It is the direct source for the wiki's per-device handstamp entities.
 
+> **Known issues.** The book contains internal inconsistencies (duplicate figure
+> numbers, an unexpanded `F` code, a device listed only in a table, etc.). These are
+> logged transparently at [[../../meta/errata|meta/errata]] rather than silently
+> "corrected".
+
 ## Provenance
 
 - Romanian; softcover, dark-blue boards showing a montage of postal handstamps.
