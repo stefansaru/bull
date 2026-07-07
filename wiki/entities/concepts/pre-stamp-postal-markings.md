@@ -101,11 +101,14 @@ The pre-stamp markings fall into three families by relation to the adhesive stam
    for Moldavia, the small **`M1`** (1857), the large **`M2`** (1859) and the
    **`M3`** *Franco obliterante* (1859).
 
-Cutting across these are the **service** classes: the **`FM`/`FV`** *Franco* markings
-that prepaid a letter, the **`K`** **quarantine** offices (*carantine* — sanitary
-cordons where letters from plague- and cholera-country were disinfected and struck),
-the *Franco*/*Porto* accounting marks, and the maritime, river and rural services. The
-full key is tabulated in [[../references/dragomir-stampilografie-1990#the-classification-system-dragomirs-codes|the reference page]].
+Cutting across these are the **service** classes: the **`FM`/`FV`** road-post
+**transport-form seals** (§1.3 — the eagle-and-post-cart devices struck on the leased
+post's paperwork; despite the code letter, *not* the "FRANCO" prepayment marks — see
+[[franco-porto-handstamps]]), the **`K`** **quarantine** offices (*carantine* —
+sanitary cordons where letters from plague- and cholera-country were disinfected and
+struck — see [[quarantine-posts]]), the true *FRANCO*/*PORTO* prepayment/accounting
+marks ([[franco-porto-apparatus-1858]]), and the maritime, river and rural services.
+The full key is tabulated in [[../references/dragomir-stampilografie-1990#the-classification-system-dragomirs-codes|the reference page]].
 
 ## Why it belongs in this book
 
@@ -125,4 +128,3 @@ census]]. The reform that produced the adhesive stamp is told in
 - [[moldavia-heraldry|Moldavian heraldry]] · [[aurochs-symbolism|Aurochs symbolism]] — the bull's-head emblem
 - [[../handstamps/PM52|PM52]] · [[../handstamps/M1|M1]] · [[../handstamps/M2|M2]] · [[../handstamps/M3|M3]] — device pages
 - [[postal-history-romania|Postal history to 1858]] — the reform that ended the pre-stamp era
-</content>

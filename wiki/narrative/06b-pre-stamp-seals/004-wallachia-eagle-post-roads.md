@@ -36,4 +36,3 @@ three-year (the *trienale* of 1830 and 1833) to the five-year exploitations of 1
 1841, 1846, 1851 and 1856 — the last extended to 1 May 1862, when the post finally
 passed into direct state management ([[../../entities/handstamps/SV27|SV27]];
 [[../../entities/concepts/menzil-relay-system|menzil relay post]]).
-</content>

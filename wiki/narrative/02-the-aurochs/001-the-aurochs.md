@@ -16,5 +16,3 @@ status: verbatim
 ---
 
 # 🐃 The Aurochs
-
-

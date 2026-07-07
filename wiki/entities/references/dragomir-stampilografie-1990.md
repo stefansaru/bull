@@ -111,11 +111,19 @@ Verbatim from the *ABREVIERI* (photo 8):
 > A trailing lower-case **`t`** after a symbol marks a **late** device (*ștampile
 > târzii*) — e.g. `OBt` = late spa handstamps (photo 8).
 
-**Composite prefixes** used in the catalogue therefore read: **`PM`** = pre-philatelic
-Moldavia, **`PV`** = pre-philatelic Wallachia, **`FM`** = Franco Moldavia, **`FV`** =
-Franco Wallachia. Codes with the same year are distinct devices (e.g. `SM58` at
-several bureaus, `SM58a` at the Directorate); disambiguate by office/description and
-by the `Fig.` number.
+**Composite prefixes** used in the catalogue read: **`PM`** = pre-philatelic
+Moldavia, **`PV`** = pre-philatelic Wallachia, **`FM`** / **`FV`** = the Moldavian /
+Wallachian sections of §1.3. Codes with the same year are distinct devices (e.g.
+`SM58` at several bureaus, `SM58a` at the Directorate); disambiguate by
+office/description and by the `Fig.` number.
+
+> **`FM`/`FV` caution.** By analogy with the class prefixes these read *Franco
+> Moldavia / Valahia*, but the letter **F** is **not spelled out** in Dragomir's §1.3,
+> and the section's figures document the **sigillary handstamps on the leased
+> road-post's transport forms** (eagle + post-cart), *not* "FRANCO"-lettered
+> prepayment marks. The true FRANCO/PORTO prepayment apparatus is
+> [[../concepts/franco-porto-apparatus-1858]] and the obliterating FRANCO is `M3`. See
+> [[../concepts/franco-porto-handstamps]] "⚠ verify against a clean copy of §1.3".
 
 ### County codes (JUDEȚE)
 
@@ -160,5 +168,3 @@ menzil seals) (photo 9, 11).
 - Per-device handstamp entities under [[../handstamps/|entities/handstamps/]] (SM, SV, …).
 - Deepens [[../concepts/menzil-relay-system]] (1822–1834 menzil seals) and
   [[../concepts/moldavia-heraldry]] (heraldic seals predating the 1858 stamps).
-</content>
-</invoke>

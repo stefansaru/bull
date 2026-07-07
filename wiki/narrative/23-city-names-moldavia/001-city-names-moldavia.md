@@ -16,5 +16,3 @@ status: verbatim
 ---
 
 # City names 🌍 Moldavia
-
-

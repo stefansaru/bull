@@ -38,4 +38,3 @@ legend**, classes the devices by a compact code, and — crucially for a book ab
 the bull's head — states the heraldic rule plainly: *the principal element of the
 seals of Moldavia is the cap de bour, and of Wallachia the eagle*
 ([[../../entities/concepts/pre-stamp-postal-markings|pre-stamp markings]]).
-</content>

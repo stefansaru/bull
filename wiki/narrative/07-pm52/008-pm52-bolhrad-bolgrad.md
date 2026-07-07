@@ -13,5 +13,3 @@ status: verbatim
 ---
 
 ## ⨀ PM52 🌍 Bolhrad (Bolgrad) (?)
-
-

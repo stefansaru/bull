@@ -156,5 +156,3 @@ of a nation was moved.
 - [4] The Inn's story — Restaurant Hanu' lui Manuc. https://hanumanucrestaurant.ro/en/the_inn_story/
 - [5] Hanul lui Manuc — Bucharest Uncovered. https://unknownbucharest.com/hanul-lui-manuc-manucs-inn/
 - [6] Manuc Bei: legend character — Hanul lui Manuc (official site). https://www.hanulluimanuc.ro/en/manuc-bei-personaj-de-legenda/
-</content>
-</invoke>

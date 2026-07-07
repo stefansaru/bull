@@ -27,11 +27,15 @@ office's mark, class **`K`** in Dragomir's key. These are as much sanitary histo
 as postal history — the point at which epidemic control and the letter post met
 ([[../../entities/concepts/quarantine-posts|quarantine posts]]).
 
-The second is the **Franco / Porto** family — the **`FM`** (Moldavia) and **`FV`**
-(Wallachia) handstamps that recorded whether a letter was **prepaid** (*FRANCO*) or
-to be **collected** (*PORTO*) — the accounting logic the adhesive stamp would soon
-absorb into a single gummed token
-([[../../entities/concepts/franco-porto-handstamps|Franco/Porto handstamps]];
+The second is the **road-post transport-form** family — Dragomir's **`FM`**
+(Moldavia) and **`FV`** (Wallachia) sections. These are the sigillary handstamps
+struck on the **printed transport forms** of the leased road-post — the Wallachian
+device again a **cross-bearing eagle over a four-horse post-cart**, the Moldavian
+case mostly handwritten *miziluri* with printed forms rare
+([[../../entities/concepts/franco-porto-handstamps|the FM/FV family]]). Despite the
+code letter, the section is *not* the "FRANCO"-lettered prepayment marks: the
+accounting logic of **franco** (paid) versus **porto** (payable on arrival) — the
+logic the adhesive stamp would soon absorb into a single gummed token — belongs to
+the reformed post and is treated at
 [[../../entities/concepts/franco-porto-apparatus-1858|the 1858 franco/porto
-apparatus]]).
-</content>
+apparatus]].

@@ -13,5 +13,3 @@ status: verbatim
 ---
 
 ### 54 Parale 🆁 Replica ⏭ 📖 Stiedl-Billig
-
-

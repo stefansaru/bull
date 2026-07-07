@@ -42,6 +42,7 @@ deep, cited concept pages. *(flagship [[entities/concepts/why-bull-heads-matter]
 - **Postal history:** [[entities/concepts/postal-history-romania]] ·
   [[entities/concepts/pre-stamp-postal-markings|pre-stamp markings (1822–58, both provinces)]] ·
   [[entities/concepts/menzil-relay-system]] · [[entities/concepts/foreign-post-offices]] ·
+  [[entities/concepts/quarantine-posts|quarantine posts 🩺]] · [[entities/concepts/franco-porto-handstamps|FM/FV road-post forms]] ·
   [[entities/concepts/bull-head-stamp-distribution-1858]] · [[entities/concepts/franco-porto-apparatus-1858]] ·
   [[entities/places/atelia-timbrului]] · [[entities/places/old-post-buildings]] ·
   [[entities/events/unification-of-posts-1862]] · [[entities/events/beginnings-romanian-telegraph]]
@@ -57,12 +58,23 @@ deep, cited concept pages. *(flagship [[entities/concepts/why-bull-heads-matter]
   postmark occurrences, blocks/strips, forgeries and printing/survival quantities, each cited. Raw data in `data/records.csv`.
 - **Issues:** [[entities/issues/issue-bull-1|🐃 1 — First issue (27/54/81/108 parale)]] ·
   [[entities/issues/issue-bull-2|🐃 2 — Second issue (5/40/80 parale)]]
-- **Handstamps & seals:** [[entities/handstamps/README|device index]] ·
-  *obliterators* [[entities/handstamps/PM52|PM52]] · [[entities/handstamps/M1|M1]] ·
-  [[entities/handstamps/M2|M2]] · [[entities/handstamps/M3|M3]] · [[entities/handstamps/C1|C1]] ·
-  *Moldavian seals* [[entities/handstamps/SM22|SM22]] · [[entities/handstamps/SM27|SM27]] ·
-  [[entities/handstamps/SM30|SM30 🐂]] · [[entities/handstamps/SM58|SM58 🐂]]
-  (from [[entities/references/dragomir-stampilografie-1990|Dragomir 1990]]; both provinces, 1822–)
+- **Handstamps & seals** ([[entities/handstamps/README|device index]]; from
+  [[entities/references/dragomir-stampilografie-1990|Dragomir 1990]], both provinces 1822–):
+    - *Obliterators/complementary:* [[entities/handstamps/PM52|PM52]] · [[entities/handstamps/M1|M1]] ·
+      [[entities/handstamps/M2|M2]] · [[entities/handstamps/M3|M3]] · [[entities/handstamps/C1|C1]]
+    - *Moldavian seals 🐂:* [[entities/handstamps/SM22|SM22]] · [[entities/handstamps/SM27|SM27]] ·
+      [[entities/handstamps/SM30|SM30]] · [[entities/handstamps/SM46|SM46]] · [[entities/handstamps/SM52|SM52]] ·
+      [[entities/handstamps/SM55|SM55]] · [[entities/handstamps/SM56|SM56]] · [[entities/handstamps/SM57|SM57]] ·
+      [[entities/handstamps/SM58|SM58]] · [[entities/handstamps/SM59|SM59]] ·
+      *stations* [[entities/handstamps/SPM59|SPM59]] · [[entities/handstamps/SPM62|SPM62]] ·
+      [[entities/handstamps/SPM64|SPM64]] · [[entities/handstamps/SPM65|SPM65]] ·
+      *captains* [[entities/handstamps/CPM|CPM]]
+    - *Wallachian seals 🦅:* [[entities/handstamps/SV27|SV27]] · [[entities/handstamps/SV30|SV30]] ·
+      [[entities/handstamps/SV33|SV33]] · [[entities/handstamps/SV46|SV46]] · [[entities/handstamps/SV51|SV51]] ·
+      [[entities/handstamps/SV56|SV56]] · [[entities/handstamps/SV-stations|stations]] ·
+      [[entities/handstamps/CpV|captains]] · [[entities/handstamps/SV-sigilii-cu-pene|feather-seals]]
+    - *Service classes:* [[entities/handstamps/FV|FV]] · [[entities/handstamps/FM|FM]] (road-post forms) ·
+      [[entities/handstamps/K|K]] 🩺 (quarantine)
 - **Postmarks:** [[entities/postmarks/kiriac-figures|Kiriac figure catalogue]] (the devices —
   from Kiriac 1974) · [[entities/postmarks/census|Auction postmark census]] — 329 markings
   (98 on Bull's Head) from the auction catalogues ·
@@ -75,6 +87,10 @@ deep, cited concept pages. *(flagship [[entities/concepts/why-bull-heads-matter]
   [[entities/references/kiriac-1974|Kiriac 1974]] · [[entities/references/wertheimer-ghika-1944|Wertheimer-Ghika 1944]] ·
   [[entities/references/dragomir-stampilografie-1990|Dragomir *Ștampilografie* 1990]] ·
   [[entities/references/bulls-head-lots|Notable lots EN/RO]] ·
+  **stamp catalogues** [[entities/references/carjan-manole-timbre-2006|Cârjan-Manole 2006]] ·
+  [[entities/references/spineanu-catalog-marci-1984|Spineanu 1984]] ·
+  [[entities/references/chirices-pascariu-catalog|Chiricheș-Pascariu]] ·
+  [[entities/references/bull-head-catalogue-valuations|📊 valuations compared]] ·
   Michel · Scott · Stanley-Gibbons · Yvert-Tellier · LP
 - **Concepts:** [[entities/concepts/aurochs|🐃 Aurochs]] · bison/wisent · paper · colours · currencies · calendars
 - **Places / People / References** — see `entities/`.

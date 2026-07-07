@@ -13,5 +13,3 @@ status: verbatim
 ---
 
 # 🎨 Colors
-
-

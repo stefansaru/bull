@@ -40,4 +40,3 @@ material of [[../../entities/concepts/bull-head-postmarks-from-documents|the pos
 record]] and the [[../../entities/postmarks/census|postmark census]]. The device
 index for the whole pre-stamp world is at
 [[../../entities/handstamps/README|entities/handstamps/]].
-</content>

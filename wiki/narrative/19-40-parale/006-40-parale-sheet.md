@@ -12,5 +12,3 @@ status: verbatim
 ---
 
 ## 40 Parale Sheet
-
-

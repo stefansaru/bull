@@ -41,4 +41,3 @@ So when Moldavia reached for a design in 1858, it reproduced the charge its post
 handled every day. The stamp is the latest voice of a device running from the
 Maramureș seals of the 1380s, through Petru Mușat's groat, to the menzil seal of
 1830 ([[../../entities/concepts/aurochs-symbolism|aurochs symbolism]]).
-</content>

@@ -15,5 +15,3 @@ status: verbatim
 ---
 
 ## Auctions
-
-

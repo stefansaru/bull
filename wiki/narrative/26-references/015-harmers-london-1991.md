@@ -13,5 +13,3 @@ status: verbatim
 ---
 
 ### 📖 Harmers 🌍 London 📅 1991
-
-

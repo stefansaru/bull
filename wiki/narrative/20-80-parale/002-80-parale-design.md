@@ -12,5 +12,3 @@ status: verbatim
 ---
 
 ## 80 Parale Design
-
-

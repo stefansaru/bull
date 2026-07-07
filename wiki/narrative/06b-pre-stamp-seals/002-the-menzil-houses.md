@@ -34,4 +34,3 @@ Wallachia kept its own central office, the *Casa Menzilurilor Valahiei*, whose s
 postillion — the emblem of Țara Românească — under the legend *"PECETE KĂSII
 MENZILURILOR WALACHII 1827"*. The two provinces, two houses, two emblems: the whole
 pre-stamp record runs in this parallel.
-</content>

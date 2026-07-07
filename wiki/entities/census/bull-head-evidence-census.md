@@ -481,4 +481,3 @@ Full rows in [`data/records.csv`](data/records.csv). Covers & lots by denominati
 | 5pa | II | 133 | 6 |
 | 40pa | II | 112 | 21 |
 | 80pa | II | 90 | 26 |
-

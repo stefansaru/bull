@@ -13,5 +13,3 @@ status: verbatim
 ---
 
 ## 🐃 2: Catalogue no. | Nr. catalog | Catalogue n° | Katalog-Nr.
-
-

@@ -12,5 +12,3 @@ status: verbatim
 ---
 
 ## 54 Parale Examples
-
-

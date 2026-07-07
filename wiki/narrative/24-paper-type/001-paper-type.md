@@ -12,5 +12,3 @@ status: verbatim
 ---
 
 # Paper Type
-
-
