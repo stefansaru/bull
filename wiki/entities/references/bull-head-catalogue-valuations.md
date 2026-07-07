@@ -110,7 +110,9 @@ Notes:
 - **Issue II tirages:** 5 P 7 008 (blue) + 16 032 (white/yellow); 40 P 106 032;
   80 P 60 072 — agree across all three (Sp p.4; C-M p.16; Ch-P p.5).
 - **Issue date discrepancy:** Spineanu and Chiricheș-Pascariu date issue I from
-  **22 July 1858**; **Cârjan-Manole** gives **15 July 1858** (C-M p.12). ⚠ (noted).
+  **22 July 1858**; **Cârjan-Manole** gives **15 July 1858** (C-M p.12). ⚠ (noted). For
+  the *end* of issue II the catalogues also differ — **1 May 1862** (C-M) vs **5 May
+  1862** (Sp). See [[../../meta/errata|errata #24–25]].
 
 ## Feeds
 

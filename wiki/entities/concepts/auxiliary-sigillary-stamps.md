@@ -55,9 +55,10 @@ photos 92, 94–95). Full table at **[[../handstamps/SAD|SAD]]**.
 Negative seals of **village authorities** (schools, tax collectors — *școli, percepții*),
 applied to letters those authorities sent; in the philatelic period they are found
 **completed by a postal dispatch/arrival cancel**
-([[../../sources/dragomir-stampilografie-1990/text|Ștampilografie]] photo 95). Six are
-figured (Fig. 179–183, Planșa 12) — **Haimanale, Toporu, Păucești, Podoleni, Țintăreni,
-Soveja** — and three more are merely listed (Hârlești, Drăgănești, Zănești). Several carry
+([[../../sources/dragomir-stampilografie-1990/text|Ștampilografie]] photo 95). **Five are
+figured** (Fig. 179–183, Planșa 12) — **Haimanale, Toporu, Păucești, Țintăreni, Soveja** —
+while **Satul Podoleni** is described but carries no figure ([[../../meta/errata|errata #10i]]);
+three more are merely listed (Hârlești, Drăgănești, Zănești). Several carry
 a **county emblem** in the field: the four-horse **cart** of Vâlcea (Păucești), the **black
 goat** of Neamț (Podoleni), a **fish** for Dolj (Țintăreni)
 ([[../../sources/dragomir-stampilografie-1990/text|Ștampilografie]] photo 95). Full table

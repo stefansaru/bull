@@ -27,7 +27,7 @@ followed by the last two digits of the seal's first year of use and the station 
 (e.g. **`K30 CERNEȚI`** = the first, 1830, seal of the Cerneți quarantine)
 ([[../../sources/dragomir-stampilografie-1990/text|Ștampilografie]] photo 71). Dragomir
 records **70 known Romanian quarantine stamps, 6 of them unencountered**; Racoviceanu
-(1962) had described only six Wallachian examples
+(1963) had described only six Wallachian examples
 ([[../../sources/dragomir-stampilografie-1990/text|Ștampilografie]] photo 71). The full
 context is at **[[../concepts/quarantine-posts]]**.
 

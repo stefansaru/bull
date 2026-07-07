@@ -37,6 +37,11 @@ markings, but the photographed copy shows the following issues. Citations are to
    [[../entities/concepts/franco-porto-handstamps]]. The true FRANCO/PORTO prepayment
    apparatus is a different thing ([[../entities/concepts/franco-porto-apparatus-1858]]);
    the obliterating FRANCO is `M3`.
+   - **`FV` form-frame range — summary vs captions.** The §1.3 summary sentence says the
+     Wallachian transport forms are framed *Md. I – Md. XI*, but the individual figure
+     captions run to **Md. XIII** (Fig. 119 = Md. XII, Fig. 120 = Md. XIII). The device
+     page [[../entities/handstamps/FV]] uses the true maximum (XIII); the summary
+     under-counts.
 2. **`SV` is an overloaded code.** In the *ABREVIERI* `SV` = *Sigilare Valahia* (a
    marking class) **and** `SV` = *Suceava* (a county in the JUDEȚE list) (photo 8).
    Disambiguated only by position/context.
@@ -167,19 +172,23 @@ From deriving [[../entities/handstamps/PM52]], [[../entities/handstamps/PM57]],
 
 From mining the Bull's Head valuations ([[../entities/references/bull-head-catalogue-valuations|comparison]]):
 
-10. **First-issue date disagreement.** [[../entities/references/carjan-manole-timbre-2006|Cârjan-Manole 2006]]
+24. **First-issue date disagreement.** [[../entities/references/carjan-manole-timbre-2006|Cârjan-Manole 2006]]
     gives the first issue as **15 July 1858**, while
     [[../entities/references/spineanu-catalog-marci-1984|Spineanu 1984]] and
     [[../entities/references/chirices-pascariu-catalog|Chiricheș-Pascariu]] give **22 July
     1858** (the date used elsewhere in this wiki — see [[../entities/issues/issue-bull-1]]).
-11. **Cârjan-Manole internal price inconsistency.** Its issue-II **summary table** gives
+25. **Second-issue end-date disagreement.** For the *end* of the second issue,
+    Cârjan-Manole gives **1 May 1862** while Spineanu gives **5 May 1862**
+    (Chiricheș-Pascariu: "1862 May"). A one-day-vs-five slip, each faithful to its
+    catalogue; noted on [[../entities/references/bull-head-catalogue-valuations|the comparison]].
+26. **Cârjan-Manole internal price inconsistency.** Its issue-II **summary table** gives
     40 parale = 400/300 and 80 parale = 1 675/800, contradicting its own **dedicated
     per-stamp pages** (450/350 and 850/700). The dedicated pages are taken as
     authoritative on the comparison page; the discrepancy is noted there.
-12. **Chiricheș-Pascariu price unit not legible.** The magnitudes suggest a converted
+27. **Chiricheș-Pascariu price unit not legible.** The magnitudes suggest a converted
     EUR-like unit, but the unit is not stated on the photographed pages — values are
     recorded with a "⚠ verify" caveat.
-13. **Terminology drift.** The stamps' subject is called *Cap de bour* in most sources
+28. **Terminology drift.** The stamps' subject is called *Cap de bour* in most sources
     but *Cap de zimbru* (bison) in places — the aurochs/wisent question the wiki tracks
     as `debated` at [[../entities/concepts/aurochs-vs-wisent]].
 

@@ -111,7 +111,7 @@ Not in the front-matter *ABREVIERI* key — introduced in §2.2–§2.5. Overvie
 | Code | Class | Fig. (Plate) | Notes |
 |------|-------|--------------|-------|
 | [[SAD]] | Ștampile sigilare **districtuale** (county) | Fig.173–178 (Pl.11) | 6 seals, Herța 1824 – Botoșani 1831 |
-| [[SAS]] | Ștampile sigilare **sătești** (village) | Fig.179–183 (Pl.12) | 6 figured + 3 listed |
+| [[SAS]] | Ștampile sigilare **sătești** (village) | Fig.179–183 (Pl.12) | 5 figured + Podoleni unfigured + 3 listed |
 | [[ST]] | Ștampile **telegrafice** (telegraph) | Fig.185–191 (Pl.13) | 11 devices — **coded `TL`, not `ST`** ([[../../meta/errata|errata #10a]]) |
 | [[SAV]] | Ștampile **vamale** (customs) | Fig.193–200 (Pl.14) | 72-office list — coded `SV`/`SAV` ([[../../meta/errata|errata #10b]]) |
 

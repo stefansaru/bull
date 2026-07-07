@@ -136,7 +136,7 @@ quarantine)
 ([[../../sources/dragomir-stampilografie-1990/text|Ștampilografie]] photo 71). He counts
 **70 known Romanian quarantine stamps, of which 6 are unencountered**
 ([[../../sources/dragomir-stampilografie-1990/text|Ștampilografie]] photo 71). This much
-enlarges the earlier record: **Racoviceanu (1962, pp. 123–129)** described only **six**
+enlarges the earlier record: **Racoviceanu (1963, pp. 123–129)** described only **six**
 Wallachian quarantine stamps; Dragomir's own **1979** *Filatelia* study ("Primele hărți,
 sigilii și ștampile românești ale poștelor și carantinelor") is the basis of the
 expanded treatment.

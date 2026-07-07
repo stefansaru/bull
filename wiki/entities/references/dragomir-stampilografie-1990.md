@@ -170,6 +170,6 @@ menzil seals) (photo 9, 11).
 - [[../concepts/pre-stamp-postal-markings]] — the anchor concept for the 1822–1858 era.
 - [[../handstamps/PM52|PM52]] · [[../handstamps/M1|M1]] · [[../handstamps/M2|M2]] ·
   [[../handstamps/M3|M3]] · [[../handstamps/C1|C1]] — the concordance these codes needed.
-- Per-device handstamp entities under [[../handstamps/|entities/handstamps/]] (SM, SV, …).
+- Per-device handstamp entities under [[../handstamps/README|entities/handstamps/]] (SM, SV, …).
 - Deepens [[../concepts/menzil-relay-system]] (1822–1834 menzil seals) and
   [[../concepts/moldavia-heraldry]] (heraldic seals predating the 1858 stamps).

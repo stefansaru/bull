@@ -43,7 +43,9 @@ the 1858 documentary apparatus.
 ## What the FV / FM devices are
 
 The Wallachian forms (`FV`) are **large-format printed sheets, framed with
-ornamental arabesque borders** that Dragomir numbers **Md. I – Md. XI**. In the
+ornamental arabesque borders** that Dragomir numbers **Md. I – Md. XIII** (his
+summary sentence reads *Md. I – Md. XI*, but the individual form captions run to
+**Md. XIII** — a slip in the source, [[../../meta/errata|errata]]). In the
 upper field of the seal **predominates the crowned, cross-bearing eagle (*acvila
 cruciată*, the "vulture" of philatelic usage) in full flight, head turned to its
 right, holding in its talons the sword and the mace — the emblems of power**
