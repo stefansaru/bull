@@ -1,0 +1,30 @@
+{
+  "@@locale": "en",
+  "appTitle": "Bull's Head 1858",
+  "contents": "Contents",
+  "reference": "Reference",
+  "search": "Search",
+  "settings": "Settings",
+  "continueReading": "Continue reading",
+  "previousSection": "Previous",
+  "nextSection": "Next",
+  "searchHint": "Search the book",
+  "noResults": "No results",
+  "language": "Book language",
+  "privacyPolicy": "Privacy policy",
+  "privacySummary": "This app collects no personal data and works fully offline.",
+  "about": "About",
+  "publisher": "Published by Jini Solutions",
+  "contentMissing": "The book content is missing. Run the wizard to build it.",
+  "zoomHint": "Pinch or press select to zoom",
+  "close": "Close",
+  "imagesNote": "Some images are not included in this edition.",
+  "version": "Version {version}",
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  }
+}

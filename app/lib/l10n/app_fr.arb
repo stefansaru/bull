@@ -1,0 +1,23 @@
+{
+  "@@locale": "fr",
+  "appTitle": "Tête d'aurochs 1858",
+  "contents": "Sommaire",
+  "reference": "Référence",
+  "search": "Rechercher",
+  "settings": "Paramètres",
+  "continueReading": "Reprendre la lecture",
+  "previousSection": "Précédent",
+  "nextSection": "Suivant",
+  "searchHint": "Rechercher dans le livre",
+  "noResults": "Aucun résultat",
+  "language": "Langue du livre",
+  "privacyPolicy": "Politique de confidentialité",
+  "privacySummary": "Cette application ne collecte aucune donnée personnelle et fonctionne entièrement hors ligne.",
+  "about": "À propos",
+  "publisher": "Publié par Jini Solutions",
+  "contentMissing": "Le contenu du livre est manquant. Lancez l'assistant pour le générer.",
+  "zoomHint": "Pincez ou appuyez sur OK pour zoomer",
+  "close": "Fermer",
+  "imagesNote": "Certaines images ne figurent pas dans cette édition.",
+  "version": "Version {version}"
+}

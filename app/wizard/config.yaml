@@ -1,0 +1,17 @@
+# Wizard configuration. Requirement IDs refer to app/docs/requirements/.
+
+# Content languages (STRAT-OBJ-002, APP-L10N-002). English is the master and always
+# ships. A candidate ships only when its share of "ok" translations reaches the
+# threshold; below it the language is reported but left out of the bundle.
+master_language: en
+candidate_languages: [ro, fr, de]
+min_translation_coverage: 0.98
+
+# Image processing for the bundle (APP-CNT-003, APP-RDR-002). Long edge in pixels:
+# large enough to zoom into a stamp, small enough to keep the AAB under the store limit.
+image_max_edge: 2048
+image_quality: 82
+
+# Release gate: the bundle must stay under this size (MB) while images ship inside
+# the AAB. Above it, move images to a Play Asset Delivery pack (TODO.md).
+bundle_size_limit_mb: 150

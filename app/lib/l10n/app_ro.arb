@@ -1,0 +1,23 @@
+{
+  "@@locale": "ro",
+  "appTitle": "Cap de bour 1858",
+  "contents": "Cuprins",
+  "reference": "Referințe",
+  "search": "Căutare",
+  "settings": "Setări",
+  "continueReading": "Continuă lectura",
+  "previousSection": "Înapoi",
+  "nextSection": "Înainte",
+  "searchHint": "Caută în carte",
+  "noResults": "Niciun rezultat",
+  "language": "Limba cărții",
+  "privacyPolicy": "Politica de confidențialitate",
+  "privacySummary": "Aplicația nu colectează date personale și funcționează complet offline.",
+  "about": "Despre",
+  "publisher": "Publicată de Jini Solutions",
+  "contentMissing": "Conținutul cărții lipsește. Rulează wizard-ul pentru a-l genera.",
+  "zoomHint": "Ciupește sau apasă OK pentru zoom",
+  "close": "Închide",
+  "imagesNote": "Unele imagini nu sunt incluse în această ediție.",
+  "version": "Versiunea {version}"
+}

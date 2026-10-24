@@ -89,6 +89,25 @@ status: draft                                       # draft | reviewed | verifie
 ---
 ```
 
+## Image rights registry (`assets/rights.yml`)
+
+Images carry no frontmatter of their own. Their rights live in one registry keyed by
+path under `wiki/`. The app pipeline (`app/wizard`) reads it and ships only `cleared`
+images; the book exporter should honour it too once the *Q-commercial* decision is taken.
+Full procedure: `app/docs/content-pipeline.md`.
+
+```yaml
+images:
+  assets/media/image219.jpg:
+    status: pending      # pending | cleared | omit
+    provenance: ""       # own scan / book, year, page / auction house, sale, lot / archive
+    licence: ""          # own work / public domain (why) / permission (ref) / licence name
+    note: ""             # where the permission document is kept, caveats
+```
+
+`cleared` requires both `provenance` and `licence`. New images are added as `pending`
+by `py -3 app/wizard/wizard.py --rights-init`; existing entries are never rewritten.
+
 ## Conventions
 
 - `title` is always a 4-language map; English is required, others optional.

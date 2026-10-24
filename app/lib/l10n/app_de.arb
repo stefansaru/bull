@@ -1,0 +1,23 @@
+{
+  "@@locale": "de",
+  "appTitle": "Auerochsenkopf 1858",
+  "contents": "Inhalt",
+  "reference": "Nachschlagen",
+  "search": "Suche",
+  "settings": "Einstellungen",
+  "continueReading": "Weiterlesen",
+  "previousSection": "Zurück",
+  "nextSection": "Weiter",
+  "searchHint": "Im Buch suchen",
+  "noResults": "Keine Treffer",
+  "language": "Sprache des Buches",
+  "privacyPolicy": "Datenschutzerklärung",
+  "privacySummary": "Diese App erhebt keine personenbezogenen Daten und funktioniert vollständig offline.",
+  "about": "Über",
+  "publisher": "Herausgegeben von Jini Solutions",
+  "contentMissing": "Der Buchinhalt fehlt. Führe den Assistenten aus, um ihn zu erzeugen.",
+  "zoomHint": "Zum Zoomen ziehen oder OK drücken",
+  "close": "Schließen",
+  "imagesNote": "Einige Bilder sind in dieser Ausgabe nicht enthalten.",
+  "version": "Version {version}"
+}
