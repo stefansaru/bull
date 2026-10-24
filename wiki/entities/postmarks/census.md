@@ -10,7 +10,7 @@ unique_kiriac_figs: 150
 
 # Auction postmark census
 
-> Every postmark/marking identified on Moldavia–Wallachia material across the ingested [[../references/README|auction catalogues]], anchored on the **Kiriac (Dragomir) figure number** — the field's public postmark identifier ([[../../strategy/market-research]]). Use this to build the [[../handstamps/PM52|PM52]]/[[../handstamps/M1|M1]]… → Kiriac concordance the book still needs.
+> Every postmark/marking identified on Moldavia–Wallachia material across the ingested [[../references/auctions/README|auction catalogues]], anchored on the **Kiriac (Dragomir) figure number** — the field's public postmark identifier ([[../../strategy/market-research]]). Use this to build the [[../handstamps/PM52|PM52]]/[[../handstamps/M1|M1]]… → Kiriac concordance the book still needs.
 
 > **Companion:** [[kiriac-figures]] catalogues the *devices* themselves (from the Kiriac 1974 catalogue) — type, towns, dimensions, ink, period. Note the auction `Kiriac fig.` numbers below are from the **1990 *Ștampilografie***, a different numbering of the same devices; map by device + town. e.g. auction "JASSY / MOLDOVA" red = the B.1 *MOLDOVA* Iași datestamp (Kiriac-1974 Fig. 40-54), red-carmine used only 28 Aug–18 Oct 1858.
 

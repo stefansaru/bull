@@ -49,4 +49,17 @@ void main() {
     await tester.pumpAndSettle();
     expect(find.text('The lowest value.'), findsOneWidget);
   });
+
+  testWidgets('references are subdivided by kind', (tester) async {
+    await pumpApp(tester);
+    await tester.tap(find.text('Reference'));
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('References'));
+    await tester.pumpAndSettle();
+    expect(find.text('Auctions'), findsOneWidget);
+    expect(find.text('Books'), findsOneWidget);
+    await tester.tap(find.text('Corinphila 328 (2024)'));
+    await tester.pumpAndSettle();
+    expect(find.text("70 Bull's Head lots."), findsOneWidget);
+  });
 }

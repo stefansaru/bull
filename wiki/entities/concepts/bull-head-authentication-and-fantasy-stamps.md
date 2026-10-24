@@ -6,7 +6,7 @@ title:
 status: debated
 refs:
   - "[[../../sources/wertheimer-ghika-1944/text]]"
-  - "[[../references/wertheimer-ghika-1944]]"
+  - "[[../references/books/wertheimer-ghika-1944]]"
   - "[[forgeries]]"
 themes: [philately, authentication, forgery, historiography]
 feeds_chapter: "🐃 1 / References"
@@ -160,6 +160,6 @@ method is what the field kept.
 
 - [[forgeries]] — the forgers (Moroiu, Sperati, Fournier) and physical detection, the complementary axis
 - [[early-philatelic-study]] — the catalogue tradition W.-G. set himself against
-- [[../references/wertheimer-ghika-1944]] — the source reference entry
+- [[../references/books/wertheimer-ghika-1944]] — the source reference entry
 - [[../postmarks/census]] — the modern postmark-by-device census
 - [[scarcity-of-bull-heads]] — why an authentic *used* strike drives value

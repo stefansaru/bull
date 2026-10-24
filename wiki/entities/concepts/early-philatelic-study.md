@@ -5,7 +5,7 @@ title:
   en: "The study of the Bull's Heads — from Magnus 1869 to Heimbüchler"
 status: draft
 refs:
-  - "[[../references/kiriac-1974]]"
+  - "[[../references/catalogues/kiriac-1974]]"
   - "[[../postmarks/kiriac-figures]]"
   - "[[../../sources/magnus-1869-timbres-moldavie/text]]"
   - "[[../../sources/scaiceanu-2011-filatelie/text]]"
@@ -154,7 +154,7 @@ systems that must not be conflated**:
    microscopic forgery-distinguishing marks. Its Chapter I is a catalogue of the classic
    1858 postmarks, and its **"Kiriac figure" numbers (Fig. 37–119)** became the *de
    facto* public reference for these cancellations, cited across auction catalogues
-   ([[../references/kiriac-1974]]). The structured derivation of that chapter — each
+   ([[../references/catalogues/kiriac-1974]]). The structured derivation of that chapter — each
    figure mapped to marking type, towns, dimensions, ink and period — lives in
    [[../postmarks/kiriac-figures]].
 2. **The 1990 *Ștampilografie poștală*** — Dragomir's later handstamp study, which
@@ -217,14 +217,14 @@ most-forged classics — the whitespace the present project aims at
 | 1861–62 | Potiquet; Moens (1st cat.) | First listings of the material | Phantom "62 para green"; issues confused ([[../../sources/magnus-1869-timbres-moldavie/text\|Magnus 1869]] p. 5) |
 | ~1862–65 | Mount Brown | First correction of the 62-para error | Still no systematic types ([[../../sources/magnus-1869-timbres-moldavie/text\|Magnus 1869]] p. 6) |
 | 1867–69 | **Magnus / Legrand** (via Moens, *Le Timbre-Poste*) | First systematic plating (15 types), source criticism, handstamp explanation, 27-para value | Author himself doubts several types; forgeries "very numerous" ([[../../sources/magnus-1869-timbres-moldavie/text\|Magnus 1869]] pp. 7, 40) |
-| 1974 | **Kiriac Dragomir**, reference catalogue | Standard RO catalogue; "Kiriac figure" postmark numbers | Romanian-only; OOP ([[../references/kiriac-1974]]) |
+| 1974 | **Kiriac Dragomir**, reference catalogue | Standard RO catalogue; "Kiriac figure" postmark numbers | Romanian-only; OOP ([[../references/catalogues/kiriac-1974]]) |
 | 1990 | Kiriac Dragomir, *Ștampilografie poștală* | Fuller handstamp study | **Second, conflicting figure numbering** ([[../postmarks/kiriac-figures]]) |
 | 1994–2007 | **Heimbüchler**, *Die Ochsenköpfe der Moldau* | Definitive plating + forgery reference, DE/EN | OOP, costly, multi-volume, not native EN ([[../../strategy/market-research]]) |
 | 2008 | Dragomir monograph | Deepest Cap-de-bour study | 250 copies, RO only ([[../../strategy/market-research]]) |
 
 ## See also
 
-- [[../references/kiriac-1974]] — the 1974 catalogue and its raw ingestion
+- [[../references/catalogues/kiriac-1974]] — the 1974 catalogue and its raw ingestion
 - [[../postmarks/kiriac-figures]] — the postmark figure catalogue and the two-numbering caution
 - [[forgeries]] — the forgery problem that drives so much of the study
 - [[scarcity-of-bull-heads]] — rarity, census disputes, and why copies were so hard to obtain

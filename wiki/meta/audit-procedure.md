@@ -51,7 +51,7 @@ of defects. Model: like a compliance audit — evidence compared against require
 7. **Faithfulness (REQ-C2).** Sample N=20 `verbatim` sections; diff against source
    blocks; expect no unexplained edits.
 8. **References (REQ-C3).** Sample N=30 factual claims; each must resolve to a
-   [[entities/references|reference]]. Count `needs-ref`; target zero.
+   [[entities/references/auctions|reference]]. Count `needs-ref`; target zero.
 9. **Debates (REQ-C4).** Confirm each known controversy (aurochs vs. wisent; disputed
    plating/printing counts; disputed dates) is `status: debated` with positions.
 10. **Facts (REQ-C5).** Cross-check sampled dates, catalogue numbers, denominations,

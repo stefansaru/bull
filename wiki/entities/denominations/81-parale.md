@@ -17,8 +17,8 @@ catalogue:
 status: draft
 refs:
   - "[[../census/bull-head-evidence-census]]"
-  - "[[../references/bull-head-catalogue-valuations]]"
-  - "[[../references/kiriac-1974]]"
+  - "[[../references/compilations/bull-head-catalogue-valuations]]"
+  - "[[../references/catalogues/kiriac-1974]]"
 ---
 
 # 🐃 81 parale — First issue (1858) — the legendary rarity
@@ -26,7 +26,7 @@ refs:
 The high value of the **first *Cap de bour* issue** ([[../issues/issue-bull-1]]),
 for the double-rate / registered letter — and **among the legendary rarities of
 classic philately**. Catalogued **L.P. 3** (= Kiriac 3 = Michel 3 = **Scott 4** =
-Yvert 3) ([[../references/bull-head-catalogue-valuations|valuations]]).
+Yvert 3) ([[../references/compilations/bull-head-catalogue-valuations|valuations]]).
 
 ## Design & paper
 **Dark blue** on **pale-blueish wove paper** (note: *wove*, where the other three
@@ -35,11 +35,11 @@ values are on *laid* paper — a distinguishing feature)
 
 ## Denomination value
 **81 parale = 75 centimes** (¾ gold franc) in the 1858 gold-franc parity
-(Chiricheș-Pascariu, via [[../references/bull-head-catalogue-valuations]]).
+(Chiricheș-Pascariu, via [[../references/compilations/bull-head-catalogue-valuations]]).
 
 ## Printing & survival — why it is rare
 **Print run only 2,016** — by far the smallest of the first issue — of which just
-**709 sold** ([[../references/bull-head-catalogue-valuations]]). Consequently the 81
+**709 sold** ([[../references/compilations/bull-head-catalogue-valuations]]). Consequently the 81
 parale is the **only Bull's Head value catalogued higher used than unused** in all
 three catalogues (surviving examples are mostly used, unused ones scarcer still).
 
@@ -52,7 +52,7 @@ three catalogues (surviving examples are mostly used, unused ones scarcer still)
 **Scott numbers the 81 parale as №4 and the 108 parale as №3** — i.e. Scott orders
 these two by a different logic than face value (see [[108-parale]]); Kiriac, Michel,
 Yvert and L.P. all keep 81 = №3, 108 = №4
-([[../references/bull-head-catalogue-valuations]]).
+([[../references/compilations/bull-head-catalogue-valuations]]).
 
 ## Relations
 - Issue: [[../issues/issue-bull-1|🐃 1 — First issue]] · siblings [[27-parale]] · [[54-parale]] · [[108-parale]]

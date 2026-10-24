@@ -7,7 +7,7 @@ title:
 status: draft
 refs:
   - "[[../../sources/dragomir-stampilografie-1990/text]]"
-  - "[[../references/dragomir-stampilografie-1990]]"
+  - "[[../references/books/dragomir-stampilografie-1990]]"
   - "[[franco-porto-apparatus-1858]]"
   - "[[pre-stamp-postal-markings]]"
   - "[[menzil-relay-system]]"
@@ -32,7 +32,7 @@ the 1858 documentary apparatus.
 
 > **A naming caution.** The reference key expands the composite codes as **`FM` =
 > *Franco Moldavia*** and **`FV` = *Franco Valahia***
-> ([[../references/dragomir-stampilografie-1990#indicative-codes-marking-classes|code key]]),
+> ([[../references/books/dragomir-stampilografie-1990#indicative-codes-marking-classes|code key]]),
 > by analogy with the class prefixes. But Dragomir's §1.3 text and figures show the
 > chapter's true subject to be the **seals on road-post transport forms**, not
 > "FRANCO"-lettered prepayment marks. The letter **F**'s expansion is **not spelled
@@ -129,5 +129,5 @@ its franco/porto columns and adhesive stamps, would replace.
 - [[pre-stamp-postal-markings]] — the anchor concept for the 1822–1858 devices
 - [[../handstamps/FV|FV]] · [[../handstamps/FM|FM]] — the device pages / tables
 - [[menzil-relay-system|The menzil relay post]] · [[postal-history-romania|Postal history to 1858]]
-- [[../references/dragomir-stampilografie-1990|Dragomir, Ștampilografie (1990)]] — source + code key
+- [[../references/books/dragomir-stampilografie-1990|Dragomir, Ștampilografie (1990)]] — source + code key
 - [[../handstamps/README|Device index]]

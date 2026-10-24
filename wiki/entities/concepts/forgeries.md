@@ -33,7 +33,7 @@ these being among the most-forged classics").
 
 See also: [[scarcity-of-bull-heads]] · [[famous-collectors]] ·
 [[../issues/issue-bull-1]] · [[../issues/issue-bull-2]] ·
-[[../postmarks/kiriac-figures]] · [[../references/README]].
+[[../postmarks/kiriac-figures]] · [[../references/auctions/README]].
 
 ## Why these stamps are so forged
 
@@ -250,7 +250,7 @@ Internal: [[../../strategy/market-research|Market research]] ·
 [[../../narrative/11-27-parale/027-27-parale-replica-stiedl-billig|27 Parale Stiedl-Billig types]] ·
 [[../../narrative/01-introduction/002-what-makes-these-stamps-so-special|What makes these stamps special]] ·
 [[../../sources/botosani-cap-de-bour/text|Nicolau, *Poșta și filateliștii botoșăneni — Cap de bour*]] ·
-[[../postmarks/kiriac-figures]] · [[../references/README]].
+[[../postmarks/kiriac-figures]] · [[../references/auctions/README]].
 
 Web:
 [1] *Moldavian Bull's Heads*, Wikipedia — https://en.wikipedia.org/wiki/Moldavian_Bull's_Heads ·

@@ -8,7 +8,7 @@ marker: "🐂"
 status: draft
 refs:
   - "[[../../sources/dragomir-stampilografie-1990/text]]"
-  - "[[../references/dragomir-stampilografie-1990]]"
+  - "[[../references/books/dragomir-stampilografie-1990]]"
   - "[[../concepts/menzil-relay-system]]"
   - "[[../concepts/pre-stamp-postal-markings]]"
 concordance:

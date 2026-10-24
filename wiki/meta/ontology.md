@@ -22,8 +22,7 @@ The entity types of the Bull's Head wiki and how they relate. Every page in
 | `handstamp` | `entities/handstamps/` | A cancellation / hand stamp device | [[PM52]], [[M1]], [[M2]], [[M3]], [[C1]] |
 | `place` | `entities/places/` | Geographic entity (county, city, country) | Iași, Moldavia, Bucharest, counties |
 | `person` | `entities/people/` | A historical actor | Dragoș, Stephen the Great, Grigore Ghica, Vogoride |
-| `catalogue` | `entities/catalogues/` | A philatelic/numismatic reference catalogue | [[Michel]] (MI), [[Scott]] (SC), [[Stanley-Gibbons]] (SG), [[Yvert-Tellier]] (YT), [[LP]] |
-| `reference` | `entities/references/` | A cited bibliographic source | books, articles, archives |
+| `reference` | `entities/references/<kind>/` | Anything the wiki cites; `ref_type` gives the kind ([[decisions/DR-014-reference-taxonomy\|DR-014]]) | `books/` [[wertheimer-ghika-1944]] · `catalogues/` series [[michel]], [[scott]], [[yvert-tellier]], [[stanley-gibbons]], [[lp]] and editions [[kiriac-1974]] · `auctions/` one page per sale, lots inside · `articles/` · `web/` one page per site (`domains:`) · `archives/` [[cimec-clasate]] · `compilations/` [[bulls-head-lots]]. Index: [[../entities/references/README\|references]] |
 | `color` | `entities/colors/` | A colour used, with standards (RAL/AMS) | blacks, blues, etc. |
 | `concept` | `entities/concepts/` | A thing/idea with its own page | [[aurochs]], [[aurochs-vs-wisent]], paper types, currencies, calendars |
 | `event` | narrative | A dated historical event (usually a narrative H2) | postal reform 1858, treaties, wars |
@@ -36,7 +35,10 @@ denomination --has_position------>  position
 denomination --printed_in-------->  color
 denomination --printed_on-------->  concept(paper type)
 stamp/cover  --cancelled_by------>  handstamp
-denomination --catalogued_as----->  catalogue (with catalogue number)
+denomination --catalogued_as----->  reference(catalogue-series)  (with catalogue number)
+catalogue-edition --series------->  reference(catalogue-series)
+article      --in---------------->  reference(book | web)
+image        --source------------>  reference   (assets/rights.yml; inherits rights_default)
 narrative    --depicts----------->  any entity   (figures)
 narrative    --cites------------->  reference
 event        --located_in-------->  place

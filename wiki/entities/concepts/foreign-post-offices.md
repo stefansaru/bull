@@ -8,7 +8,7 @@ refs:
   - "[[../../sources/istoria-postei-1916/text]]"
   - "[[postal-history-romania]]"
   - "[[../../sources/wertheimer-ghika-1944/text]]"
-  - "[[../references/wertheimer-ghika-1944]]"
+  - "[[../references/books/wertheimer-ghika-1944]]"
 themes: [postal-history, 19th-century]
 feeds_chapter: "XIXth Century / 1858 postal"
 ---
@@ -268,7 +268,7 @@ this little conspiracy either
 is **new**: it shows the Austrian post shaping the Moldavian service from within —
 its forms, its currency conversions, even the spelling of its handstamps — a
 dimension Minescu's political narrative does not reach. For the source itself see
-[[../references/wertheimer-ghika-1944]].
+[[../references/books/wertheimer-ghika-1944]].
 
 ## See also
 
@@ -278,4 +278,4 @@ dimension Minescu's political narrative does not reach. For the source itself se
 - [[geopolitics-1800s|Geopolitics of the Principalities, 1800s]]
 - [[menzil-relay-system|Menzil relay system]] — the inland network the same post ran
 - [[../places/old-post-buildings|Old post buildings]] — the Bucharest and Iași offices
-- [[../references/wertheimer-ghika-1944]] — the 1944 primary-source study drawn on above
+- [[../references/books/wertheimer-ghika-1944]] — the 1944 primary-source study drawn on above

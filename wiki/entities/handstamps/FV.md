@@ -8,7 +8,7 @@ marker: "🦅"
 status: draft
 refs:
   - "[[../../sources/dragomir-stampilografie-1990/text]]"
-  - "[[../references/dragomir-stampilografie-1990]]"
+  - "[[../references/books/dragomir-stampilografie-1990]]"
   - "[[../concepts/franco-porto-handstamps]]"
   - "[[../concepts/pre-stamp-postal-markings]]"
 concordance:

@@ -10,7 +10,7 @@ status: living
 
 > Every **documented** instance of a *Cap de bou* stamp of the first (1858 — 27/54/81/108 parale) or second (1858–1861 — 5/40/80 parale) issue, gathered from the cited sources. One row = one documented instance, tagged by **evidence type**, each with a source + citation (DR-007). Built by `tools/gen_issue_census.py`; full data in [`data/records.csv`](data/records.csv).
 
-> **Companions:** [[../postmarks/census]] (the auction *postmark* census this draws on) · [[../references/bulls-head-lots]] · [[../issues/issue-bull-1]] · [[../issues/issue-bull-2]].
+> **Companions:** [[../postmarks/census]] (the auction *postmark* census this draws on) · [[../references/compilations/bulls-head-lots]] · [[../issues/issue-bull-1]] · [[../issues/issue-bull-2]].
 
 ## Dashboard
 
@@ -470,7 +470,7 @@ status: living
 
 ## Auction layer — summary (587)
 
-Full rows in [`data/records.csv`](data/records.csv). Covers & lots by denomination, from [[../references/README|the catalogues]]:
+Full rows in [`data/records.csv`](data/records.csv). Covers & lots by denomination, from [[../references/auctions/README|the catalogues]]:
 
 | Denom | Issue | Lots/covers | Postmark occ. |
 |---|---|---|---|

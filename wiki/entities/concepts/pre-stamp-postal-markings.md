@@ -7,7 +7,7 @@ title:
 status: draft
 refs:
   - "[[../../sources/dragomir-stampilografie-1990/text]]"
-  - "[[../references/dragomir-stampilografie-1990]]"
+  - "[[../references/books/dragomir-stampilografie-1990]]"
   - "[[menzil-relay-system]]"
   - "[[moldavia-heraldry]]"
   - "[[postal-history-romania]]"
@@ -26,7 +26,7 @@ the anchor for that pre-stamp world: what the devices were, how they are read an
 classified, and how the story runs in **parallel across the two principalities**
 from **1822** to the reform of 1858. The single indispensable source is Kiriac
 Dragomir's *Ștampilografie Poștală (România: 1822–1910)*
-([[../references/dragomir-stampilografie-1990]]); its taxonomy and device codes are
+([[../references/books/dragomir-stampilografie-1990]]); its taxonomy and device codes are
 used throughout.
 
 ## Sigiliu, pecete, ștampilă — what the devices were
@@ -108,7 +108,7 @@ post's paperwork; despite the code letter, *not* the "FRANCO" prepayment marks �
 sanitary cordons where letters from plague- and cholera-country were disinfected and
 struck — see [[quarantine-posts]]), the true *FRANCO*/*PORTO* prepayment/accounting
 marks ([[franco-porto-apparatus-1858]]), and the maritime, river and rural services.
-The full key is tabulated in [[../references/dragomir-stampilografie-1990#the-classification-system-dragomirs-codes|the reference page]].
+The full key is tabulated in [[../references/books/dragomir-stampilografie-1990#the-classification-system-dragomirs-codes|the reference page]].
 
 ## Why it belongs in this book
 
@@ -123,7 +123,7 @@ census]]. The reform that produced the adhesive stamp is told in
 
 ## See also
 
-- [[../references/dragomir-stampilografie-1990|Dragomir, Ștampilografie (1990)]] — the source + full code key
+- [[../references/books/dragomir-stampilografie-1990|Dragomir, Ștampilografie (1990)]] — the source + full code key
 - [[menzil-relay-system|The menzil relay post]] — the institution whose houses struck the first seals
 - [[moldavia-heraldry|Moldavian heraldry]] · [[aurochs-symbolism|Aurochs symbolism]] — the bull's-head emblem
 - [[../handstamps/PM52|PM52]] · [[../handstamps/M1|M1]] · [[../handstamps/M2|M2]] · [[../handstamps/M3|M3]] — device pages

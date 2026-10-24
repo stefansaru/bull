@@ -207,7 +207,9 @@ def load_entities(entities: Path | None = None) -> list[dict[str, Any]]:
         out.append({
             "id": str(meta.get("id", page.relative_to(root.parent).with_suffix("").as_posix())),
             "type": str(meta.get("type", page.parent.name)),
-            "group": page.parent.name,
+            # entities/references/books/x.md -> group "references", subgroup "books" (bull DR-014)
+            "group": page.relative_to(root).parts[0],
+            "subgroup": "/".join(page.relative_to(root).parts[1:-1]),
             "title": {k: clean_inline(str(v)) for k, v in titles.items() if v},
             "text": {"en": clean_block(body)},
         })

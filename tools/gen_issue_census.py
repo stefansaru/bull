@@ -179,7 +179,7 @@ def render(records, vault):
                  "`tools/gen_issue_census.py`; full data in "
                  "[`data/records.csv`](data/records.csv).\n")
     lines.append("> **Companions:** [[../postmarks/census]] (the auction *postmark* census this "
-                 "draws on) · [[../references/bulls-head-lots]] · [[../issues/issue-bull-1]] · "
+                 "draws on) · [[../references/compilations/bulls-head-lots]] · [[../issues/issue-bull-1]] · "
                  "[[../issues/issue-bull-2]].\n")
     lines.append("## Dashboard\n")
     lines.append(f"- **{len(records)} records** — Issue **I: {by_issue.get('I',0)}**, "
@@ -219,7 +219,7 @@ def render(records, vault):
     # Auction layer summarized (full detail in CSV)
     lines.append(f"## Auction layer — summary ({len([r for r in records if r['rec_id'].startswith('auc-')])})\n")
     lines.append("Full rows in [`data/records.csv`](data/records.csv). Covers & lots by "
-                 "denomination, from [[../references/README|the catalogues]]:\n")
+                 "denomination, from [[../references/auctions/README|the catalogues]]:\n")
     auc = [r for r in records if r["rec_id"].startswith("auc-")]
     ac = "| Denom | Issue | Lots/covers | Postmark occ. |\n|---|---|---|---|\n"
     for d in [x for x in DENOM_ORDER if x]:

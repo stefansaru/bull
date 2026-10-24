@@ -3,7 +3,7 @@
 gen_lots_bilingual.py -- Bilingual (EN/RO) page of notable Bull's Head auction lots.
 
 Input: work/census/lots_bilingual.json ({catalogue,page,issue,denomination,en,ro}).
-Output: wiki/entities/references/bulls-head-lots.md — grouped by issue/denomination,
+Output: wiki/entities/references/compilations/bulls-head-lots.md — grouped by issue/denomination,
 each lot showing its English description and Romanian translation. Cross-links to the
 census. This is the catalogue-side counterpart of the Kiriac source translation (DR-012).
 
@@ -26,15 +26,16 @@ def main():
     for l in lots:
         groups[(l.get("issue", "?"), l.get("denomination") or 0)].append(l)
 
-    out = ["---", "id: entities/references/bulls-head-lots", "type: reference",
+    out = ["---", "id: entities/references/compilations/bulls-head-lots", "type: reference",
+           "ref_type: compilation",
            "title:", "  en: Notable Bull's Head auction lots (EN / RO)",
            "  ro: Loturi notabile Cap de bour la licitație (EN / RO)",
            "status: draft", f"lot_count: {len(lots)}", "---", "",
            "# Notable Bull's Head auction lots — bilingual (EN / RO)", "",
-           "> Substantive Bull's Head lot descriptions from the [[README|auction catalogues]], "
-           "translated to Romanian ([[../../meta/decisions/DR-012-source-translations|DR-012]]). "
+           "> Substantive Bull's Head lot descriptions from the [[../auctions/README|auction catalogues]], "
+           "translated to Romanian ([[../../../meta/decisions/DR-012-source-translations|DR-012]]). "
            "English is the catalogue original (cleaned); Romanian is the translation. "
-           "See the [[../postmarks/census|postmark census]] for the structured data.", "",
+           "See the [[../../postmarks/census|postmark census]] for the structured data.", "",
            f"**{len(lots)} lots.**", ""]
 
     for (issue, denom) in sorted(groups, key=lambda k: (k[0], k[1])):
@@ -47,10 +48,10 @@ def main():
             out.append(f"- 🇬🇧 {l.get('en','').strip()}")
             out.append(f"- 🇷🇴 {l.get('ro','').strip()}")
             out.append("")
-    os.makedirs(os.path.join(vault, "entities", "references"), exist_ok=True)
-    open(os.path.join(vault, "entities", "references", "bulls-head-lots.md"),
+    os.makedirs(os.path.join(vault, "entities", "references", "compilations"), exist_ok=True)
+    open(os.path.join(vault, "entities", "references", "compilations", "bulls-head-lots.md"),
          "w", encoding="utf-8").write("\n".join(out))
-    print(f"wrote entities/references/bulls-head-lots.md ({len(lots)} lots, "
+    print(f"wrote entities/references/compilations/bulls-head-lots.md ({len(lots)} lots, "
           f"{len(groups)} issue/denomination groups)")
 
 

@@ -19,6 +19,7 @@ For each image the owner records `provenance` (own scan, book and page, auction 
 
 ## Acceptance criteria
 - [x] Procedure documented (docs/content-pipeline.md)
+- [x] Per-source defaults: `source:` on images, `rights_default:` on reference pages (bull DR-014)
 - [ ] All referenced images decided
 
 ## Verification

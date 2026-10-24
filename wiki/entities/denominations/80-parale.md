@@ -16,15 +16,15 @@ catalogue:
 status: draft
 refs:
   - "[[../census/bull-head-evidence-census]]"
-  - "[[../references/bull-head-catalogue-valuations]]"
-  - "[[../references/kiriac-1974]]"
+  - "[[../references/compilations/bull-head-catalogue-valuations]]"
+  - "[[../references/catalogues/kiriac-1974]]"
 ---
 
 # 🐃 80 parale — Second issue (1858) — registered rate
 
 The top value of the **second *Cap de bour* issue** ([[../issues/issue-bull-2]]),
 covering the **registered-letter fee**. Catalogued **L.P. 7** (= Yvert 7 = Michel
-7x = Scott 7) ([[../references/bull-head-catalogue-valuations|valuations]]).
+7x = Scott 7) ([[../references/compilations/bull-head-catalogue-valuations|valuations]]).
 
 ## Design & paper
 The bull's head with a post-horn, **white / brick-red (*cărămiziu*)** on white paper
@@ -35,7 +35,7 @@ registered fee with a RECEPISSE mark ([[../handstamps/C1]];
 [[../census/bull-head-evidence-census]]).
 
 ## Printing & survival
-Total print run **60,072** ([[../references/bull-head-catalogue-valuations]]). The
+Total print run **60,072** ([[../references/compilations/bull-head-catalogue-valuations]]). The
 **azure-paper (1861)** printing is the standout rarity of the value.
 
 ## Valuation (unused / used)

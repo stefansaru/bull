@@ -106,6 +106,7 @@ class Entity {
   Entity({
     required this.id,
     required this.group,
+    this.subgroup = '',
     required this.title,
     required this.text,
   });
@@ -113,12 +114,16 @@ class Entity {
   factory Entity.fromJson(Map<String, dynamic> j) => Entity(
     id: j['id'] as String,
     group: j['group'] as String,
+    subgroup: j['subgroup'] as String? ?? '',
     title: _localized(j['title']),
     text: _localized(j['text']),
   );
 
   final String id;
   final String group;
+
+  /// Kind within a group, e.g. "books" or "auctions" for references (bull DR-014).
+  final String subgroup;
   final Localized title;
   final Localized text;
 }

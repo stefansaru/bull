@@ -41,7 +41,7 @@ four-language precedent found**; French adds least ([[multilanguage-analysis]]).
    described: a **"Dragomir & Nazâru" joint Bull's Head catalogue**, the **French
    "Marcel Danesco" catalogue**, and a **Kalman Illyefalvi** Bull's Head work [37].
    Verify each before citing; if unverifiable, drop or mark `status: unverified` in
-   [[../entities/references]].
+   [[../entities/references/auctions]].
 
 ## Competitive landscape
 

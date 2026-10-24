@@ -45,7 +45,7 @@ or does not). See [[meta/audit-procedure]] for how these are checked, and
 
 | # | Convention | Rationale | Audit check |
 |---|------------|-----------|-------------|
-| C-13 | **Every factual claim carries a reference.** Claims live in concepts with `refs:`; narrative inherits them. | Credibility of a reference work. [[decisions/DR-007-references-for-claims]] | No claim page/section marked `needs-ref`; sampled claims trace to a [[entities/references|reference]]. |
+| C-13 | **Every factual claim carries a reference.** Claims live in concepts with `refs:`; narrative inherits them. | Credibility of a reference work. [[decisions/DR-007-references-for-claims]] | No claim page/section marked `needs-ref`; sampled claims trace to a [[entities/references/auctions|reference]]. |
 | C-14 | **Debated points are marked, not resolved.** `status: debated` with positions + who holds them (e.g. aurochs vs. wisent). | Scholarly honesty. [[decisions/DR-006-mark-debated-concepts]] | Known controversies appear as `debated`, not asserted as settled. |
 | C-15 | **Four languages stay in lockstep or are flagged.** A section missing a language, or with stale translation vs. the English master, is a defect. | Consistency of the 4-up edition. | Per [[style]]; audit reports missing/stale translations. |
 | C-16 | **The aurochs `🐃` is the throughline.** The animal marker threads natural history → heraldry → the stamp; keep the symbolic link explicit. | Editorial identity of the book. | Aurochs-tagged sections link to [[aurochs]]. |

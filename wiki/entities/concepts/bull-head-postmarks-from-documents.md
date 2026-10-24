@@ -6,7 +6,7 @@ title:
 status: draft
 refs:
   - "[[../../sources/wertheimer-ghika-1944/text]]"
-  - "[[../references/wertheimer-ghika-1944]]"
+  - "[[../references/books/wertheimer-ghika-1944]]"
   - "[[../postmarks/census]]"
   - "[[../postmarks/kiriac-figures]]"
 themes: [postmarks, 1858, towns]
@@ -76,4 +76,4 @@ Every town below is named in a transcribed document or a reproduced marking plat
 - [[franco-porto-apparatus-1858]] — sibling concept: the FRANCO/PORTO handling system (planned)
 - [[../places/atelia-timbrului]] — the Iași stamp workshop that also cut the datestamps
 - [[postal-history-romania]] — the wider Moldavian postal network of 1858
-- [[../references/wertheimer-ghika-1944]] · [[../../sources/wertheimer-ghika-1944/text]] — the source
+- [[../references/books/wertheimer-ghika-1944]] · [[../../sources/wertheimer-ghika-1944/text]] — the source

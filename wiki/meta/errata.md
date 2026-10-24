@@ -21,7 +21,7 @@ contradicts itself) from an **OCR/reading artefact** (our transcription is unsur
 
 ---
 
-## Dragomir, *Ștampilografie Poștală* (1990) — [[../entities/references/dragomir-stampilografie-1990|reference]]
+## Dragomir, *Ștampilografie Poștală* (1990) — [[../entities/references/books/dragomir-stampilografie-1990|reference]]
 
 Kiriac Dragomir's handstamp catalogue is the foundational source for the pre-stamp
 markings, but the photographed copy shows the following issues. Citations are to
@@ -170,17 +170,17 @@ From deriving [[../entities/handstamps/PM52]], [[../entities/handstamps/PM57]],
 
 ## The three stamp catalogues (2006 / 1984 / undated)
 
-From mining the Bull's Head valuations ([[../entities/references/bull-head-catalogue-valuations|comparison]]):
+From mining the Bull's Head valuations ([[../entities/references/compilations/bull-head-catalogue-valuations|comparison]]):
 
-24. **First-issue date disagreement.** [[../entities/references/carjan-manole-timbre-2006|Cârjan-Manole 2006]]
+24. **First-issue date disagreement.** [[../entities/references/catalogues/carjan-manole-timbre-2006|Cârjan-Manole 2006]]
     gives the first issue as **15 July 1858**, while
-    [[../entities/references/spineanu-catalog-marci-1984|Spineanu 1984]] and
-    [[../entities/references/chirices-pascariu-catalog|Chiricheș-Pascariu]] give **22 July
+    [[../entities/references/catalogues/spineanu-catalog-marci-1984|Spineanu 1984]] and
+    [[../entities/references/catalogues/chirices-pascariu-catalog|Chiricheș-Pascariu]] give **22 July
     1858** (the date used elsewhere in this wiki — see [[../entities/issues/issue-bull-1]]).
 25. **Second-issue end-date disagreement.** For the *end* of the second issue,
     Cârjan-Manole gives **1 May 1862** while Spineanu gives **5 May 1862**
     (Chiricheș-Pascariu: "1862 May"). A one-day-vs-five slip, each faithful to its
-    catalogue; noted on [[../entities/references/bull-head-catalogue-valuations|the comparison]].
+    catalogue; noted on [[../entities/references/compilations/bull-head-catalogue-valuations|the comparison]].
 26. **Cârjan-Manole internal price inconsistency.** Its issue-II **summary table** gives
     40 parale = 400/300 and 80 parale = 1 675/800, contradicting its own **dedicated
     per-stamp pages** (450/350 and 850/700). The dedicated pages are taken as
@@ -195,6 +195,6 @@ From mining the Bull's Head valuations ([[../entities/references/bull-head-catal
 ---
 
 ## See also
-- [[../entities/references/dragomir-stampilografie-1990]] — the handstamp reference + code key
-- [[../entities/references/bull-head-catalogue-valuations]] — the cross-catalogue comparison
+- [[../entities/references/books/dragomir-stampilografie-1990]] — the handstamp reference + code key
+- [[../entities/references/compilations/bull-head-catalogue-valuations]] — the cross-catalogue comparison
 - [[decisions/DR-006-mark-debated-concepts]] · [[decisions/DR-007-references-for-claims]]

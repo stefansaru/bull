@@ -7,7 +7,7 @@ title:
 status: draft
 refs:
   - "[[../../sources/wertheimer-ghika-1944/text]]"
-  - "[[../references/wertheimer-ghika-1944]]"
+  - "[[../references/books/wertheimer-ghika-1944]]"
 themes: [telegraph, postal-history, 19th-century]
 feeds_chapter: "context / XIXth Century"
 ---
@@ -125,4 +125,4 @@ because this volume carries no dedicated telegraph chapter (see the note above).
 - [[unification-of-posts-1862|Unification of the posts, 1862]] — the parallel merger of the Moldavian and Wallachian posts
 - [[../concepts/foreign-post-offices|Foreign post offices]] — the rival services on Romanian soil
 - [[union-of-principalities-1859|The Union of the Principalities, 1859]] — the political frame
-- [[../references/wertheimer-ghika-1944|Wertheimer-Ghika 1944]] — the source
+- [[../references/books/wertheimer-ghika-1944|Wertheimer-Ghika 1944]] — the source

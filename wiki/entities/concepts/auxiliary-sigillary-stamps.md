@@ -7,7 +7,7 @@ title:
 status: draft
 refs:
   - "[[../../sources/dragomir-stampilografie-1990/text]]"
-  - "[[../references/dragomir-stampilografie-1990]]"
+  - "[[../references/books/dragomir-stampilografie-1990]]"
   - "[[quarantine-posts]]"
   - "[[pre-stamp-postal-markings]]"
   - "[[moldavia-heraldry]]"
@@ -31,7 +31,7 @@ United Principalities) that the post's own seals use. Per-class device tables ar
 and **[[../handstamps/SAV|SAV]]**.
 
 > **Taxonomy note.** The four class letters `SAD`, `SAS`, `ST`, `SAV` are **not** in the
-> book's front *ABREVIERI* list (see [[../references/dragomir-stampilografie-1990]]);
+> book's front *ABREVIERI* list (see [[../references/books/dragomir-stampilografie-1990]]);
 > Dragomir introduces them only in the §2.2–§2.5 section headers. And two of the four are
 > internally inconsistent about their own letter — the telegraph class is headed `ST` but
 > coded `TL`, and the customs class is headed `SAV` but its devices are coded `SV` (see
@@ -107,7 +107,7 @@ postal, but reaching the mail because letters passed through counties, villages,
 offices and customs houses. The `SAD`/`SAS` seals are the **earliest administrative marks
 on Romanian letters (from 1824)**; the `ST` and `SAV` classes carry into the **United
 Principalities and post-classic** period (to 1910 for customs), sharing the heraldry of
-the 1858 *cap de bour* stamps ([[../references/dragomir-stampilografie-1990]];
+the 1858 *cap de bour* stamps ([[../references/books/dragomir-stampilografie-1990]];
 [[moldavia-heraldry]]).
 
 ## See also
@@ -116,5 +116,5 @@ the 1858 *cap de bour* stamps ([[../references/dragomir-stampilografie-1990]];
   [[../handstamps/SAV|SAV]] — the four device tables
 - [[quarantine-posts|Quarantine posts (K)]] — the parallel Part 2 class
 - [[pre-stamp-postal-markings]] — the anchor concept for the pre-stamp era
-- [[../references/dragomir-stampilografie-1990|Dragomir, Ștampilografie (1990)]] — source + code key
+- [[../references/books/dragomir-stampilografie-1990|Dragomir, Ștampilografie (1990)]] — source + code key
 - [[../handstamps/README|Device index]]

@@ -3,14 +3,14 @@ id: entities/postmarks/kiriac-figures
 type: reference
 title: {en: Kiriac figure catalogue — classic postmarks 1858}
 status: draft
-refs: ["[[../references/kiriac-1974]]"]
+refs: ["[[../references/catalogues/kiriac-1974]]"]
 derived_from: "[[../../sources/kiriac-1974/chapter-1-postmarks-1858]]"
 record_count: 14
 ---
 
 # Kiriac figure catalogue — classic postmarks (1858)
 
-> **Concept stage** ([[../../meta/decisions/DR-011-raw-source-ingestion-stage|DR-011]]): structured from the raw [[../../sources/kiriac-1974/chapter-1-postmarks-1858|Kiriac 1974 Chapter I]] text — each Kiriac figure → marking type, towns, dimensions, ink, period. Romanian diacritics restored from context; every row cites its Kiriac pdf page ([[../references/kiriac-1974]], DR-007). `status: draft` until verified against the source images.
+> **Concept stage** ([[../../meta/decisions/DR-011-raw-source-ingestion-stage|DR-011]]): structured from the raw [[../../sources/kiriac-1974/chapter-1-postmarks-1858|Kiriac 1974 Chapter I]] text — each Kiriac figure → marking type, towns, dimensions, ink, period. Romanian diacritics restored from context; every row cites its Kiriac pdf page ([[../references/catalogues/kiriac-1974]], DR-007). `status: draft` until verified against the source images.
 
 This is the authoritative spine for the [[census|auction postmark census]] and for the [[../handstamps/PM52|PM52]]/[[../handstamps/M1|M1]]/[[../handstamps/M2|M2]]/[[../handstamps/M3|M3]]/[[../handstamps/C1|C1]] → Kiriac concordance.
 

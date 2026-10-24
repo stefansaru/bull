@@ -63,7 +63,7 @@ deep, cited concept pages. *(flagship [[entities/concepts/why-bull-heads-matter]
   [[entities/denominations/5-parale|5]] · [[entities/denominations/40-parale|40]] ·
   [[entities/denominations/80-parale|80]] parale (issue II) — colours, catalogue №, tirages, valuations
 - **Handstamps & seals** ([[entities/handstamps/README|device index]]; from
-  [[entities/references/dragomir-stampilografie-1990|Dragomir 1990]], both provinces 1822–):
+  [[entities/references/books/dragomir-stampilografie-1990|Dragomir 1990]], both provinces 1822–):
     - *Obliterators/complementary:* [[entities/handstamps/PM52|PM52]] · [[entities/handstamps/M1|M1]] ·
       [[entities/handstamps/M2|M2]] · [[entities/handstamps/M3|M3]] · [[entities/handstamps/C1|C1]]
     - *Moldavian seals 🐂:* [[entities/handstamps/SM22|SM22]] · [[entities/handstamps/SM27|SM27]] ·
@@ -93,14 +93,14 @@ deep, cited concept pages. *(flagship [[entities/concepts/why-bull-heads-matter]
   Wertheimer-Ghika 1944 (99-photo OCR), and **4 newly photographed references** —
   [[sources/dragomir-stampilografie-1990/text|Dragomir *Ștampilografie* (155 photos)]],
   Cârjan-Manole 2006, Spineanu 1984, Chiricheș-Pascariu — raw text.
-- **References:** [[entities/references/README|Auction catalogues]] (16 mined) ·
-  [[entities/references/kiriac-1974|Kiriac 1974]] · [[entities/references/wertheimer-ghika-1944|Wertheimer-Ghika 1944]] ·
-  [[entities/references/dragomir-stampilografie-1990|Dragomir *Ștampilografie* 1990]] ·
-  [[entities/references/bulls-head-lots|Notable lots EN/RO]] ·
-  **stamp catalogues** [[entities/references/carjan-manole-timbre-2006|Cârjan-Manole 2006]] ·
-  [[entities/references/spineanu-catalog-marci-1984|Spineanu 1984]] ·
-  [[entities/references/chirices-pascariu-catalog|Chiricheș-Pascariu]] ·
-  [[entities/references/bull-head-catalogue-valuations|📊 valuations compared]] ·
+- **References:** [[entities/references/auctions/README|Auction catalogues]] (16 mined) ·
+  [[entities/references/catalogues/kiriac-1974|Kiriac 1974]] · [[entities/references/books/wertheimer-ghika-1944|Wertheimer-Ghika 1944]] ·
+  [[entities/references/books/dragomir-stampilografie-1990|Dragomir *Ștampilografie* 1990]] ·
+  [[entities/references/compilations/bulls-head-lots|Notable lots EN/RO]] ·
+  **stamp catalogues** [[entities/references/catalogues/carjan-manole-timbre-2006|Cârjan-Manole 2006]] ·
+  [[entities/references/catalogues/spineanu-catalog-marci-1984|Spineanu 1984]] ·
+  [[entities/references/catalogues/chirices-pascariu-catalog|Chiricheș-Pascariu]] ·
+  [[entities/references/compilations/bull-head-catalogue-valuations|📊 valuations compared]] ·
   Michel · Scott · Stanley-Gibbons · Yvert-Tellier · LP
 - **Concepts:** [[entities/concepts/aurochs|🐃 Aurochs]] · bison/wisent · paper · colours · currencies · calendars
 - **Places / People / References** — see `entities/`.

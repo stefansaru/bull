@@ -12,6 +12,7 @@ The book's own work list is `../TODO.md`. Requirement IDs refer to [`docs/requir
 ## Blocks v1: only the owner can do these
 
 - [ ] **Image rights.** 1,049 referenced images, 0 cleared. Decide per source: own photographs, permission requests, replacement, or omit. See [`docs/content-pipeline.md`](docs/content-pipeline.md#clearing-an-image-step-by-step) (NORM-COPY-01, STRAT-RSK-001, PROC-RGT-001). The book's own TODO (section A, *Q-commercial*) asks the same question; one answer serves both.
+- [ ] **Record the source of the 1,049 book images** (`assets/media/`): add `source:` per image in `wiki/assets/rights.yml`, then decide rights per source with `rights_default:` (bull DR-014). The wizard report counts images per source.
 - [ ] **Price** (STRAT-MKT-001).
 - [ ] **Play Console**: payments profile, paid app, content rating, data safety ("no data"), TV opt-in (NORM-GPDP-01, NORM-GPTV-01).
 - [ ] **Privacy policy page** published at `https://jini.solutions/bull/privacy` (APP-PRV-001). The shared Jini Solutions site should become a catalogue (cross-app item in Amethyst's TODO).

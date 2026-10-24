@@ -20,7 +20,7 @@ This is a reference work; its authority depends on sourcing. Many existing books
 leave claims unsourced, which the author wants to fix.
 
 ## Decision
-Every factual claim is backed by a [[../../entities/references|reference]]. Claims
+Every factual claim is backed by a [[../../entities/references/auctions|reference]]. Claims
 carry `refs:` in concept frontmatter and inline citations in prose. Unreferenced
 claims are marked `needs-ref` and treated as **audit defects** (REQ-C3).
 

@@ -24,7 +24,7 @@ feeds_chapter: "context"
 > narrates the great collectors, how their holdings were dispersed, and why an
 > "ex-" line in a modern catalogue still moves the price. See also
 > [[../concepts/scarcity-of-bull-heads]], [[../concepts/bull-heads-today]],
-> [[../references/bulls-head-lots]] and the census [[../postmarks/census]].
+> [[../references/compilations/bulls-head-lots]] and the census [[../postmarks/census]].
 > Provenance-drives-value is a headline finding of the
 > [[../../strategy/market-research|market research]] [3].
 
@@ -104,7 +104,7 @@ census: for example the **27 parale unused** "unquestionably the finest in
 existence," Caspary Sale 11 lot 346; a **108 parale on cover** (Caspary Sale 11 lot
 365); and a **5 parale mint block of four** (Caspary Sale 11 lot 405) — each then
 onward to later owners [2]. Tie these to specific records in
-[[../references/bulls-head-lots]].
+[[../references/compilations/bulls-head-lots]].
 
 ## Maurice Burrus
 
@@ -178,14 +178,14 @@ troops in 1945; a group destined for a 1988 English auction was **stolen at a Lo
 airport and never resurfaced**; and pieces sit locked in museums and a "famous Swiss
 collection" outside the market [10][3][1]. These gaps are exactly why the surviving
 documented pedigrees are so prized. See [[../concepts/bull-heads-today]] for the
-present state of the census and market, and [[../references/README]] for how these
+present state of the census and market, and [[../references/auctions/README]] for how these
 provenance claims are sourced.
 
 ## Related
 
-- [[../references/bulls-head-lots]] — the lot-level provenance chains behind this page
+- [[../references/compilations/bulls-head-lots]] — the lot-level provenance chains behind this page
 - [[../postmarks/census]] · [[../concepts/scarcity-of-bull-heads]] · [[../concepts/bull-heads-today]]
-- [[../../strategy/market-research|market research]] · [[../references/README]]
+- [[../../strategy/market-research|market research]] · [[../references/auctions/README]]
 
 ## Sources
 

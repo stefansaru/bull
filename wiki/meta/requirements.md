@@ -20,7 +20,7 @@ product/content/technical requirements.
 |----|-----|-------------|-----------|
 | REQ-C1 | M | Ingestion is **complete**: every block of the source doc is represented in the wiki (narrative) or deliberately excluded with a reason. | Coverage report: `source_blocks` union = all blocks; list exclusions. |
 | REQ-C2 | M | Ingestion is **faithful**: verbatim text preserved; no silent edits at `status: verbatim`. | Diff sampled pages vs. source; status transitions are diff-tracked. |
-| REQ-C3 | M | **Every factual claim is referenced** (C-13). | Sample N claims; each resolves to a [[entities/references|reference]]. Zero `needs-ref`. |
+| REQ-C3 | M | **Every factual claim is referenced** (C-13). | Sample N claims; each resolves to a [[entities/references/auctions|reference]]. Zero `needs-ref`. |
 | REQ-C4 | M | **Debated points are marked** `debated` with positions + holders (C-14), never asserted as settled. | Known controversies (aurochs vs. wisent, etc.) are `debated`. |
 | REQ-C5 | S | **No factual errors**: dates, catalogue numbers, denominations, plating claims are internally consistent and match cited sources. | Cross-check sampled facts against references; consistency checks. |
 | REQ-C6 | S | Each **denomination and handstamp** has a complete entity page (identity, colours, paper, catalogue refs, cancellations, figures). | Entity completeness checklist per [[ontology]]. |

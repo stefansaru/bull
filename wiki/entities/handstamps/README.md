@@ -9,7 +9,7 @@ status: living
 # entities/handstamps/ — postal handstamps & seals
 
 One page per **device**, keyed to **Kiriac Dragomir's *Ștampilografie Poștală***
-codes ([[../references/dragomir-stampilografie-1990]]; code key there). A code reads
+codes ([[../references/books/dragomir-stampilografie-1990]]; code key there). A code reads
 `[indicative][year][variant]` — e.g. `SM58a` = a 1858 Moldavian seal, variant *a*.
 Codes with the same year at different offices are **distinct devices**; disambiguate
 by office and by `Fig.` number. Overview concept: [[../concepts/pre-stamp-postal-markings]].

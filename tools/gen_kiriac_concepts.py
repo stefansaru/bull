@@ -49,7 +49,7 @@ def main():
     out = ["---", "id: entities/postmarks/kiriac-figures", "type: reference",
            "title: {en: Kiriac figure catalogue — classic postmarks 1858}",
            "status: draft",
-           "refs: [\"[[../references/kiriac-1974]]\"]",
+           "refs: [\"[[../references/catalogues/kiriac-1974]]\"]",
            f"derived_from: \"[[../../sources/kiriac-1974/chapter-1-postmarks-1858]]\"",
            f"record_count: {len(records)}", "---", "",
            "# Kiriac figure catalogue — classic postmarks (1858)",
@@ -58,7 +58,7 @@ def main():
            "structured from the raw [[../../sources/kiriac-1974/chapter-1-postmarks-1858|Kiriac 1974 Chapter I]] "
            "text — each Kiriac figure → marking type, towns, dimensions, ink, period. "
            "Romanian diacritics restored from context; every row cites its Kiriac pdf page "
-           "([[../references/kiriac-1974]], DR-007). `status: draft` until verified against "
+           "([[../references/catalogues/kiriac-1974]], DR-007). `status: draft` until verified against "
            "the source images.",
            "",
            "This is the authoritative spine for the [[census|auction postmark census]] "

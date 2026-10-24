@@ -16,8 +16,8 @@ catalogue:
 status: draft
 refs:
   - "[[../census/bull-head-evidence-census]]"
-  - "[[../references/bull-head-catalogue-valuations]]"
-  - "[[../references/kiriac-1974]]"
+  - "[[../references/compilations/bull-head-catalogue-valuations]]"
+  - "[[../references/catalogues/kiriac-1974]]"
 ---
 
 # 🐃 5 parale — Second issue (1858) — *Porto Gazetei*
@@ -25,18 +25,18 @@ refs:
 The **newspaper-rate** value of the **second *Cap de bour* issue**
 ([[../issues/issue-bull-2]]) — the *Porto Gazetei* stamp, for the carriage of
 newspapers. Catalogued **L.P. 5** (= Yvert 5 = Michel 5x = Scott 5)
-([[../references/bull-head-catalogue-valuations|valuations]]).
+([[../references/compilations/bull-head-catalogue-valuations|valuations]]).
 
 ## Design & paper
 **Black** on **white / azuré (bluish) / yellowish paper**; the bull's head with a
 post-horn ([[../census/bull-head-evidence-census|census]]). Two frame types are
 distinguished: the **intact-frame "Type I"** and the **broken-frame** state
-(unissued/withdrawn) ([[../references/kiriac-1974|Kiriac 1974]] pp. 33, 45–46, via
+(unissued/withdrawn) ([[../references/catalogues/kiriac-1974|Kiriac 1974]] pp. 33, 45–46, via
 [[../census/bull-head-evidence-census]]).
 
 ## Printing & survival — a supreme rarity
 Total print run **23,040** — **7,008 on blue** paper and **16,032 on white/yellow**
-([[../references/bull-head-catalogue-valuations]]). The **Type I on bluish paper is
+([[../references/compilations/bull-head-catalogue-valuations]]). The **Type I on bluish paper is
 the supreme rarity of the whole series**: only **3 unused + 32 used** survive on
 bluish, 7 unused + more on white/yellowish
 ([[../census/bull-head-evidence-census|census]], from

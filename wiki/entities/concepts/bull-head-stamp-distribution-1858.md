@@ -6,7 +6,7 @@ title:
 status: draft
 refs:
   - "[[../../sources/wertheimer-ghika-1944/text]]"
-  - "[[../references/wertheimer-ghika-1944]]"
+  - "[[../references/books/wertheimer-ghika-1944]]"
   - "[[postal-history-romania]]"
 themes: [postal-history, 1858, distribution]
 feeds_chapter: "1858 / 🐃 1"

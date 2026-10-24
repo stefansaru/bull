@@ -50,6 +50,16 @@ images:
 
 A figure whose image is not shipped is dropped together with its caption. A table or text unit keeps its text and loses only the image.
 
+### Clearing a whole source at once (bull DR-014)
+
+Most images come from a reference (a book, a sale, a museum). Rights are usually granted per source, so:
+
+1. Give the image its `source: references/<kind>/<slug>` (and a `locator`). `--rights-init` does this automatically for images under a reference's `assets:` folder.
+2. On the reference page, set `rights_default: {status: cleared, licence: "permission, letter 2026-11-02", note: "…"}`, or `status: omit`.
+3. Every `pending` image from that source now follows the default. An image's own status still wins: set `omit` on single images you do not want, even when the source is cleared.
+
+The wizard report lists the counts per source, so you can see which decision unlocks the most images.
+
 ### Clearing an image, step by step
 
 1. Identify the source: own photograph or scan, a book (author, year, page), an auction catalogue (house, sale, lot), or an archive.

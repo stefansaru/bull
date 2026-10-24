@@ -137,11 +137,14 @@ class Wizard:
     def rights_gate(self) -> None:
         s = self.step("Rights gate (images)")
         referenced = content.referenced_images(self.sections)
-        verdict = rights.evaluate(referenced, rights.load())
+        verdict = rights.evaluate(referenced, rights.load(), rights.load_references())
         self.shipped = verdict.cleared
         s.detail = [f"{len(referenced)} images referenced: {len(verdict.cleared)} cleared, "
                     f"{len(verdict.omitted)} omitted by decision, {len(verdict.pending)} pending, "
                     f"{len(verdict.invalid)} invalid"]
+        # Per source, so the owner can clear or omit a whole reference at once (bull DR-014).
+        for src, c in sorted(verdict.by_source.items(), key=lambda kv: -sum(kv[1].values())):
+            s.detail.append(f"  {src}: " + ", ".join(f"{n} {k}" for k, n in c.items() if n))
         s.detail += [f"invalid (cleared without provenance/licence, or unknown status): {i}"
                      for i in verdict.invalid[:20]]
         if not paths.RIGHTS.exists():

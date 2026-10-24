@@ -62,7 +62,7 @@ refactor/improve/finalize. Later in the session, the user expanded scope:
 - **Auction catalogues:** user added 21 PDFs (1.4 GB) to `input/catalogues/`. Built the
   ingest+census pipeline (`pdf_scan.py`, `census.py`, `gen_census_wiki.py`): 4,575 pages
   → 186 relevant → **279 postmark occurrences (56 on Bull's Head), 147 Kiriac figures,
-  135 markings, 176 lots**. Deliverables: [[../entities/references/README|reference pages]]
+  135 markings, 176 lots**. Deliverables: [[../entities/references/auctions/README|reference pages]]
   (13 catalogues) + [[../entities/postmarks/census|postmark census]] with a Kiriac-figure
   concordance (feeds the PM52/M1 mapping).
 - **Known gap:** Feldman + Sperati + Erivan catalogues have poor/scanned text layers →
@@ -114,7 +114,7 @@ refactor/improve/finalize. Later in the session, the user expanded scope:
   (4,054 diacritics restored) + faithful **English** →
   [[../sources/kiriac-1974/chapter-1-postmarks-1858.en]] / `.ro`. ~17k words each.
 - **Catalogue Bull's Head lots → Romanian:** 45 substantive lots →
-  [[../entities/references/bulls-head-lots]] (EN original + RO translation).
+  [[../entities/references/compilations/bulls-head-lots]] (EN original + RO translation).
 - **Terminology glossary (scoped):** 59 bilingual EN/RO terms from Kiriac Ch.1 (`K`) +
   catalogues (`C`) + book draft (`B`), 9 categories → [[terminology]]. Complements the
   symbols/abbreviations [[glossary]]; FR/DE columns deferred to those editions.
@@ -184,7 +184,7 @@ refactor/improve/finalize. Later in the session, the user expanded scope:
   97/99 photos carry solid text; only p1 (title), p99 (back cover) sparse; p15 is a garbled plate.
 - **Mined into 6 new pages + 1 deepen** (one subagent each), all `status: draft`/`debated`, every
   claim cited by photo and verified against the photo markers:
-  - [[../entities/references/wertheimer-ghika-1944]] (reference card),
+  - [[../entities/references/books/wertheimer-ghika-1944]] (reference card),
     [[../entities/concepts/bull-head-authentication-and-fantasy-stamps]] *(debated — W-G vs. the
     "mărci fanteziste"; Moroiu/Aslan/Minescu polemic)*,
     [[../entities/concepts/bull-head-stamp-distribution-1858]] *(first issue: **24,064 printed**,
@@ -240,4 +240,4 @@ refactor/improve/finalize. Later in the session, the user expanded scope:
     (magnus, dickinson, **unirea 622**) yielded full-page *scans*, not figures → removed to avoid
     bloat. Magnus 1869 plates would need `photos`-style CV on rendered pages (offered, not yet done).
 - **Wired in:** [[../index]] (Concepts → 📋 Evidence census). Census page cross-links
-  [[../entities/postmarks/census]], [[../entities/references/bulls-head-lots]], the issue pages.
+  [[../entities/postmarks/census]], [[../entities/references/compilations/bulls-head-lots]], the issue pages.

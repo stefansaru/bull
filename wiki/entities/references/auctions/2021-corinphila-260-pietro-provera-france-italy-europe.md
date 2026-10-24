@@ -1,0 +1,31 @@
+---
+id: entities/references/auctions/2021-corinphila-260-pietro-provera-france-italy-europe
+type: reference
+ref_type: auction
+title: {en: "2021 corinphila 260 pietro provera france italy europe"}
+house: "Corinphila"
+year: 2021
+sale: "260"
+source_file: "input/catalogues/2021-corinphila-260-pietro-provera-france-italy-europe.pdf"
+bulls_head_lots: 1
+postmark_occurrences: 7
+status: verified
+---
+
+# Corinphila — 2021 (sale 260)
+
+> Auction catalogue. Source: `input/catalogues/2021-corinphila-260-pietro-provera-france-italy-europe.pdf`. Contains **1 Bull's Head lot-mentions** and **7 postmark occurrences** (1 on Bull's Head adhesives) across pages 234, 235, 236.
+
+Bibliographic reference for [[census|the postmark census]]. Cited claims backed by this catalogue link here (DR-007). Auction house: [[../web/corinphila|Corinphila]].
+
+## Bull's Head postmarks in this catalogue
+
+| Issue | Denom | Marking | Type | Colour | Date | Kiriac | Pg |
+|---|---|---|---|---|---|---|---|
+| II | 5pa | Urgente |  |  |  | 363 | 234 |
+
+## Bull's Head lots in this catalogue
+
+| Pg | Issue | Denom | On cover | Certificates | Description |
+|---|---|---|---|---|---|
+| 234 | II | 5pa | yes |  | 5 pa. blue on white wove paper, two fine and fresh horizontal pairs with large margins all round on cover from Bucharest to the court in Jalomita, endorsed "Urg… |

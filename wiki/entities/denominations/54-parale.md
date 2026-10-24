@@ -17,15 +17,15 @@ catalogue:
 status: draft
 refs:
   - "[[../census/bull-head-evidence-census]]"
-  - "[[../references/bull-head-catalogue-valuations]]"
-  - "[[../references/kiriac-1974]]"
+  - "[[../references/compilations/bull-head-catalogue-valuations]]"
+  - "[[../references/catalogues/kiriac-1974]]"
 ---
 
 # 🐃 54 parale — First issue (1858)
 
 The second value of the **first *Cap de bour* issue** ([[../issues/issue-bull-1]]),
 for the ordinary single-letter rate. Catalogued **L.P. 2** (= Kiriac 2 = Michel 2 =
-Scott 2 = Yvert 2) ([[../references/bull-head-catalogue-valuations|valuations]]).
+Scott 2 = Yvert 2) ([[../references/compilations/bull-head-catalogue-valuations|valuations]]).
 
 ## Design & paper
 **Dark blue** printed on **horizontal-laid light-greenish paper**; the aurochs head
@@ -36,12 +36,12 @@ recorded — a 1935 gift to Carol II ([[../census/bull-head-evidence-census]], f
 
 ## Denomination value
 **54 parale = 50 centimes** (½ gold franc) in the 1858 gold-franc parity
-(Chiricheș-Pascariu, via [[../references/bull-head-catalogue-valuations]]).
+(Chiricheș-Pascariu, via [[../references/compilations/bull-head-catalogue-valuations]]).
 
 ## Printing & survival
 **Print run 10,016**, of which **4,772 sold** — the largest printing of the first
 issue, identical across the three catalogues
-([[../references/bull-head-catalogue-valuations]]).
+([[../references/compilations/bull-head-catalogue-valuations]]).
 
 ## Valuation (unused / used)
 - Spineanu 1984: **75 000 / 40 000 Lei**

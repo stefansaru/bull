@@ -92,6 +92,22 @@ Book fixtureBook() => Book.fromJson({
       'title': {'en': '27 parale'},
       'text': {'en': '## Design\nThe lowest value.'},
     },
+    {
+      'id': 'entities/references/books/dragomir-1990',
+      'group': 'references',
+      'subgroup': 'books',
+      'type': 'reference',
+      'title': {'en': 'Dragomir, Ștampilografie poștală (1990)'},
+      'text': {'en': 'The standard reference for Romanian handstamps.'},
+    },
+    {
+      'id': 'entities/references/auctions/2024-corinphila-328',
+      'group': 'references',
+      'subgroup': 'auctions',
+      'type': 'reference',
+      'title': {'en': 'Corinphila 328 (2024)'},
+      'text': {'en': "70 Bull's Head lots."},
+    },
   ],
 });
 

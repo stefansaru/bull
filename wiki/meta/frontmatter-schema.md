@@ -100,13 +100,41 @@ Full procedure: `app/docs/content-pipeline.md`.
 images:
   assets/media/image219.jpg:
     status: pending      # pending | cleared | omit
-    provenance: ""       # own scan / book, year, page / auction house, sale, lot / archive
+    source: references/books/dragomir-stampilografie-1990   # the reference it comes from (DR-014)
+    locator: "fig. 412"  # page / figure / lot within that reference
+    provenance: ""       # only when there is no `source`: own scan, archive, …
     licence: ""          # own work / public domain (why) / permission (ref) / licence name
     note: ""             # where the permission document is kept, caveats
 ```
 
-`cleared` requires both `provenance` and `licence`. New images are added as `pending`
-by `py -3 app/wizard/wizard.py --rights-init`; existing entries are never rewritten.
+A `pending` image inherits its source's `rights_default` (below). `cleared` needs a
+provenance (its own, or the source's title) and a licence (its own, or the default).
+`--rights-init` adds new images as `pending` and fills an empty `source` from the
+references' `assets:` prefixes; it never changes a decision.
+
+## Reference page (`entities/references/<kind>/<slug>.md`)
+
+```yaml
+---
+id: entities/references/books/dragomir-stampilografie-1990
+type: reference
+ref_type: book            # see DR-014 for the values per folder
+title: {en: "…", ro: "…"}
+author: "…"
+year: 1990
+publisher: "…"
+series: "[[lp]]"          # catalogue editions → their catalogue series
+in: "[[…]]"               # articles → the journal, book or site they appear in
+domains: [colnect.com]    # web/ and archives/ pages → matched by tools/link_report.py
+reliability: secondary    # web/ and archives/: primary | primary-host | secondary | tertiary | unverified | archive-copy
+assets: ["assets/sources/dragomir-stampilografie-1990/"]   # images taken from this reference
+rights_default: {status: pending, licence: "", note: ""}    # inherited by those images
+status: draft             # draft | reviewed | verified | needs-identification
+---
+```
+
+A `needs-identification` reference cannot back a claim (DR-007) until its author,
+date or origin is recorded.
 
 ## Conventions
 

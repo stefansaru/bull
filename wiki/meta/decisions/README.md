@@ -25,6 +25,11 @@ Alternatives / Consequences.
 | [[DR-007-references-for-claims]] | Every claim carries a reference | accepted |
 | [[DR-008-three-stage-pipeline]] | concepts → narrative → pagination | accepted |
 | DR-009-published-languages | How many languages the *published* book uses | **open** (pending [[../../strategy/multilanguage-analysis]]) |
+| [[DR-010-translation-storage]] | Translations stored in per-page sidecars, hash-linked to English | accepted |
+| [[DR-011-raw-source-ingestion-stage]] | Explicit raw-text ingestion stage; sources/ area | accepted |
+| [[DR-012-source-translations]] | Sources carry cleaned + translated language variants | accepted |
+| [[DR-013-heritage-thesis-and-enrichment]] | Heritage-led thesis; curated-deep enrichment; legends labeled | accepted |
+| [[DR-014-reference-taxonomy]] | References are one type with kinds; images point to their source | accepted |
 
 ## Template
 

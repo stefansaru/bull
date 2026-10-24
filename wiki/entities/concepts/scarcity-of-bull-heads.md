@@ -50,7 +50,7 @@ pretend to a false precision** ([[../../strategy/market-research|market research
 
 For the *usage-level* granularity behind these totals — which towns, which cancels, how
 many on cover — see the [[../postmarks/census|auction postmark census]] and the
-[[../references/bulls-head-lots|notable auction lots]].
+[[../references/compilations/bulls-head-lots|notable auction lots]].
 
 ## Why so few survive
 
@@ -77,7 +77,7 @@ Creases, thins and paper irregularities are so common that on the auction market
 described as "the rule," and paper pinholes are routinely mistaken for damage
 ([[../../strategy/market-research|market research]]). Sound, full-margined examples are a
 small fraction of even the small surviving total — lot after lot in the
-[[../references/bulls-head-lots|auction record]] is caveated "thinned," "creased,"
+[[../references/compilations/bulls-head-lots|auction record]] is caveated "thinned," "creased,"
 "touched," "backed."
 
 **4. Ordinary postal use destroyed most of them.** Like all early stamps, the great
@@ -93,7 +93,7 @@ all attacked them, and forgeries are "regularly purchased on internet auctions"
 ([[../../strategy/market-research|market research]]). Forgery does not reduce the number
 of genuine stamps, but it does two things to scarcity: it makes **authentication
 essential** (nearly every serious item carries a Heimbüchler or Diena certificate — see
-the certs threaded through [[../references/bulls-head-lots|the lots]]), and it means many
+the certs threaded through [[../references/compilations/bulls-head-lots|the lots]]), and it means many
 "Bull's Heads" in old collections are worthless, so the pool of *certifiably genuine*
 material is smaller than the raw survivor count suggests. See [[forgeries]].
 
@@ -123,9 +123,9 @@ census [3]):
 about **62 survive** in any form (roughly 42 recorded + 12 unseen since 1950 + 8 in
 museums) [3][1]. Feldman calls the "GALATZ" used example "the rarest of all the Bull's
 Heads," noting that of the recorded pieces four have not been seen since 1950 and three
-more are in museums [[../references/bulls-head-lots|(lot)]]. Of the 27 recorded *used*
+more are in museums [[../references/compilations/bulls-head-lots|(lot)]]. Of the 27 recorded *used*
 examples, **exactly one is cancelled in red** — the unique Jassy strike — and just about
-seven are known from Fokschani [[../references/bulls-head-lots|(lots)]]. In **mint,
+seven are known from Fokschani [[../references/compilations/bulls-head-lots|(lots)]]. In **mint,
 never-hinged, original-gum condition only two 81-parale copies are believed to survive,**
 valued at **€70,000–€100,000** [1].
 
@@ -135,7 +135,7 @@ life of the issue," so a clear strike from a minor town is far rarer than the va
 [3]. The auction record bristles with such rarities: only **three** 54-parale known from
 Foltitscheni; only **19–20** 27-parale from Fokschani; the **unique** Dorohoj 27-parale
 cover; a **single** recorded 108-parale cover from Piatra
-[[../references/bulls-head-lots|(lots)]]. The **greatest single item of all** — franked
+[[../references/compilations/bulls-head-lots|(lots)]]. The **greatest single item of all** — franked
 with the 27, 81 and two 108 parale together — is held in the German Postal Museum and
 will never come to market [3].
 
@@ -143,7 +143,7 @@ will never come to market [3].
 second issue]] the 40 and 80 parale are commoner, but the **5 parale "PORTO GAZETEI" Type
 I** is, in Feldman's words, "the supreme rarity of the Moldavia Bulls": of 23,040 printed
 on bluish paper, **only 3 unused and 32 used survive** [3]. Heimbüchler records only ~8
-unused examples across papers [[../references/bulls-head-lots|(lots)]]. The famous **"Large
+unused examples across papers [[../references/compilations/bulls-head-lots|(lots)]]. The famous **"Large
 Journal"** — a single *Zimbrul și Vulturul* newspaper wrapper franked with **eight** of
 the 5-parale — accounts for **one quarter of all known used examples of the stamp on its
 own** [3].
@@ -161,7 +161,7 @@ Modern results (all genuine, certified pieces):
   value, condition and cancel [1][3].
 - **81 parale, unused, ex-Ferrary:** **€42,700** at David Feldman, December 2019 [2].
 - **81 parale, used, unique red cancel:** **$50,132** at Corinphila, 2013 (catalogued
-  Mi €48,000 / Scott $55,000) [4][[../references/bulls-head-lots|(lot)]].
+  Mi €48,000 / Scott $55,000) [4][[../references/compilations/bulls-head-lots|(lot)]].
 - **27 parale on cover:** **€26,000** at Artmark (Bucharest) in 2015 — then the most
   expensive stamp ever sold at auction in Romania [6].
 - **108 parale, unused:** estimated **€10,000–€15,000**; Michel values reach ~€32,000
@@ -188,7 +188,7 @@ from the forgeries — *is* the subject. See [[bull-heads-today]] for the curren
 
 ## See also
 
-- [[../references/README|Auction catalogues]] · [[../references/bulls-head-lots|notable auction lots]]
+- [[../references/auctions/README|Auction catalogues]] · [[../references/compilations/bulls-head-lots|notable auction lots]]
 - [[../postmarks/census|Auction postmark census]]
 - [[famous-collectors]] · [[forgeries]] · [[bull-heads-today]]
 - [[../issues/issue-bull-1|Issue I (Bull's Head)]] · [[../issues/issue-bull-2|Issue II]]

@@ -130,3 +130,42 @@ def test_bundle_removes_images_no_longer_cleared(wiki, tmp_path):
     bundle.write(sections, [], ["en"], ["assets/media/a.png", "assets/media/b.png"], cfg, out)
     bundle.write(sections, [], ["en"], ["assets/media/b.png"], cfg, out)
     assert not (out / "img" / "media__a.webp").exists()
+
+
+def _ref_page(root, kind, slug, extra):
+    d = root / "entities" / "references" / kind
+    d.mkdir(parents=True, exist_ok=True)
+    (d / f"{slug}.md").write_text(
+        f"---\nid: entities/references/{kind}/{slug}\ntype: reference\ntitle: {{en: \"{slug} title\"}}\n{extra}---\n",
+        encoding="utf-8")
+
+
+def test_reference_default_clears_a_whole_source(tmp_path):
+    _ref_page(tmp_path, "books", "dragomir", 'assets: ["assets/sources/dragomir/"]\n'
+              'rights_default: {status: cleared, licence: "permission, letter 2026-11-02"}\n')
+    _ref_page(tmp_path, "auctions", "feldman", 'assets: ["assets/sources/feldman/"]\n'
+              'rights_default: {status: omit}\n')
+    refs = rights.load_references(tmp_path / "entities")
+    assert set(refs) == {"references/books/dragomir", "references/auctions/feldman"}
+
+    reg = tmp_path / "rights.yml"
+    imgs = ["assets/sources/dragomir/fig1.png", "assets/sources/feldman/lot9.png", "assets/media/x.png"]
+    rights.init(imgs, reg, refs)
+    data = rights.load(reg)
+    assert data["assets/sources/dragomir/fig1.png"]["source"] == "references/books/dragomir"
+    assert data["assets/media/x.png"]["source"] == ""          # no prefix matched: owner decides
+
+    v = rights.evaluate(imgs, data, refs)
+    assert v.cleared == ["assets/sources/dragomir/fig1.png"]   # provenance = reference title
+    assert v.omitted == ["assets/sources/feldman/lot9.png"]
+    assert v.pending == ["assets/media/x.png"]
+    assert v.by_source["references/books/dragomir"]["cleared"] == 1
+
+
+def test_image_status_overrides_the_source_default(tmp_path):
+    _ref_page(tmp_path, "books", "dragomir", 'assets: ["assets/sources/dragomir/"]\n'
+              'rights_default: {status: cleared, licence: "permission"}\n')
+    refs = rights.load_references(tmp_path / "entities")
+    data = {"assets/sources/dragomir/fig2.png": {"status": "omit", "source": "references/books/dragomir"}}
+    v = rights.evaluate(list(data), data, refs)
+    assert v.omitted == ["assets/sources/dragomir/fig2.png"]

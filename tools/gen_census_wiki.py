@@ -3,8 +3,8 @@
 gen_census_wiki.py -- Generate reference pages + the postmark census in the wiki.
 
 Reads work/census/{postmarks,lots,summary}.json and writes:
-  wiki/entities/references/<catalogue>.md   one bibliographic page per catalogue
-  wiki/entities/references/README.md         the references index (auction catalogues)
+  wiki/entities/references/auctions/<catalogue>.md  one page per auction catalogue (postmarks + lots)
+  wiki/entities/references/auctions/README.md       the auction catalogue index (ref_type: auction, DR-014)
   wiki/entities/postmarks/census.md          the Bull's Head postmark census (tables)
   wiki/entities/postmarks/data/*.csv/json    the raw census data (for querying)
 
@@ -13,6 +13,7 @@ Usage: python gen_census_wiki.py work/census wiki
 import sys, os, re, json, shutil
 from collections import Counter, defaultdict
 
+HOUSE_PAGE = {"Corinphila": "corinphila", "David Feldman": "david-feldman"}
 HOUSE = {"corinphila": "Corinphila", "david-feldman": "David Feldman",
          "feldman": "David Feldman", "international": "David Feldman"}
 
@@ -48,7 +49,7 @@ def main():
     lots = json.load(open(os.path.join(indir, "lots.json"), encoding="utf-8"))
     summary = json.load(open(os.path.join(indir, "summary.json"), encoding="utf-8"))
 
-    refdir = os.path.join(vault, "entities", "references")
+    refdir = os.path.join(vault, "entities", "references", "auctions")
     pmdir = os.path.join(vault, "entities", "postmarks")
     datadir = os.path.join(pmdir, "data")
     os.makedirs(refdir, exist_ok=True)
@@ -75,8 +76,8 @@ def main():
         lts = by_cat_lot.get(slug, [])
         pages = sorted(set(p["page"] for p in pms) | set(l["page"] for l in lts))
         bh = [p for p in pms if p["on_bulls_head"]]
-        fm = ["---", f"id: entities/references/{slug}", "type: reference",
-              "subtype: auction-catalogue",
+        fm = ["---", f"id: entities/references/auctions/{slug}", "type: reference",
+              "ref_type: auction",
               f"title: {{en: {esc(meta['title'])}}}",
               f"house: {esc(meta['house'])}", f"year: {meta['year'] or 'null'}",
               f"sale: {esc(meta['sale'])}",
@@ -92,7 +93,9 @@ def main():
                 + (" …" if len(pages) > 20 else "") + ".",
                 "",
                 "Bibliographic reference for [[census|the postmark census]]. Cited claims "
-                "backed by this catalogue link here (DR-007).", ""]
+                "backed by this catalogue link here (DR-007)."
+                + (f" Auction house: [[../web/{HOUSE_PAGE[meta['house']]}|{meta['house']}]]."
+                   if meta["house"] in HOUSE_PAGE else ""), ""]
         if bh:
             body += ["## Bull's Head postmarks in this catalogue", "",
                      "| Issue | Denom | Marking | Type | Colour | Date | Kiriac | Pg |",
@@ -102,16 +105,30 @@ def main():
                     p["issue"], f"{p['denomination']}pa", p["marking"], p["type"],
                     p["color"], p["date"], p["kiriac_fig"], p["page"]]) + " |")
             body.append("")
+        if lts:
+            # Lots live inside their auction page (DR-014); bulls-head-lots compiles the notable ones.
+            body += ["## Bull's Head lots in this catalogue", "",
+                     "| Pg | Issue | Denom | On cover | Certificates | Description |",
+                     "|---|---|---|---|---|---|"]
+            for l in sorted(lts, key=lambda x: (x["page"], x["issue"] or "", x["denomination"] or 0)):
+                text = l.get("text", "")
+                body.append("| " + " | ".join(cell(x) for x in [
+                    l["page"], l["issue"] or "", f"{l['denomination']}pa" if l["denomination"] else "",
+                    "yes" if l.get("on_cover") else "", ", ".join(f"{c.get('expert', '')} {c.get('year', '')}".strip() if isinstance(c, dict) else str(c) for c in l.get("certs") or []),
+                    text[:160] + ("…" if len(text) > 160 else "")]) + " |")
+            body.append("")
         open(os.path.join(refdir, slug + ".md"), "w", encoding="utf-8").write(
             "\n".join(fm + body))
         index_rows.append((meta, len(lts), len(pms), len(bh)))
 
     # ---- references index ----
-    idx = ["---", "id: entities/references/README", "type: reference",
-           "title: {en: References — auction catalogues}", "status: living", "---", "",
-           "# References — auction catalogues", "",
+    idx = ["---", "id: entities/references/auctions/README", "type: reference",
+           "ref_type: auction",
+           "title: {en: Auction catalogues}", "status: living", "---", "",
+           "# Auction catalogues", "",
+           "Part of the [[../README|references]] (DR-014).", "",
            "Auction catalogues ingested as sources for the Bull's Head "
-           "[[../postmarks/census|postmark census]]. Each links to its own page with the "
+           "[[../../postmarks/census|postmark census]]. Each links to its own page with the "
            "lots/postmarks it contributes. Extracted mechanically from the PDFs' text "
            "layer; see the census page for method & caveats.", "",
            "| Catalogue | House | Year | Sale | BH lots | Postmarks (on BH) |",
@@ -153,7 +170,7 @@ def main():
          f"unique_kiriac_figs: {summary['unique_kiriac_figs']}", "---", "",
          "# Auction postmark census", "",
          "> Every postmark/marking identified on Moldavia–Wallachia material across the "
-         "ingested [[../references/README|auction catalogues]], anchored on the **Kiriac "
+         "ingested [[../references/auctions/README|auction catalogues]], anchored on the **Kiriac "
          "(Dragomir) figure number** — the field's public postmark identifier "
          "([[../../strategy/market-research]]). Use this to build the "
          "[[../handstamps/PM52|PM52]]/[[../handstamps/M1|M1]]… → Kiriac concordance the "

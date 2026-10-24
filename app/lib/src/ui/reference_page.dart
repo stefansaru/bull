@@ -23,20 +23,43 @@ class ReferencePage extends StatelessWidget {
             key: PageStorageKey('group-$g'),
             title: Text(_label(g)),
             children: [
-              for (final e in groups[g]!)
-                ListTile(
-                  dense: true,
-                  title: Text(pick(e.title, scope.lang)),
-                  onTap: () => Navigator.of(context).push(
-                    MaterialPageRoute<void>(
-                      builder: (_) => EntityPage(entity: e),
+              // References are subdivided by kind (books, catalogues, auctions, web…), bull DR-014.
+              for (final (sub, items) in _bySubgroup(groups[g]!)) ...[
+                if (sub.isNotEmpty)
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(16, 12, 16, 4),
+                    child: Semantics(
+                      header: true,
+                      child: Text(
+                        _label(sub),
+                        style: Theme.of(context).textTheme.labelLarge,
+                      ),
                     ),
                   ),
-                ),
+                for (final e in items)
+                  ListTile(
+                    dense: true,
+                    title: Text(pick(e.title, scope.lang)),
+                    onTap: () => Navigator.of(context).push(
+                      MaterialPageRoute<void>(
+                        builder: (_) => EntityPage(entity: e),
+                      ),
+                    ),
+                  ),
+              ],
             ],
           ),
       ],
     );
+  }
+
+  static List<(String, List<Entity>)> _bySubgroup(List<Entity> entities) {
+    final subs = <String, List<Entity>>{};
+    for (final e in entities) {
+      subs.putIfAbsent(e.subgroup, () => []).add(e);
+    }
+    final keys = subs.keys.toList()..sort();
+    return [for (final k in keys) (k, subs[k]!)];
   }
 
   static String _label(String group) => group.isEmpty

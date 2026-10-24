@@ -31,7 +31,7 @@ Bull's Head, and — as we shall see — they already carried the very emblem th
 made famous.
 
 The record and its ordering are owed to one book:
-[[../../entities/references/dragomir-stampilografie-1990|Kiriac Dragomir's
+[[../../entities/references/books/dragomir-stampilografie-1990|Kiriac Dragomir's
 *Ștampilografie Poștală*]] (1990), the second great stage of Romanian marking-study
 after Racoviceanu's 1963 survey. Dragomir reads every impression as **emblem +
 legend**, classes the devices by a compact code, and — crucially for a book about

@@ -7,7 +7,7 @@ title:
 status: draft
 refs:
   - "[[../../sources/dragomir-stampilografie-1990/text]]"
-  - "[[../references/dragomir-stampilografie-1990]]"
+  - "[[../references/books/dragomir-stampilografie-1990]]"
   - "[[pre-stamp-postal-markings]]"
   - "[[postal-history-romania]]"
   - "[[geopolitics-1800s]]"
@@ -168,5 +168,5 @@ post inherited. They sit beside the office seals (`SM`/`SV`) and the road-post f
 - [[pre-stamp-postal-markings]] — the anchor concept for the 1822–1858 devices
 - [[franco-porto-handstamps|FM/FV road-post handstamps]] — the parallel road-post forms
 - [[postal-history-romania]] · [[geopolitics-1800s]] — the institutional and geopolitical setting
-- [[../references/dragomir-stampilografie-1990|Dragomir, Ștampilografie (1990)]] — source + code key
+- [[../references/books/dragomir-stampilografie-1990|Dragomir, Ștampilografie (1990)]] — source + code key
 - [[../handstamps/README|Device index]]
