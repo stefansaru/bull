@@ -9,6 +9,8 @@ This is the wiki for the app in `bull/app/`, a Flutter interactive book on the 1
 | [wizard.md](wizard.md) | Wizard commands, steps, exit codes, the HTML report |
 | [doctor.md](doctor.md) | Environment checks and `--fix` |
 | [release-workflow.md](release-workflow.md) | Signing, version, internal testing, Play Console and TV distribution |
+| [ui-concept.md](ui-concept.md) | The proposed artefact-browser UI (status: proposed, under review) |
+| [ui-concept-review.md](ui-concept-review.md) | Review invitation for the UI concept — tasks and research questions |
 | [glossary.md](glossary.md) | Terms used across the app docs |
 | [requirements/Requirements.md](requirements/Requirements.md) | The four-tier requirement tree |
 | [release_log.jsonl](release_log.jsonl) | One line per release build (written by the wizard) |

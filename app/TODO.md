@@ -20,6 +20,22 @@ The book's own work list is `../TODO.md`. Requirement IDs refer to [`docs/requir
 - [ ] **Title and front matter** of the app edition. This follows the book's front-matter decision (book TODO §A).
 - [ ] **Tax and Framework subscription** for income from a paid app as a natural person. This is a Hermes `jini-apps` decision and must come before the first paid release.
 
+## UI concept (docs/ui-concept.md, status: proposed)
+
+The target UI is specified in [`docs/ui-concept.md`](docs/ui-concept.md); IDs below refer to it.
+
+- [ ] **Run the review**: have an LLM reviewer execute [`docs/ui-concept-review.md`](docs/ui-concept-review.md); owner accepts findings; record the accepting DR in the wiki.
+- [ ] Artefact page chrome: top menu (back, sections, star, search, three-dots), date line, title (UIC-NAV-01, UIC-ART-02..04).
+- [ ] Dotted-underline links with preview popup + More (UIC-LNK-01..04).
+- [ ] Image viewer: pinch zoom, swipe prev/next, global numbered index, viewer top bar (UIC-IMG-01..05).
+- [ ] Table viewer: rotate 90°, row/column/range selection, bookmarkable selections (UIC-TBL-01..04).
+- [ ] Favorites: star, bookmark kinds (table selection, image, text passage), tree view, deletes, favorites-filtered search (UIC-FAV-01..06).
+- [ ] Search filters subwindow with applied-count badge (UIC-SRC-01..03).
+- [ ] Landscape left rail + landscape-only title button, hidden title by default (UIC-LAY-02..03).
+- [ ] Platform detection (Phone/Tablet/TV/other→TV) via platform channel; busy's `TvKeyboard`; keyboard button fallback (UIC-PLT-01..03).
+- [ ] Three-dots menu: audio (sound effects + **TTS read-aloud, v1**), language+country window, help walkthroughs, two-axis colours (theme × vision mode) (UIC-NAV-02..06).
+- [ ] Wiki content: generate abbreviation entities from Table 2, colour entities with hex from chapter 25, calendar concept pages, `summary` fields; extend the content bundle (UIC-DAT-01..05). The generator scripts live in `tools/`.
+
 ## Product work
 
 - [ ] Links from narrative text to entity pages (APP-CNT-002).
