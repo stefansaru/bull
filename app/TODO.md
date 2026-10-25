@@ -25,17 +25,17 @@ The book's own work list is `../TODO.md`. Requirement IDs refer to [`docs/requir
 The target UI is specified in [`docs/ui-concept.md`](docs/ui-concept.md); IDs below refer to it. Two reviews ran 2026-10-25 (findings files next to the concept); DR-015 records the rulings: frozen-column tables, hybrid previews, best-effort TTS, `1 (13) June 1865 ᴶ⁄ᴳ` dates.
 
 - [x] Run the review; owner accepted findings; DR-015 recorded (2026-10-25).
-- [ ] Navigation stack with semantic anchors (artefact, unit, scroll, focus, pane); Back contract (UIC-PRN-01).
-- [ ] Artefact page chrome: top menu, breadcrumb, date line (DR-015 notation), title (UIC-NAV-01, UIC-ART-02..06).
-- [ ] Sections window: TOC + Indexes (images, abbreviations, colours, calendars) + Favorites entry (UIC-NAV-01a).
-- [ ] Dotted-underline links with TalkBack link semantics; hybrid previews — popup + More in prose, direct open elsewhere (UIC-LNK-01..04).
-- [ ] Image viewer: pinch zoom, swipe prev/next, stable `imageId` + display numbers, two D-pad modes (fitted/zoomed-pan), viewer top bar (UIC-IMG-01..05).
+- [x] Navigation stack: restorable, with scroll offsets and anchors; Back closes overlays first (UIC-PRN-01). Focus restoration on Back is Flutter's default; pane context is per-layout.
+- [x] Artefact page chrome: top menu, breadcrumb, date line (year links to its calendar), title (UIC-NAV-01, UIC-ART-02..06).
+- [x] Sections window: TOC + Indexes + Favorites + Recently visited (UIC-NAV-01a).
+- [x] Dotted-underline links with TalkBack link semantics; hybrid previews; remote: focusable paragraphs, Select previews or offers a choice (UIC-LNK-01..04).
+- [x] Image viewer: pinch zoom, swipe prev/next, stable `imageId` + display numbers, two D-pad modes, zoom/fit/prev/next/bookmark bar (UIC-IMG-01..05). Widget test waits for the first cleared image.
 - [ ] Table viewer: frozen first column + header, horizontal scroll, full-screen mode; keyboard-first selection (anchor–extend–confirm); selections saved by stable row/column IDs (UIC-TBL-01..04).
-- [ ] Favorites: star toggle, bookmark kinds (table selection, image, text passage), tree view, deletes, Recently visited, Continue-reading moves only on linear reading (UIC-FAV-01..06).
-- [ ] Search: filter subwindow with applied-count badge and chips; fixed set type/chapter/favorites-only (UIC-SRC-01..03).
-- [ ] Landscape left rail + landscape-only title button, hidden title by default, breadcrumb always visible; pane ownership rules (UIC-LAY-02..04).
+- [~] Favorites: star toggle, image bookmarks, tree view, deletes, Recently visited, Continue reading only on linear reading — done. Still to do: passage bookmarks (long-press / Select) and table-selection bookmarks (UIC-FAV-03).
+- [x] Search: sections and entities; filter subwindow with count and chips (UIC-SRC-01..03).
+- [x] Landscape rail + title button (hidden by default), breadcrumb always visible, Sections pane when ≥ 900 dp (UIC-LAY-02..04).
 - [ ] Platform detection (Phone/Tablet/TV/other→TV) via platform channel; busy's `TvKeyboard`; labelled keyboard-button fallback; 10-foot type scale from reviewer B's tokens, validated on hardware (UIC-PLT-01..04).
-- [ ] Three-dots menu: audio (sound effects + TTS via `SpeechService`/`flutter_tts`, offline voices preferred, graceful no-voice fallback, never cloud), language+country window, proportional help walkthroughs, two-axis colours (theme × vision mode; vision modes never recolour stamp images) (UIC-NAV-02..06).
+- [x] More menu: read aloud (flutter_tts behind `SpeechService`, offline voices preferred, no-voice explanation, never cloud), audio, language + country with reorder, help (first-run tour + topics), theme × vision mode (UIC-NAV-02..06). Verify TTS voices on real hardware (phone, TV).
 - [x] Wiki content (UIC-DAT-01..05), 2026-10-25: 60 abbreviation pages + index (`tools/gen_abbreviations.py`), 22 colour pages with the author's swatch hex (`tools/extract_swatches.py`, `tools/gen_colors.py`), Julian/Gregorian/dual-date concept pages, bundle schema 2 (links, curated auto-links, DR-015 date notation, summaries, stable IDs, image index, indexes).
 - [ ] `summary:` fields written by hand for the most-visited entities (the first-paragraph fallback covers the rest).
 - [ ] Adopt reviewer B's 13 acceptance tests (its "Suggested acceptance tests") as the feature-level test checklist.

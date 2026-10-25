@@ -13,8 +13,10 @@ dependencies:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
+  flutter_tts: ^4.2.5
   intl: any
   shared_preferences: ^2.5.3
+  url_launcher: ^6.3.3
 
 dev_dependencies:
   flutter_test:

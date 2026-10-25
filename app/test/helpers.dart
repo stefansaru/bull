@@ -1,6 +1,7 @@
 import 'package:capdebour/src/app.dart';
 import 'package:capdebour/src/content/book.dart';
 import 'package:capdebour/src/settings.dart';
+import 'package:capdebour/src/speech/speech_service.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -12,7 +13,14 @@ const tabletPortrait = Size(800, 1280);
 const tabletLandscape = Size(1280, 800);
 const tv = Size(960, 540);
 
+Map<String, dynamic> _text(String uid, String en, [String? ro]) => {
+  'uid': uid,
+  'kind': 'text',
+  'text': {'en': en, 'ro': ?ro},
+};
+
 Book fixtureBook() => Book.fromJson({
+  'schema': 2,
   'languages': ['en', 'ro'],
   'chapters': [
     {
@@ -25,6 +33,11 @@ Book fixtureBook() => Book.fromJson({
       'label': 'The Aurochs',
       'sections': ['s3'],
     },
+    {
+      'id': '21-calendar',
+      'label': 'Calendar',
+      'sections': ['cal-1858'],
+    },
   ],
   'sections': [
     {
@@ -33,15 +46,18 @@ Book fixtureBook() => Book.fromJson({
       'order': 1,
       'level': 1,
       'title': {'en': 'Introduction', 'ro': 'Introducere'},
+      'summary': {'en': 'The first stamps of Moldavia.'},
       'units': [
-        {
-          'uid': 'u1',
-          'kind': 'text',
-          'text': {
-            'en': 'The first stamps of Moldavia.',
-            'ro': 'Primele mărci ale Moldovei.',
-          },
-        },
+        _text(
+          'u1',
+          'The first stamps of Moldavia.',
+          'Primele mărci ale Moldovei.',
+        ),
+        _text(
+          'u2',
+          'Printed in ⟦entities/colors/carmine-red|carmine red⟧ on '
+              '1 (13) June 1858 ⟦entities/concepts/dual-date-notation|ᴶ⁄ᴳ⟧.',
+        ),
       ],
     },
     {
@@ -49,20 +65,19 @@ Book fixtureBook() => Book.fromJson({
       'chapter': '01-intro',
       'order': 2,
       'level': 2,
-      'title': {'en': 'Why this book'},
+      'year': '1858',
+      'title': {'en': '1858 Why this book'},
       'units': [
+        _text('u3', 'Because the aurochs head deserves it.'),
         {
-          'uid': 'u2',
-          'kind': 'text',
-          'text': {'en': 'Because the aurochs head deserves it.'},
-        },
-        {
-          'uid': 'u3',
+          'uid': 'u4',
           'kind': 'table',
           'text': {},
+          'head': 1,
           'rows': {
             'en': [
-              ['27 parale', 'black'],
+              ['Value', 'Colour'],
+              ['27 parale', '⟦entities/colors/carmine-red|carmine red⟧'],
               ['54 parale', 'blue'],
             ],
           },
@@ -75,13 +90,16 @@ Book fixtureBook() => Book.fromJson({
       'order': 3,
       'level': 1,
       'title': {'en': 'The Aurochs'},
-      'units': [
-        {
-          'uid': 'u4',
-          'kind': 'text',
-          'text': {'en': 'An extinct wild ox, symbol of Moldavia.'},
-        },
-      ],
+      'units': [_text('u5', 'An extinct wild ox, symbol of Moldavia.')],
+    },
+    {
+      'id': 'cal-1858',
+      'chapter': '21-calendar',
+      'order': 4,
+      'level': 2,
+      'year': '1858',
+      'title': {'en': 'Calendar 1858'},
+      'units': [_text('u6', 'Julian and Gregorian days of 1858.')],
     },
   ],
   'entities': [
@@ -91,9 +109,71 @@ Book fixtureBook() => Book.fromJson({
       'type': 'denomination',
       'title': {'en': '27 parale'},
       'units': [
-        {'uid': 'd#1', 'kind': 'heading', 'text': {'en': '## Design'}},
-        {'uid': 'd#2', 'kind': 'text', 'text': {'en': 'The lowest value.'}},
+        {
+          'uid': 'd#1',
+          'kind': 'heading',
+          'text': {'en': '## Design'},
+        },
+        _text('d#2', 'The lowest value.'),
       ],
+      'related': [
+        {'id': 'entities/colors/carmine-red', 'rel': 'related'},
+      ],
+    },
+    {
+      'id': 'entities/colors/carmine-red',
+      'group': 'colors',
+      'type': 'color',
+      'title': {'en': 'Carmine red', 'ro': 'Roşu carmin'},
+      'summary': {'en': 'Carmine red — matched in the book to Pantone 1807.'},
+      'hex': '#A4343A',
+      'family': 'red',
+      'swatches': [
+        {
+          'system': 'pantone',
+          'code': '1807',
+          'name': 'Carmine Red',
+          'description': '',
+          'hex': '#A4343A',
+        },
+      ],
+      'units': [_text('c#1', 'The red of the 27 parale.')],
+      'related': [
+        {'id': 'entities/denominations/27-parale', 'rel': 'related'},
+      ],
+    },
+    {
+      'id': 'entities/abbreviations/abbr-j',
+      'group': 'abbreviations',
+      'type': 'abbreviation',
+      'title': {'en': 'J — Julian calendar'},
+      'summary': {'en': 'J: Julian calendar.'},
+      'abbr': 'J',
+      'forms': ['J'],
+      'category': 'calendar',
+      'expansion': {'en': 'Julian calendar', 'ro': 'Calendar iulian'},
+      'related': [
+        {'id': 'entities/concepts/dual-date-notation', 'rel': 'see'},
+      ],
+    },
+    {
+      'id': 'entities/abbreviations/abbr-jt',
+      'group': 'abbreviations',
+      'type': 'abbreviation',
+      'title': {'en': 'JT — Joint test'},
+      'abbr': 'JT',
+      'forms': ['JT'],
+      'category': 'general',
+      'expansion': {'en': 'Joint test'},
+    },
+    {
+      'id': 'entities/concepts/dual-date-notation',
+      'group': 'concepts',
+      'type': 'concept',
+      'title': {'en': 'Dual dates'},
+      'summary': {
+        'en': 'The first date is Julian, the date in parentheses Gregorian.',
+      },
     },
     {
       'id': 'entities/references/books/dragomir-1990',
@@ -101,34 +181,34 @@ Book fixtureBook() => Book.fromJson({
       'subgroup': 'books',
       'type': 'reference',
       'title': {'en': 'Dragomir, Ștampilografie poștală (1990)'},
-      'units': [
-        {
-          'uid': 'r#1',
-          'kind': 'text',
-          'text': {'en': 'The standard reference for Romanian handstamps.'},
-        },
-      ],
+      'units': [_text('r#1', 'The standard reference for handstamps.')],
+    },
+  ],
+  'images': [],
+  'indexes': [
+    {
+      'id': 'index/images',
+      'title': {'en': 'Images'},
     },
     {
-      'id': 'entities/references/auctions/2024-corinphila-328',
-      'group': 'references',
-      'subgroup': 'auctions',
-      'type': 'reference',
-      'title': {'en': 'Corinphila 328 (2024)'},
-      'units': [
-        {
-          'uid': 'a#1',
-          'kind': 'text',
-          'text': {'en': "70 Bull's Head lots."},
-        },
-      ],
+      'id': 'index/abbreviations',
+      'title': {'en': 'Abbreviations'},
+    },
+    {
+      'id': 'index/colours',
+      'title': {'en': 'Colours'},
+    },
+    {
+      'id': 'index/calendars',
+      'title': {'en': 'Calendars'},
+      'items': ['entities/concepts/dual-date-notation', 'cal-1858'],
     },
   ],
 });
 
 Future<Settings> settingsFor(
   Book book, [
-  Map<String, Object> prefs = const {},
+  Map<String, Object> prefs = const {'tourSeen': true},
 ]) async {
   SharedPreferences.setMockInitialValues(prefs);
   return Settings(
@@ -144,22 +224,57 @@ Future<void> setSize(WidgetTester tester, Size size) async {
   await tester.pump();
 }
 
+/// A speech engine for tests: records what it was asked to say.
+class FakeSpeech implements SpeechService {
+  FakeSpeech({
+    this.availability = SpeechAvailability.available,
+    this.delay = const Duration(milliseconds: 10),
+  });
+
+  final SpeechAvailability availability;
+  final Duration delay;
+  final spoken = <String>[];
+
+  @override
+  Future<SpeechAvailability> prepare(String lang) async => availability;
+
+  @override
+  Future<void> speak(String text, {required double rate}) async {
+    spoken.add(text);
+    await Future<void>.delayed(delay);
+  }
+
+  @override
+  Future<void> stop() async {}
+}
+
 Future<(Book, Settings)> pumpApp(
   WidgetTester tester, {
   Size size = phonePortrait,
-  Map<String, Object> prefs = const {},
+  Map<String, Object> prefs = const {'tourSeen': true},
+  SpeechService? speech,
 }) async {
   await setSize(tester, size);
   final book = fixtureBook();
   final settings = await settingsFor(book, prefs);
-  await tester.pumpWidget(BullApp(book: book, settings: settings));
+  await tester.pumpWidget(
+    BullApp(book: book, settings: settings, speech: speech ?? FakeSpeech()),
+  );
   await tester.pumpAndSettle();
   return (book, settings);
 }
 
-Future<void> openFirstSection(WidgetTester tester) async {
-  await tester.tap(find.text('Introduction').first);
+Future<void> tapTooltip(WidgetTester tester, String tooltip) async {
+  await tester.tap(find.byTooltip(tooltip).first);
   await tester.pumpAndSettle();
-  await tester.tap(find.widgetWithText(ListTile, 'Introduction').last);
+}
+
+/// Taps an inline link (a span inside a paragraph).
+Future<void> tapLink(WidgetTester tester, String label) async {
+  final range = find.textRange.ofSubstring(label);
+  await tester.ensureVisible(
+    find.textContaining(label, findRichText: true).first,
+  );
+  await tester.tapOnText(range.first);
   await tester.pumpAndSettle();
 }

@@ -5,62 +5,77 @@ import 'package:flutter/services.dart';
 import '../l10n/app_localizations.dart';
 import 'content/book.dart';
 import 'settings.dart';
-import 'ui/home_page.dart';
+import 'speech/read_aloud.dart';
+import 'speech/speech_service.dart';
+import 'theme.dart';
 import 'ui/scope.dart';
+import 'ui/shell.dart';
 
-/// Paper and ink of the 1858 stamps: cream laid paper, black and blue handstamps
-/// (APP-UX-002 design tokens).
-const _ink = Color(0xFF1E1E1E);
-const _seed = Color(0xFF6B3A2A);
+export 'theme.dart' show buildTheme;
 
-ThemeData buildTheme(Brightness brightness) {
-  final scheme = ColorScheme.fromSeed(seedColor: _seed, brightness: brightness);
-  final light = brightness == Brightness.light;
-  return ThemeData(
-    colorScheme: scheme,
-    scaffoldBackgroundColor: light
-        ? const Color(0xFFF7F1E3)
-        : const Color(0xFF151311),
-    textTheme: Typography.material2021(platform: TargetPlatform.android).black
-        .apply(
-          bodyColor: light ? _ink : null,
-          displayColor: light ? _ink : null,
-        )
-        .merge(light ? null : Typography.material2021().white),
-    // Keyboard and D-pad focus must always be visible (H-APP-ADP-002, H-APP-ACC-001).
-    focusColor: scheme.primary.withValues(alpha: 0.24),
-    visualDensity: VisualDensity.standard,
-  );
-}
-
-class BullApp extends StatelessWidget {
-  const BullApp({super.key, required this.book, required this.settings});
+class BullApp extends StatefulWidget {
+  const BullApp({
+    super.key,
+    required this.book,
+    required this.settings,
+    this.speech,
+  });
 
   final Book book;
   final Settings settings;
 
+  /// The text-to-speech engine; tests pass a fake.
+  final SpeechService? speech;
+
+  @override
+  State<BullApp> createState() => _BullAppState();
+}
+
+class _BullAppState extends State<BullApp> {
+  late final _readAloud = ReadAloud(widget.speech ?? DeviceSpeech());
+
+  @override
+  void dispose() {
+    _readAloud.stop();
+    _readAloud.dispose();
+    super.dispose();
+  }
+
+  /// Where the book opens: the last page read, else the first section (owner
+  /// ruling 2026-10-25).
+  String get _startId {
+    final last = widget.settings.lastSection;
+    if (last != null && widget.book.section(last) != null) return last;
+    return widget.book.sections.first.id;
+  }
+
   @override
   Widget build(BuildContext context) {
+    final settings = widget.settings;
     return AppScope(
-      book: book,
+      book: widget.book,
       settings: settings,
-      child: ListenableBuilder(
-        listenable: settings,
-        builder: (context, _) => MaterialApp(
-          restorationScopeId: 'app',
-          onGenerateTitle: (context) => AppLocalizations.of(context).appTitle,
-          locale: Locale(settings.language),
-          supportedLocales: AppLocalizations.supportedLocales,
-          localizationsDelegates: AppLocalizations.localizationsDelegates,
-          theme: buildTheme(Brightness.light),
-          darkTheme: buildTheme(Brightness.dark),
-          shortcuts: {
-            ...WidgetsApp.defaultShortcuts,
-            // TV remotes send "select" for the centre key (APP-ADP-002).
-            const SingleActivator(LogicalKeyboardKey.select):
-                const ActivateIntent(),
-          },
-          home: const HomePage(),
+      child: Speech(
+        reader: _readAloud,
+        child: ListenableBuilder(
+          listenable: settings,
+          builder: (context, _) => MaterialApp(
+            restorationScopeId: 'app',
+            onGenerateTitle: (context) => AppLocalizations.of(context).appTitle,
+            locale: Locale(settings.language),
+            supportedLocales: AppLocalizations.supportedLocales,
+            localizationsDelegates: AppLocalizations.localizationsDelegates,
+            theme: buildTheme(Brightness.light, settings.vision),
+            darkTheme: buildTheme(Brightness.dark, settings.vision),
+            themeMode: themeModeOf(settings.theme),
+            shortcuts: {
+              ...WidgetsApp.defaultShortcuts,
+              // TV remotes send "select" for the centre key (APP-ADP-002).
+              const SingleActivator(LogicalKeyboardKey.select):
+                  const ActivateIntent(),
+            },
+            home: ReaderShell(initialId: _startId),
+          ),
         ),
       ),
     );
