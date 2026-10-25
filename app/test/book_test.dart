@@ -115,7 +115,10 @@ void main() {
   ) async {
     await pumpApp(tester);
     await tapText(tester, 'Next');
-    expect(find.text('Why this book'), findsOneWidget); // year left out of the title
+    expect(
+      find.text('Why this book'),
+      findsOneWidget,
+    ); // year left out of the title
     await tapText(tester, '1858');
     expect(find.text('Julian and Gregorian days of 1858.'), findsOneWidget);
   });

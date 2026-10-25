@@ -3,6 +3,7 @@
 import 'package:flutter/widgets.dart';
 
 import '../content/book.dart';
+import '../platform.dart';
 import '../settings.dart';
 
 /// Width classes (Material window size classes).
@@ -47,10 +48,14 @@ class AppScope extends InheritedNotifier<Settings> {
     super.key,
     required this.book,
     required Settings settings,
+    this.device = DeviceKind.phone,
     required super.child,
   }) : super(notifier: settings);
 
   final Book book;
+
+  /// UIC-PLT-01: decides the in-app keyboard and the 10-foot type.
+  final DeviceKind device;
 
   static AppScope of(BuildContext context) =>
       context.dependOnInheritedWidgetOfExactType<AppScope>()!;

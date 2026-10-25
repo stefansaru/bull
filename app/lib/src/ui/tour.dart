@@ -94,9 +94,8 @@ class _TourOverlayState extends State<_TourOverlay> {
                 const SizedBox(width: 12),
                 FilledButton(
                   autofocus: true,
-                  onPressed: () => last
-                      ? Navigator.of(context).pop()
-                      : setState(() => _i++),
+                  onPressed: () =>
+                      last ? Navigator.of(context).pop() : setState(() => _i++),
                   child: Text(last ? l.done : l.next),
                 ),
               ],
@@ -109,9 +108,7 @@ class _TourOverlayState extends State<_TourOverlay> {
       type: MaterialType.transparency,
       child: Stack(
         children: [
-          Positioned.fill(
-            child: CustomPaint(painter: _Spotlight(step.rect)),
-          ),
+          Positioned.fill(child: CustomPaint(painter: _Spotlight(step.rect))),
           Positioned(
             left: 0,
             right: 0,
@@ -138,7 +135,10 @@ class _Spotlight extends CustomPainter {
   void paint(Canvas canvas, Size size) {
     final scrim = Path()..addRect(Offset.zero & size);
     if (hole != null) {
-      final r = RRect.fromRectAndRadius(hole!.inflate(6), const Radius.circular(12));
+      final r = RRect.fromRectAndRadius(
+        hole!.inflate(6),
+        const Radius.circular(12),
+      );
       final cut = Path()..addRRect(r);
       canvas.drawPath(
         Path.combine(PathOperation.difference, scrim, cut),

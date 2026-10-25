@@ -60,7 +60,10 @@ Future<void> showMenuWindow(
     case 'readAloud':
       await startReadAloud(context, actions);
     case 'audio':
-      await showDialog<void>(context: context, builder: (_) => const AudioWindow());
+      await showDialog<void>(
+        context: context,
+        builder: (_) => const AudioWindow(),
+      );
     case 'language':
       await showDialog<void>(
         context: context,
@@ -312,9 +315,17 @@ class ColoursWindow extends StatelessWidget {
             children: [
               for (final (v, label, note) in [
                 (VisionMode.standard, l.visionStandard, ''),
-                (VisionMode.redGreenSafe, l.visionRedGreen, l.visionRedGreenNote),
+                (
+                  VisionMode.redGreenSafe,
+                  l.visionRedGreen,
+                  l.visionRedGreenNote,
+                ),
                 (VisionMode.tritanSafe, l.visionTritan, l.visionTritanNote),
-                (VisionMode.grayscale, l.visionGrayscale, l.visionGrayscaleNote),
+                (
+                  VisionMode.grayscale,
+                  l.visionGrayscale,
+                  l.visionGrayscaleNote,
+                ),
               ])
                 RadioListTile<VisionMode>(
                   value: v,

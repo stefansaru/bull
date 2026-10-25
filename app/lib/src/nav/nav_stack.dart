@@ -51,7 +51,9 @@ class RestorableNavStack extends RestorableValue<List<NavEntry>> {
   List<NavEntry> fromPrimitives(Object? data) {
     final list = data as List<Object?>?;
     if (list == null || list.isEmpty) return createDefaultValue();
-    return [for (final e in list) NavEntry.fromJson(e! as Map<Object?, Object?>)];
+    return [
+      for (final e in list) NavEntry.fromJson(e! as Map<Object?, Object?>),
+    ];
   }
 
   @override
@@ -64,7 +66,8 @@ class RestorableNavStack extends RestorableValue<List<NavEntry>> {
 
   /// Page turning (previous/next) replaces the current entry: the back stack
   /// records where the reader came from, not every page they turned.
-  void replaceTop(NavEntry e) => value = [...value.sublist(0, value.length - 1), e];
+  void replaceTop(NavEntry e) =>
+      value = [...value.sublist(0, value.length - 1), e];
 
   void pop() {
     if (canPop) value = value.sublist(0, value.length - 1);

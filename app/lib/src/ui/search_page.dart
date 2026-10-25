@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 
 import '../../l10n/app_localizations.dart';
 import '../content/book.dart';
+import '../platform.dart';
 import 'artefact_view.dart';
 import 'scope.dart';
 import 'sections_panel.dart';
@@ -147,82 +148,105 @@ class _SearchPageState extends State<SearchPage> {
           ),
         ],
       ),
-      body: Column(
-        children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(12, 8, 12, 4),
-            child: TvTextField(
-              controller: _query,
-              hint: l.searchHint,
-              onChanged: (_) => setState(() {}),
-            ),
-          ),
-          if (_filters.count > 0)
+      body: LayoutBuilder(
+        builder: (context, box) {
+          final query = <Widget>[
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12),
-              child: Wrap(
-                spacing: 8,
-                children: [
-                  for (final t in _filters.types)
-                    InputChip(
-                      label: Text(
-                        t == 'narrative' ? l.typeNarrative : groupLabel(l, t),
-                      ),
-                      onDeleted: () => setState(
-                        () => _filters = _filters.copyWith(
-                          types: {..._filters.types}..remove(t),
-                        ),
-                      ),
-                    ),
-                  if (chapter != null)
-                    InputChip(
-                      label: Text(chapterTitle(book, chapter, scope.lang)),
-                      onDeleted: () => setState(
-                        () => _filters = _filters.copyWith(clearChapter: true),
-                      ),
-                    ),
-                  if (_filters.favoritesOnly)
-                    InputChip(
-                      label: Text(l.favoritesOnly),
-                      onDeleted: () => setState(
-                        () =>
-                            _filters = _filters.copyWith(favoritesOnly: false),
-                      ),
-                    ),
-                  ActionChip(
-                    label: Text(l.clearFilters),
-                    onPressed: () =>
-                        setState(() => _filters = const SearchFilters()),
-                  ),
-                ],
+              padding: const EdgeInsets.fromLTRB(12, 8, 12, 4),
+              child: TvTextField(
+                controller: _query,
+                hint: l.searchHint,
+                onChanged: (_) => setState(() {}),
               ),
             ),
-          Expanded(
-            child: results.isEmpty && _query.text.trim().length >= 2
-                ? Center(child: Text(l.noResults))
-                : ListView.builder(
-                    itemCount: results.length,
-                    itemBuilder: (context, i) {
-                      final hit = results[i];
-                      return ListTile(
-                        title: Text(pick(hit.artefact.title, scope.lang)),
-                        subtitle: Text(
-                          [
-                            artefactTypeLabel(l, hit.artefact),
-                            if (hit.snippet.isNotEmpty) hit.snippet,
-                          ].join(' · '),
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
+            if (_filters.count > 0)
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 12),
+                child: Wrap(
+                  spacing: 8,
+                  children: [
+                    for (final t in _filters.types)
+                      InputChip(
+                        label: Text(
+                          t == 'narrative' ? l.typeNarrative : groupLabel(l, t),
                         ),
-                        onTap: () {
-                          Navigator.of(context).pop();
-                          reader.open(hit.artefact.id);
-                        },
-                      );
-                    },
-                  ),
-          ),
-        ],
+                        onDeleted: () => setState(
+                          () => _filters = _filters.copyWith(
+                            types: {..._filters.types}..remove(t),
+                          ),
+                        ),
+                      ),
+                    if (chapter != null)
+                      InputChip(
+                        label: Text(chapterTitle(book, chapter, scope.lang)),
+                        onDeleted: () => setState(
+                          () =>
+                              _filters = _filters.copyWith(clearChapter: true),
+                        ),
+                      ),
+                    if (_filters.favoritesOnly)
+                      InputChip(
+                        label: Text(l.favoritesOnly),
+                        onDeleted: () => setState(
+                          () => _filters = _filters.copyWith(
+                            favoritesOnly: false,
+                          ),
+                        ),
+                      ),
+                    ActionChip(
+                      label: Text(l.clearFilters),
+                      onPressed: () =>
+                          setState(() => _filters = const SearchFilters()),
+                    ),
+                  ],
+                ),
+              ),
+          ];
+          final Widget list = results.isEmpty && _query.text.trim().length >= 2
+              ? Center(child: Text(l.noResults))
+              : ListView.builder(
+                  itemCount: results.length,
+                  itemBuilder: (context, i) {
+                    final hit = results[i];
+                    return ListTile(
+                      title: Text(pick(hit.artefact.title, scope.lang)),
+                      subtitle: Text(
+                        [
+                          artefactTypeLabel(l, hit.artefact),
+                          if (hit.snippet.isNotEmpty) hit.snippet,
+                        ].join(' · '),
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                      onTap: () {
+                        Navigator.of(context).pop();
+                        reader.open(hit.artefact.id);
+                      },
+                    );
+                  },
+                );
+          // With the in-app keyboard on a wide TV screen, the keyboard sits beside
+          // the results instead of above them.
+          if (scope.device.tvLike && box.maxWidth >= 700) {
+            return Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                SizedBox(
+                  width: 460,
+                  child: SingleChildScrollView(child: Column(children: query)),
+                ),
+                const VerticalDivider(width: 1),
+                Expanded(child: list),
+              ],
+            );
+          }
+          return Column(
+            children: [
+              ...query,
+              Expanded(child: list),
+            ],
+          );
+        },
       ),
     );
   }

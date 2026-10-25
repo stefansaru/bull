@@ -373,7 +373,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get helpTablesBody =>
-      'Wide tables scroll sideways while their first column and header stay in place.';
+      'Wide tables scroll sideways while their first column stays in place; the full-screen button gives a table the whole screen. Tap a header to select its row or column, tap cells to select a range (or press and drag), then bookmark the selection. On a remote: arrows move, Select starts and ends a selection, Back cancels.';
 
   @override
   String get colourSettings => 'Colours';
@@ -459,4 +459,46 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get skip => 'Skip';
+
+  @override
+  String get keyboardSpace => 'Space';
+
+  @override
+  String get keyboardBackspace => 'Backspace';
+
+  @override
+  String get keyboardShift => 'Shift';
+
+  @override
+  String get keyboardSymbols => 'Symbols';
+
+  @override
+  String get keyboardLetters => 'Letters';
+
+  @override
+  String get showKeyboard => 'Show the on-screen keyboard';
+
+  @override
+  String get hideKeyboard => 'Hide the on-screen keyboard';
+
+  @override
+  String get fullScreenTable => 'Show the table full screen';
+
+  @override
+  String get bookmarkSelection => 'Bookmark selection';
+
+  @override
+  String get clearSelection => 'Clear selection';
+
+  @override
+  String get selectionBookmarked => 'Selection bookmarked';
+
+  @override
+  String get bookmarkPassage => 'Bookmark this passage';
+
+  @override
+  String get passageBookmarked => 'Passage bookmarked';
+
+  @override
+  String get undo => 'Undo';
 }

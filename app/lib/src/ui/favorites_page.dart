@@ -11,11 +11,13 @@ import 'scope.dart';
 import 'search_page.dart';
 import 'sections_panel.dart';
 import 'shell.dart';
+import 'table_viewer.dart';
 
 String bookmarkLabel(AppLocalizations l, Bookmark b) => switch (b.kind) {
   BookmarkKind.artefact => l.wholePage,
   BookmarkKind.passage => b.label.isEmpty ? l.passage : b.label,
-  BookmarkKind.table => l.tableSelection(b.rows.length, b.cols.length),
+  BookmarkKind.table =>
+    b.label.isEmpty ? l.tableSelection(b.rows.length, b.cols.length) : b.label,
   BookmarkKind.image => b.label.isEmpty ? l.image : b.label,
 };
 
@@ -136,6 +138,15 @@ class FavoritesPage extends StatelessWidget {
 }
 
 class _ArtefactNode extends StatelessWidget {
+  void _openBookmark(Bookmark b) => switch (b.kind) {
+    BookmarkKind.image => onOpen('image/${b.anchor}'),
+    BookmarkKind.table => onOpen(
+      b.artefactId,
+      anchor: TableSelection.anchor(b.anchor, b.rows, b.cols),
+    ),
+    _ => onOpen(b.artefactId, anchor: b.anchor),
+  };
+
   const _ArtefactNode({
     required this.artefact,
     required this.marks,
@@ -186,7 +197,7 @@ class _ArtefactNode extends StatelessWidget {
             leading: Icon(bookmarkIcon(b.kind)),
             title: Text(bookmarkLabel(l, b)),
             enabled: a != null,
-            onTap: a == null ? null : () => onOpen(a.id, anchor: b.anchor),
+            onTap: a == null ? null : () => _openBookmark(b),
             trailing: IconButton(
               tooltip: l.deleteBookmark,
               icon: const Icon(Icons.close),

@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 
 import '../l10n/app_localizations.dart';
 import 'content/book.dart';
+import 'platform.dart';
 import 'settings.dart';
 import 'speech/read_aloud.dart';
 import 'speech/speech_service.dart';
@@ -19,10 +20,12 @@ class BullApp extends StatefulWidget {
     required this.book,
     required this.settings,
     this.speech,
+    this.device = DeviceKind.phone,
   });
 
   final Book book;
   final Settings settings;
+  final DeviceKind device;
 
   /// The text-to-speech engine; tests pass a fake.
   final SpeechService? speech;
@@ -55,6 +58,7 @@ class _BullAppState extends State<BullApp> {
     return AppScope(
       book: widget.book,
       settings: settings,
+      device: widget.device,
       child: Speech(
         reader: _readAloud,
         child: ListenableBuilder(
@@ -74,12 +78,35 @@ class _BullAppState extends State<BullApp> {
               const SingleActivator(LogicalKeyboardKey.select):
                   const ActivateIntent(),
             },
+            builder: widget.device.tvLike ? tenFoot : null,
             home: ReaderShell(initialId: _startId),
           ),
         ),
       ),
     );
   }
+}
+
+/// TV and unknown devices (UIC-PLT-04): larger type for a reading distance of about
+/// three metres, and margins clear of TV overscan. Reviewer B's first-pass tokens
+/// (body ≈ 26 sp from the 16 sp default), to validate on real hardware.
+const double tenFootTextScale = 1.6;
+
+Widget tenFoot(BuildContext context, Widget? child) {
+  final mq = MediaQuery.of(context);
+  final size = mq.size;
+  return MediaQuery(
+    data: mq.copyWith(
+      textScaler: TextScaler.linear(mq.textScaler.scale(1) * tenFootTextScale),
+    ),
+    child: Padding(
+      padding: EdgeInsets.symmetric(
+        horizontal: size.width * 0.05,
+        vertical: size.height * 0.03,
+      ),
+      child: child,
+    ),
+  );
 }
 
 /// Shown when the content bundle was not built (fresh clone without a wizard run).

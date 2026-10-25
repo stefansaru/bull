@@ -374,7 +374,7 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get helpTablesBody =>
-      'Breite Tabellen scrollen seitwärts, während erste Spalte und Kopfzeile stehen bleiben.';
+      'Breite Tabellen scrollen seitwärts, während ihre erste Spalte stehen bleibt; die Vollbildtaste gibt einer Tabelle den ganzen Bildschirm. Tippen Sie auf eine Kopfzelle, um ihre Zeile oder Spalte auszuwählen, auf Zellen für einen Bereich (oder lange drücken und ziehen), und setzen Sie dann ein Lesezeichen. Mit der Fernbedienung: Pfeile bewegen, OK beginnt und beendet die Auswahl, Zurück bricht ab.';
 
   @override
   String get colourSettings => 'Farben';
@@ -462,4 +462,46 @@ class AppLocalizationsDe extends AppLocalizations {
 
   @override
   String get skip => 'Überspringen';
+
+  @override
+  String get keyboardSpace => 'Leerzeichen';
+
+  @override
+  String get keyboardBackspace => 'Rücktaste';
+
+  @override
+  String get keyboardShift => 'Umschalt';
+
+  @override
+  String get keyboardSymbols => 'Symbole';
+
+  @override
+  String get keyboardLetters => 'Buchstaben';
+
+  @override
+  String get showKeyboard => 'Bildschirmtastatur zeigen';
+
+  @override
+  String get hideKeyboard => 'Bildschirmtastatur ausblenden';
+
+  @override
+  String get fullScreenTable => 'Tabelle im Vollbild zeigen';
+
+  @override
+  String get bookmarkSelection => 'Lesezeichen für die Auswahl';
+
+  @override
+  String get clearSelection => 'Auswahl aufheben';
+
+  @override
+  String get selectionBookmarked => 'Auswahl mit Lesezeichen versehen';
+
+  @override
+  String get bookmarkPassage => 'Lesezeichen für diese Textstelle';
+
+  @override
+  String get passageBookmarked => 'Textstelle mit Lesezeichen versehen';
+
+  @override
+  String get undo => 'Rückgängig';
 }

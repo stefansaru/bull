@@ -20,7 +20,7 @@ The UI follows [ui-concept.md](ui-concept.md) (bull DR-015); `UIC-` IDs refer to
 | File | Role | Requirements |
 |------|------|--------------|
 | `lib/main.dart` | Loads preferences and the bundle; shows a "content missing" screen if the bundle was not built or has another schema | APP-CNT-004 |
-| `lib/src/app.dart` | Localisation, TV `select` key, `restorationScopeId`, theme mode; owns the read-aloud session | APP-UX-002, APP-ADP-002 |
+| `lib/src/app.dart` | Localisation, TV `select` key, `restorationScopeId`, theme mode; owns the read-aloud session; 10-foot type (×1.6) and overscan margins on TV-like devices | APP-UX-002, APP-ADP-002, UIC-PLT-04 |
 | `lib/src/theme.dart` | Theme × vision mode (standard, Red-Green Safe, Tritan Safe, Grayscale) | UIC-NAV-06 |
 | `lib/src/content/book.dart` | Schema-2 model: every page is an `Artefact` (Section, Entity, BookImage, IndexInfo); lookup by id | APP-CNT-001, UIC-ART-01 |
 | `lib/src/content/inline.dart` | `⟦id\|label⟧` link markup: spans, plain text, targets | UIC-LNK-01 |
@@ -36,6 +36,9 @@ The UI follows [ui-concept.md](ui-concept.md) (bull DR-015); `UIC-` IDs refer to
 | `lib/src/ui/favorites_page.dart` | Favorites tree, bookmark deletes | UIC-FAV |
 | `lib/src/ui/menu.dart` | More menu: audio, language + country, help, colours, privacy | UIC-NAV-02..06 |
 | `lib/src/ui/tour.dart` | First-run spotlight tour of the controls | UIC-NAV-05 |
+| `lib/src/ui/table_viewer.dart` | Table viewer: frozen first column, full screen with sticky header, keyboard-first selection, selection bookmarks by stable row/column ids | UIC-TBL |
+| `lib/src/platform.dart` + `android/.../MainActivity.kt` | Device kind (phone / tablet / TV / other) via the `capdebour/device` channel; other is treated as TV | UIC-PLT-01 |
+| `lib/src/ui/tv_keyboard.dart`, `tv_text_field.dart` | In-app keyboard ported from Day OK; on TV under the field, on unknown devices behind a keyboard button | UIC-PLT-02/03 |
 | `lib/src/ui/image_viewer.dart` | Numbered image viewer: pinch, swipe, zoom buttons, two remote modes, image bookmarks | UIC-IMG |
 | `lib/src/speech/` + `ui/speech_controls.dart` | Read aloud through the device's TTS (offline voices preferred, never cloud), reading bar | UIC-NAV-03 |
 | `lib/l10n/app_*.arb` | UI strings in EN, RO, FR, DE (gen-l10n) | APP-L10N-001 |

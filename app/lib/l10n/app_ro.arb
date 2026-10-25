@@ -20,7 +20,6 @@
   "close": "Închide",
   "imagesNote": "Unele imagini nu sunt incluse în această ediție.",
   "version": "Versiunea {version}",
-
   "back": "Înapoi",
   "addFavorite": "Adaugă la favorite",
   "removeFavorite": "Scoate din favorite",
@@ -42,7 +41,6 @@
   "relPublishedIn": "publicat în",
   "relInTheBook": "în carte",
   "relReference": "referință",
-
   "indexes": "Indexuri",
   "images": "Imagini",
   "abbreviations": "Abrevieri",
@@ -55,7 +53,6 @@
   "swatchNote": "Culorile reproduc mostrele din tabelul de culori al autorului. Ecranele le redau doar aproximativ; codul standardului este cel de referință.",
   "colourFamily": "{family, select, blue{Albastre} green{Verzi} red{Roșii} neutral{Alb și negru} other{Altele}}",
   "typeNarrative": "Capitolele cărții",
-
   "filters": "Filtre",
   "filtersCount": "{count, plural, =0{Filtre} other{Filtre ({count})}}",
   "filterType": "Tip",
@@ -65,7 +62,6 @@
   "clearFilters": "Șterge",
   "apply": "Aplică",
   "searchFavorites": "Caută în favorite",
-
   "noFavorites": "Nimic salvat încă. Atinge steaua de pe orice pagină ca s-o păstrezi aici.",
   "wholePage": "Pagina întreagă",
   "passage": "Pasaj",
@@ -80,7 +76,6 @@
   "noLongerAvailable": "Nu mai există în carte",
   "cancel": "Renunță",
   "delete": "Șterge",
-
   "imageNumber": "Imaginea {number} din {total}",
   "zoomIn": "Mărește",
   "zoomOut": "Micșorează",
@@ -89,7 +84,6 @@
   "nextImage": "Imaginea următoare",
   "bookmarkImage": "Pune semn la această imagine",
   "removeBookmark": "Scoate semnul de carte",
-
   "readAloud": "Citește pagina cu voce tare",
   "audio": "Sunet",
   "soundEffects": "Efecte sonore",
@@ -99,7 +93,6 @@
   "previousParagraph": "Paragraful anterior",
   "nextParagraph": "Paragraful următor",
   "stopReading": "Oprește citirea",
-
   "help": "Ajutor",
   "helpTour": "Turul comenzilor",
   "helpLinksTitle": "Legături și previzualizări",
@@ -111,7 +104,7 @@
   "helpImagesTitle": "Imagini",
   "helpImagesBody": "Atinge o imagine ca s-o mărești. Ciupește pentru zoom; când imaginea încape pe ecran, glisează la următoarea sau la cea anterioară. Pe telecomandă, OK mărește, iar săgețile deplasează.",
   "helpTablesTitle": "Tabele",
-  "helpTablesBody": "Tabelele late se derulează lateral, iar prima coloană și antetul rămân pe loc.",
+  "helpTablesBody": "Tabelele late se derulează lateral, iar prima coloană rămâne pe loc; butonul de ecran complet dă tabelului tot ecranul. Atinge un antet ca să selectezi rândul sau coloana, atinge celule ca să selectezi o zonă (sau apasă lung și trage), apoi pune semn la selecție. Pe telecomandă: săgețile deplasează, OK începe și încheie selecția, Înapoi o anulează.",
   "colourSettings": "Culori",
   "theme": "Temă",
   "themeAutomatic": "Automată",
@@ -128,7 +121,6 @@
   "visionKeepsEvidence": "Imaginile mărcilor și mostrele de culoare își păstrează mereu culorile.",
   "moveUp": "Mută în sus",
   "moveDown": "Mută în jos",
-
   "tourWelcome": "Bun venit! Iată un scurt tur al comenzilor.",
   "tourBack": "Înapoi te duce la pagina de unde ai venit.",
   "tourSections": "Cuprinsul: capitolele, indexurile de imagini, abrevieri, culori și calendare, și favoritele tale.",
@@ -139,5 +131,19 @@
   "tourLinks": "Cuvintele subliniate punctat sunt legături: atinge unul pentru o scurtă descriere.",
   "next": "Înainte",
   "done": "Gata",
-  "skip": "Sari peste"
+  "skip": "Sari peste",
+  "keyboardSpace": "Spațiu",
+  "keyboardBackspace": "Șterge înapoi",
+  "keyboardShift": "Majuscule",
+  "keyboardSymbols": "Simboluri",
+  "keyboardLetters": "Litere",
+  "showKeyboard": "Arată tastatura de pe ecran",
+  "hideKeyboard": "Ascunde tastatura de pe ecran",
+  "fullScreenTable": "Arată tabelul pe tot ecranul",
+  "bookmarkSelection": "Pune semn la selecție",
+  "clearSelection": "Șterge selecția",
+  "selectionBookmarked": "Selecția a primit semn de carte",
+  "bookmarkPassage": "Pune semn la acest pasaj",
+  "passageBookmarked": "Pasajul a primit semn de carte",
+  "undo": "Anulează"
 }

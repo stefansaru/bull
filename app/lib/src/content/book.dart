@@ -163,10 +163,8 @@ class Section implements Artefact {
   List<Relation> get related => const [];
 
   /// Plain text of the section in [lang], used by search.
-  String plainText(String lang) => [
-    pick(title, lang),
-    for (final u in units) u.plain(lang),
-  ].join('\n');
+  String plainText(String lang) =>
+      [pick(title, lang), for (final u in units) u.plain(lang)].join('\n');
 }
 
 class Chapter {

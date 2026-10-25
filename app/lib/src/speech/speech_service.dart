@@ -53,9 +53,14 @@ class DeviceSpeech implements SpeechService {
     final prefix = locale.split('-').first.toLowerCase();
     for (final v in voices.whereType<Map>()) {
       final vLocale = '${v['locale']}'.toLowerCase();
-      final network = '${v['network_required'] ?? v['networkConnectionRequired']}';
-      if (vLocale.startsWith(prefix) && (network == '0' || network == 'false')) {
-        await _tts.setVoice({'name': '${v['name']}', 'locale': '${v['locale']}'});
+      final network =
+          '${v['network_required'] ?? v['networkConnectionRequired']}';
+      if (vLocale.startsWith(prefix) &&
+          (network == '0' || network == 'false')) {
+        await _tts.setVoice({
+          'name': '${v['name']}',
+          'locale': '${v['locale']}',
+        });
         return;
       }
     }

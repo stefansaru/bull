@@ -42,10 +42,10 @@ String previewText(Artefact a, String lang) {
   if (s.isNotEmpty) return s;
   for (final u in a.units) {
     if (u.kind == 'text' || u.kind == 'quad') {
-      final p = u.plain(lang).split('\n').firstWhere(
-        (x) => x.trim().length > 20,
-        orElse: () => '',
-      );
+      final p = u
+          .plain(lang)
+          .split('\n')
+          .firstWhere((x) => x.trim().length > 20, orElse: () => '');
       if (p.isNotEmpty) return p;
     }
   }

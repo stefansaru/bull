@@ -1,4 +1,4 @@
-import 'dart:ui' show PlatformDispatcher;
+import 'dart:ui' show PlatformDispatcher, Size;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'src/app.dart';
 import 'src/content/book.dart';
+import 'src/platform.dart';
 import 'src/settings.dart';
 
 Future<void> main() async {
@@ -22,5 +23,10 @@ Future<void> main() async {
     available: book.languages,
     systemLanguage: PlatformDispatcher.instance.locale.languageCode,
   );
-  runApp(BullApp(book: book, settings: settings));
+  final view = PlatformDispatcher.instance.implicitView;
+  final size = view == null
+      ? Size.zero
+      : view.physicalSize / view.devicePixelRatio;
+  final device = await detectDevice(size);
+  runApp(BullApp(book: book, settings: settings, device: device));
 }

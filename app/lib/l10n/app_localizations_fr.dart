@@ -374,7 +374,7 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get helpTablesBody =>
-      'Les tableaux larges défilent latéralement tandis que leur première colonne et leur en-tête restent en place.';
+      'Les tableaux larges défilent latéralement tandis que leur première colonne reste en place ; le bouton plein écran donne tout l\'écran au tableau. Touchez un en-tête pour sélectionner sa ligne ou sa colonne, touchez des cellules pour sélectionner une plage (ou appuyez longuement et faites glisser), puis ajoutez un signet. Avec une télécommande : les flèches déplacent, OK commence et termine la sélection, Retour l\'annule.';
 
   @override
   String get colourSettings => 'Couleurs';
@@ -461,4 +461,46 @@ class AppLocalizationsFr extends AppLocalizations {
 
   @override
   String get skip => 'Passer';
+
+  @override
+  String get keyboardSpace => 'Espace';
+
+  @override
+  String get keyboardBackspace => 'Retour arrière';
+
+  @override
+  String get keyboardShift => 'Majuscule';
+
+  @override
+  String get keyboardSymbols => 'Symboles';
+
+  @override
+  String get keyboardLetters => 'Lettres';
+
+  @override
+  String get showKeyboard => 'Afficher le clavier à l\'écran';
+
+  @override
+  String get hideKeyboard => 'Masquer le clavier à l\'écran';
+
+  @override
+  String get fullScreenTable => 'Afficher le tableau en plein écran';
+
+  @override
+  String get bookmarkSelection => 'Ajouter un signet à la sélection';
+
+  @override
+  String get clearSelection => 'Effacer la sélection';
+
+  @override
+  String get selectionBookmarked => 'Signet ajouté à la sélection';
+
+  @override
+  String get bookmarkPassage => 'Ajouter un signet à ce passage';
+
+  @override
+  String get passageBookmarked => 'Signet ajouté au passage';
+
+  @override
+  String get undo => 'Annuler';
 }

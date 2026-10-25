@@ -374,7 +374,7 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get helpTablesBody =>
-      'Tabelele late se derulează lateral, iar prima coloană și antetul rămân pe loc.';
+      'Tabelele late se derulează lateral, iar prima coloană rămâne pe loc; butonul de ecran complet dă tabelului tot ecranul. Atinge un antet ca să selectezi rândul sau coloana, atinge celule ca să selectezi o zonă (sau apasă lung și trage), apoi pune semn la selecție. Pe telecomandă: săgețile deplasează, OK începe și încheie selecția, Înapoi o anulează.';
 
   @override
   String get colourSettings => 'Culori';
@@ -460,4 +460,46 @@ class AppLocalizationsRo extends AppLocalizations {
 
   @override
   String get skip => 'Sari peste';
+
+  @override
+  String get keyboardSpace => 'Spațiu';
+
+  @override
+  String get keyboardBackspace => 'Șterge înapoi';
+
+  @override
+  String get keyboardShift => 'Majuscule';
+
+  @override
+  String get keyboardSymbols => 'Simboluri';
+
+  @override
+  String get keyboardLetters => 'Litere';
+
+  @override
+  String get showKeyboard => 'Arată tastatura de pe ecran';
+
+  @override
+  String get hideKeyboard => 'Ascunde tastatura de pe ecran';
+
+  @override
+  String get fullScreenTable => 'Arată tabelul pe tot ecranul';
+
+  @override
+  String get bookmarkSelection => 'Pune semn la selecție';
+
+  @override
+  String get clearSelection => 'Șterge selecția';
+
+  @override
+  String get selectionBookmarked => 'Selecția a primit semn de carte';
+
+  @override
+  String get bookmarkPassage => 'Pune semn la acest pasaj';
+
+  @override
+  String get passageBookmarked => 'Pasajul a primit semn de carte';
+
+  @override
+  String get undo => 'Anulează';
 }

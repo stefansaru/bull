@@ -5,10 +5,13 @@ import 'package:flutter/material.dart';
 
 import '../../l10n/app_localizations.dart';
 import '../content/book.dart';
+import '../content/inline.dart';
+import '../settings.dart';
 import '../speech/read_aloud.dart';
 import 'image_viewer.dart';
 import 'inline_text.dart';
 import 'scope.dart';
+import 'table_viewer.dart';
 
 /// Chapter heading in the reader's language: the chapter's level-1 section, else its label.
 String chapterTitle(Book book, Chapter chapter, String lang) {
@@ -59,7 +62,10 @@ List<(String, String?)> breadcrumb(
       if (chapter == null) return const [];
       final first = book.sectionsOf(chapter).firstOrNull;
       return [
-        (chapterTitle(book, chapter, lang), first?.id == s.id ? null : first?.id),
+        (
+          chapterTitle(book, chapter, lang),
+          first?.id == s.id ? null : first?.id,
+        ),
       ];
     case Entity e:
       final index = switch (e.group) {
@@ -122,8 +128,9 @@ class _ArtefactViewState extends State<ArtefactView> {
 
   void _scheduleAnchor() {
     if (widget.anchor.isEmpty) return;
+    final (uid, _) = TableSelection.parseAnchor(widget.anchor);
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      final ctx = _unitKeys[widget.anchor]?.currentContext;
+      final ctx = _unitKeys[uid]?.currentContext;
       if (ctx != null && ctx.mounted) {
         Scrollable.ensureVisible(ctx, alignment: 0.1);
       }
@@ -208,10 +215,20 @@ class _ArtefactViewState extends State<ArtefactView> {
           child: UnitView(
             unit: u,
             lang: lang,
+            artefactId: a.id,
             autofocus: i == _firstReadable(a),
+            selection: _selectionFor(u.uid),
           ),
         ),
     ];
+  }
+}
+
+extension on _ArtefactViewState {
+  /// The table selection a bookmark asks to restore, for unit [uid].
+  TableSelection? _selectionFor(String uid) {
+    final (anchorUid, selection) = TableSelection.parseAnchor(widget.anchor);
+    return anchorUid == uid ? selection : null;
   }
 }
 
@@ -287,9 +304,8 @@ class ArtefactHeading extends StatelessWidget {
                       child: Text(
                         a.year,
                         style: linkStyle(context, yearStyle),
-                        semanticsLabel: AppLocalizations.of(
-                          context,
-                        ).calendarOf(a.year),
+                        semanticsLabel: AppLocalizations.of(context)
+                            .calendarOf(a.year),
                       ),
                     ),
                   ),
@@ -311,12 +327,41 @@ class UnitView extends StatelessWidget {
     super.key,
     required this.unit,
     required this.lang,
+    this.artefactId = '',
     this.autofocus = false,
+    this.selection,
   });
 
   final Unit unit;
   final String lang;
+  final String artefactId;
   final bool autofocus;
+
+  /// A table selection to show (opened from a bookmark).
+  final TableSelection? selection;
+
+  void _bookmarkPassage(BuildContext context, String para) {
+    final l = AppLocalizations.of(context);
+    final settings = AppScope.of(context).settings;
+    final plain = plainLinks(para);
+    final b = Bookmark(
+      artefactId: artefactId,
+      kind: BookmarkKind.passage,
+      anchor: unit.uid,
+      label: plain.length > 80 ? '${plain.substring(0, 77)}…' : plain,
+      created: DateTime.now().millisecondsSinceEpoch,
+    );
+    settings.addBookmark(b);
+    ScaffoldMessenger.maybeOf(context)?.showSnackBar(
+      SnackBar(
+        content: Text(l.passageBookmarked),
+        action: SnackBarAction(
+          label: l.undo,
+          onPressed: () => settings.removeBookmark(b),
+        ),
+      ),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -358,9 +403,19 @@ class UnitView extends StatelessWidget {
                   style: body,
                   focusable: true,
                   autofocus: autofocus && i == 0,
+                  onBookmark: artefactId.isEmpty
+                      ? null
+                      : () => _bookmarkPassage(context, para),
                 ),
               ),
-          if (rows.isNotEmpty) TableBlock(rows: rows, head: unit.head),
+          if (rows.isNotEmpty)
+            TableViewer(
+              uid: unit.uid,
+              artefactId: artefactId,
+              rows: rows,
+              head: unit.head,
+              initial: selection,
+            ),
         ],
       ),
     );
@@ -401,58 +456,9 @@ class Figure extends StatelessWidget {
               child: InlineText(
                 caption,
                 textAlign: TextAlign.center,
-                style: Theme.of(
-                  context,
-                ).textTheme.bodySmall?.copyWith(fontStyle: FontStyle.italic),
+                style: Theme.of(context).textTheme.bodySmall
+                    ?.copyWith(fontStyle: FontStyle.italic),
               ),
-            ),
-        ],
-      ),
-    );
-  }
-}
-
-/// Tables inside a page. The full table viewer (frozen first column, selection,
-/// full screen) is UIC-TBL; here a table keeps its header rows and links.
-class TableBlock extends StatelessWidget {
-  const TableBlock({super.key, required this.rows, this.head = 0});
-
-  final List<List<String>> rows;
-  final int head;
-
-  @override
-  Widget build(BuildContext context) {
-    final cols = rows.fold<int>(0, (m, r) => r.length > m ? r.length : m);
-    final theme = Theme.of(context);
-    final border = theme.dividerColor;
-    return SingleChildScrollView(
-      scrollDirection: Axis.horizontal,
-      child: Table(
-        defaultColumnWidth: const IntrinsicColumnWidth(),
-        border: TableBorder.all(color: border),
-        children: [
-          for (final (i, r) in rows.indexed)
-            TableRow(
-              decoration: i < head
-                  ? BoxDecoration(color: theme.colorScheme.surfaceContainerHigh)
-                  : null,
-              children: [
-                for (var c = 0; c < cols; c++)
-                  Padding(
-                    padding: const EdgeInsets.all(8),
-                    child: ConstrainedBox(
-                      constraints: const BoxConstraints(maxWidth: 320),
-                      child: InlineText(
-                        c < r.length ? r[c] : '',
-                        style: i < head
-                            ? theme.textTheme.bodyMedium?.copyWith(
-                                fontWeight: FontWeight.w600,
-                              )
-                            : theme.textTheme.bodyMedium,
-                      ),
-                    ),
-                  ),
-              ],
             ),
         ],
       ),
@@ -510,7 +516,10 @@ class RelatedList extends StatelessWidget {
       children: [
         Semantics(
           header: true,
-          child: Text(l.related, style: Theme.of(context).textTheme.titleMedium),
+          child: Text(
+            l.related,
+            style: Theme.of(context).textTheme.titleMedium,
+          ),
         ),
         for (final (rel, target) in items)
           ListTile(
@@ -695,7 +704,10 @@ class IndexBody extends StatelessWidget {
         final letters = <String, List<Entity>>{};
         for (final e in all) {
           letters
-              .putIfAbsent(e.abbr.isEmpty ? '#' : e.abbr[0].toUpperCase(), () => [])
+              .putIfAbsent(
+                e.abbr.isEmpty ? '#' : e.abbr[0].toUpperCase(),
+                () => [],
+              )
               .add(e);
         }
         return Column(

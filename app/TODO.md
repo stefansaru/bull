@@ -30,11 +30,13 @@ The target UI is specified in [`docs/ui-concept.md`](docs/ui-concept.md); IDs be
 - [x] Sections window: TOC + Indexes + Favorites + Recently visited (UIC-NAV-01a).
 - [x] Dotted-underline links with TalkBack link semantics; hybrid previews; remote: focusable paragraphs, Select previews or offers a choice (UIC-LNK-01..04).
 - [x] Image viewer: pinch zoom, swipe prev/next, stable `imageId` + display numbers, two D-pad modes, zoom/fit/prev/next/bookmark bar (UIC-IMG-01..05). Widget test waits for the first cleared image.
-- [ ] Table viewer: frozen first column + header, horizontal scroll, full-screen mode; keyboard-first selection (anchor–extend–confirm); selections saved by stable row/column IDs (UIC-TBL-01..04).
-- [~] Favorites: star toggle, image bookmarks, tree view, deletes, Recently visited, Continue reading only on linear reading — done. Still to do: passage bookmarks (long-press / Select) and table-selection bookmarks (UIC-FAV-03).
+- [x] Table viewer: frozen first column, horizontal scroll, full screen with sticky header rows; keyboard-first selection (Select–extend–Select, header → column, first column → row, Back clears); touch taps and long-press drag; selections bookmarked by stable row/column ids (UIC-TBL-01..04).
+- [x] Favorites: star, passage (long-press, or Select on a remote; TalkBack custom action), table-selection and image bookmarks; tree; deletes; Recently visited; Continue reading only on linear reading (UIC-FAV-01..06).
 - [x] Search: sections and entities; filter subwindow with count and chips (UIC-SRC-01..03).
 - [x] Landscape rail + title button (hidden by default), breadcrumb always visible, Sections pane when ≥ 900 dp (UIC-LAY-02..04).
-- [ ] Platform detection (Phone/Tablet/TV/other→TV) via platform channel; busy's `TvKeyboard`; labelled keyboard-button fallback; 10-foot type scale from reviewer B's tokens, validated on hardware (UIC-PLT-01..04).
+- [x] Platform detection (phone / tablet / TV / other → TV) via the `capdebour/device` channel; Day OK's `TvKeyboard` ported; keyboard button on unknown devices; 10-foot type ×1.6 and 5 % / 3 % overscan margins on TV-like devices (UIC-PLT-01..04).
+- [ ] Validate the 10-foot scale and the remote paths on a real Android TV / Google TV device (and an emulator pass), then tune `tenFootTextScale`.
+- [ ] UI sound effects: the Audio switch exists (default on) but no sounds are designed or played yet (UIC-NAV-03).
 - [x] More menu: read aloud (flutter_tts behind `SpeechService`, offline voices preferred, no-voice explanation, never cloud), audio, language + country with reorder, help (first-run tour + topics), theme × vision mode (UIC-NAV-02..06). Verify TTS voices on real hardware (phone, TV).
 - [x] Wiki content (UIC-DAT-01..05), 2026-10-25: 60 abbreviation pages + index (`tools/gen_abbreviations.py`), 22 colour pages with the author's swatch hex (`tools/extract_swatches.py`, `tools/gen_colors.py`), Julian/Gregorian/dual-date concept pages, bundle schema 2 (links, curated auto-links, DR-015 date notation, summaries, stable IDs, image index, indexes).
 - [ ] `summary:` fields written by hand for the most-visited entities (the first-paragraph fallback covers the rest).

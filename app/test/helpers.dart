@@ -1,5 +1,6 @@
 import 'package:capdebour/src/app.dart';
 import 'package:capdebour/src/content/book.dart';
+import 'package:capdebour/src/platform.dart';
 import 'package:capdebour/src/settings.dart';
 import 'package:capdebour/src/speech/speech_service.dart';
 import 'package:flutter/material.dart';
@@ -184,7 +185,24 @@ Book fixtureBook() => Book.fromJson({
       'units': [_text('r#1', 'The standard reference for handstamps.')],
     },
   ],
-  'images': [],
+  'images': [
+    {
+      'id': 'media__a',
+      'number': 1,
+      'file': 'img/media__a.webp',
+      'caption': {'en': 'Figure 1: A 27 parale stamp'},
+      'unit': 'u1',
+      'section': 's1',
+    },
+    {
+      'id': 'media__b',
+      'number': 2,
+      'file': 'img/media__b.webp',
+      'caption': {'en': 'Figure 2: A cover'},
+      'unit': 'u3',
+      'section': 's2',
+    },
+  ],
   'indexes': [
     {
       'id': 'index/images',
@@ -253,12 +271,18 @@ Future<(Book, Settings)> pumpApp(
   Size size = phonePortrait,
   Map<String, Object> prefs = const {'tourSeen': true},
   SpeechService? speech,
+  DeviceKind device = DeviceKind.phone,
 }) async {
   await setSize(tester, size);
   final book = fixtureBook();
   final settings = await settingsFor(book, prefs);
   await tester.pumpWidget(
-    BullApp(book: book, settings: settings, speech: speech ?? FakeSpeech()),
+    BullApp(
+      book: book,
+      settings: settings,
+      speech: speech ?? FakeSpeech(),
+      device: device,
+    ),
   );
   await tester.pumpAndSettle();
   return (book, settings);

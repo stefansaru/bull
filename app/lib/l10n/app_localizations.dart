@@ -729,7 +729,7 @@ abstract class AppLocalizations {
   /// No description provided for @helpTablesBody.
   ///
   /// In en, this message translates to:
-  /// **'Wide tables scroll sideways while their first column and header stay in place.'**
+  /// **'Wide tables scroll sideways while their first column stays in place; the full-screen button gives a table the whole screen. Tap a header to select its row or column, tap cells to select a range (or press and drag), then bookmark the selection. On a remote: arrows move, Select starts and ends a selection, Back cancels.'**
   String get helpTablesBody;
 
   /// No description provided for @colourSettings.
@@ -893,6 +893,90 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Skip'**
   String get skip;
+
+  /// No description provided for @keyboardSpace.
+  ///
+  /// In en, this message translates to:
+  /// **'Space'**
+  String get keyboardSpace;
+
+  /// No description provided for @keyboardBackspace.
+  ///
+  /// In en, this message translates to:
+  /// **'Backspace'**
+  String get keyboardBackspace;
+
+  /// No description provided for @keyboardShift.
+  ///
+  /// In en, this message translates to:
+  /// **'Shift'**
+  String get keyboardShift;
+
+  /// No description provided for @keyboardSymbols.
+  ///
+  /// In en, this message translates to:
+  /// **'Symbols'**
+  String get keyboardSymbols;
+
+  /// No description provided for @keyboardLetters.
+  ///
+  /// In en, this message translates to:
+  /// **'Letters'**
+  String get keyboardLetters;
+
+  /// No description provided for @showKeyboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Show the on-screen keyboard'**
+  String get showKeyboard;
+
+  /// No description provided for @hideKeyboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Hide the on-screen keyboard'**
+  String get hideKeyboard;
+
+  /// No description provided for @fullScreenTable.
+  ///
+  /// In en, this message translates to:
+  /// **'Show the table full screen'**
+  String get fullScreenTable;
+
+  /// No description provided for @bookmarkSelection.
+  ///
+  /// In en, this message translates to:
+  /// **'Bookmark selection'**
+  String get bookmarkSelection;
+
+  /// No description provided for @clearSelection.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear selection'**
+  String get clearSelection;
+
+  /// No description provided for @selectionBookmarked.
+  ///
+  /// In en, this message translates to:
+  /// **'Selection bookmarked'**
+  String get selectionBookmarked;
+
+  /// No description provided for @bookmarkPassage.
+  ///
+  /// In en, this message translates to:
+  /// **'Bookmark this passage'**
+  String get bookmarkPassage;
+
+  /// No description provided for @passageBookmarked.
+  ///
+  /// In en, this message translates to:
+  /// **'Passage bookmarked'**
+  String get passageBookmarked;
+
+  /// No description provided for @undo.
+  ///
+  /// In en, this message translates to:
+  /// **'Undo'**
+  String get undo;
 }
 
 class _AppLocalizationsDelegate

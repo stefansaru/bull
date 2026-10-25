@@ -230,7 +230,9 @@ class _ReaderShellState extends State<ReaderShell>
           if (mode == LayoutMode.railTwoPane && _paneOpen) ...[
             SizedBox(
               width: 340,
-              child: FocusTraversalGroup(child: SectionsPanel(currentId: artefact.id)),
+              child: FocusTraversalGroup(
+                child: SectionsPanel(currentId: artefact.id),
+              ),
             ),
             const VerticalDivider(width: 1),
           ],
