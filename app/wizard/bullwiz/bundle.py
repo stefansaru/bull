@@ -13,9 +13,18 @@ from typing import Any
 from PIL import Image
 
 from . import paths
-from .content import Section
+from . import links
+from .content import Section, summary_of
 
-SCHEMA = 1
+SCHEMA = 2
+
+INDEX_TITLES = {
+    "index/images": {"en": "Images", "ro": "Imagini", "fr": "Images", "de": "Bilder"},
+    "index/abbreviations": {"en": "Abbreviations", "ro": "Abrevieri", "fr": "Abréviations", "de": "Abkürzungen"},
+    "index/colours": {"en": "Colours", "ro": "Culori", "fr": "Couleurs", "de": "Farben"},
+    "index/calendars": {"en": "Calendars", "ro": "Calendare", "fr": "Calendriers", "de": "Kalender"},
+}
+CALENDAR_CONCEPTS = [links.JULIAN, links.GREGORIAN, links.DUAL_DATE]
 
 
 @dataclass
@@ -68,10 +77,23 @@ def unit_json(unit, languages: list[str], shipped: set[str]) -> dict[str, Any] |
     out: dict[str, Any] = {"uid": unit.uid, "kind": unit.kind, "text": pick(unit.text)}
     if unit.rows:
         out["rows"] = pick(unit.rows)
+        if unit.head:
+            out["head"] = unit.head
     if images:
         out["images"] = images
     if not out["text"] and not out.get("rows") and not images:
         return None
+    return out
+
+
+def entity_json(e: dict[str, Any], languages: list[str]) -> dict[str, Any]:
+    pick = lambda d: {k: v for k, v in d.items() if k in languages and v}  # noqa: E731
+    out = {k: v for k, v in e.items() if k not in ("page_id", "see_id") and v not in ("", [], {})}
+    out["title"] = pick(e["title"])
+    if e.get("summary"):
+        out["summary"] = pick(e["summary"])
+    if "expansion" in e:
+        out["expansion"] = pick(e["expansion"])
     return out
 
 
@@ -95,6 +117,7 @@ def write(sections: list[Section], entities: list[dict[str, Any]], languages: li
     chapters: list[dict[str, Any]] = []
     dropped = 0
     sec_json = []
+    images: list[dict[str, Any]] = []
     for s in sections:
         units = []
         for u in s.units:
@@ -103,12 +126,25 @@ def write(sections: list[Section], entities: list[dict[str, Any]], languages: li
             if j is None:
                 continue
             units.append(j)
+            for file in j.get("images", []):
+                images.append({"id": Path(file).stem, "number": len(images) + 1, "file": file,
+                               "caption": j.get("caption", {}), "unit": u.uid, "section": s.id})
         if not chapters or chapters[-1]["id"] != s.chapter:
             chapters.append({"id": s.chapter, "label": s.chapter_label, "sections": []})
         chapters[-1]["sections"].append(s.id)
-        sec_json.append({"id": s.id, "chapter": s.chapter, "order": s.order, "level": s.level,
-                         "title": {k: v for k, v in s.title.items() if k in languages},
-                         "units": units})
+        summary = summary_of([u.text.get("en", "") for u in s.units if u.kind in ("text", "quad")])
+        entry = {"id": s.id, "chapter": s.chapter, "order": s.order, "level": s.level,
+                 "title": {k: v for k, v in s.title.items() if k in languages},
+                 "summary": {"en": summary} if summary else {}, "units": units}
+        if s.year:
+            entry["year"] = s.year
+        sec_json.append(entry)
+
+    calendar_sections = [s.id for s in sections if s.chapter.endswith("-calendar")]
+    entity_ids = {e["id"] for e in entities}
+    indexes = [{"id": iid, "title": {k: v for k, v in t.items() if k in languages}}
+               for iid, t in INDEX_TITLES.items()]
+    indexes[-1]["items"] = [i for i in CALENDAR_CONCEPTS if i in entity_ids] + calendar_sections
 
     doc = {
         "schema": SCHEMA,
@@ -117,8 +153,9 @@ def write(sections: list[Section], entities: list[dict[str, Any]], languages: li
         "languages": languages,
         "chapters": chapters,
         "sections": sec_json,
-        "entities": [{**e, "title": {k: v for k, v in e["title"].items() if k in languages}}
-                     for e in entities],
+        "entities": [entity_json(e, languages) for e in entities],
+        "images": images,
+        "indexes": indexes,
     }
     (out / "content.json").write_text(json.dumps(doc, ensure_ascii=False, separators=(",", ":")),
                                       encoding="utf-8")

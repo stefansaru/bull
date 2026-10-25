@@ -1,28 +1,47 @@
 # Content pipeline and image rights
 
-## Bundle format (`assets/content/content.json`, schema 1)
+## Bundle format (`assets/content/content.json`, schema 2)
 
 ```json
 {
-  "schema": 1, "generated": "…", "source_commit": "ef57e42",
+  "schema": 2, "generated": "…", "source_commit": "ef57e42",
   "languages": ["en"],
   "chapters": [{"id": "04-1858", "label": "1858 📅", "sections": ["narrative/04-1858/001-1858", "…"]}],
   "sections": [{
     "id": "narrative/04-1858/004-…", "chapter": "04-1858", "order": 103, "level": 2,
-    "title": {"en": "…", "ro": "…"},
+    "title": {"en": "…", "ro": "…"}, "summary": {"en": "First paragraph …"}, "year": "1858",
     "units": [
-      {"uid": "u00473", "kind": "quad",   "text": {"en": "…"}},
+      {"uid": "u00473", "kind": "quad",   "text": {"en": "… ⟦entities/references/catalogues/lp|LP⟧ …"}},
       {"uid": "u00474", "kind": "figure", "images": ["img/media__image219.webp"], "caption": {"en": "Figure 134: …"}},
-      {"uid": "u00739", "kind": "table",  "text": {}, "rows": {"en": [["…", "…"]]}, "images": ["…"]}
+      {"uid": "u00739", "kind": "table",  "text": {}, "rows": {"en": [["…", "…"]]}, "head": 1, "images": ["…"]}
     ]
   }],
-  "entities": [{"id": "entities/denominations/108-parale", "group": "denominations", "title": {"en": "…"}, "text": {"en": "…"}}]
+  "entities": [{
+    "id": "entities/colors/carmine-red", "type": "color", "group": "colors", "subgroup": "",
+    "title": {"en": "Carmine red"}, "summary": {"en": "…"}, "year": "",
+    "units": [{"uid": "entities/colors/carmine-red#1", "kind": "text", "text": {"en": "…"}},
+              {"uid": "entities/colors/carmine-red#2", "kind": "table", "rows": {"en": [["…"]]}, "head": 1}],
+    "related": [{"id": "entities/colors/light-red", "rel": "related"}],
+    "hex": "#A4343A", "family": "red", "swatches": [{"system": "pantone", "code": "1807", "hex": "#A4343A", "…": "…"}]
+  }],
+  "images": [{"id": "media__image219", "number": 1, "file": "img/media__image219.webp",
+              "caption": {"en": "…"}, "unit": "u00474", "section": "narrative/…"}],
+  "indexes": [{"id": "index/images", "title": {"en": "Images"}}, "…",
+              {"id": "index/calendars", "title": {"en": "Calendars"}, "items": ["entities/concepts/julian-calendar", "…"]}]
 }
 ```
 
-- **Text** is cleaned of wiki syntax: `[[link|label]]` becomes `label`, and emphasis and inline code markers are dropped. One paragraph per line.
+- **Links** (UIC-LNK) are written into text as `⟦artefact-id|label⟧`. Wikilinks become links when their target ships as an artefact (a section, an entity, or an index); links to `meta/`, `sources/` and other non-shipping pages fall back to their label. The app strips the markup for search and read-aloud.
+- **Auto-links** are added at build time (`bullwiz/links.py`, owner ruling 2026-10-25), never in the wiki: unambiguous multi-letter abbreviations (LP, AMS, M1, PM52 …; country codes, one-letter forms and `AT` excluded), multi-word colour names and Pantone/RAL/AMS codes, `(J)`/`(G)` markers, and **dual dates**, which are also rewritten into the DR-015 notation (`1/13 June 1865` → `1 (13) June 1865 ᴶ⁄ᴳ`, the tag linking to the notation page). Every run writes `build/reports/autolinks.txt` with the counts and any date pair that does not convert.
+- **Stable IDs** (UIC-DAT-05): narrative units keep their wiki `uid`; entity units are `<entity-id>#<n>`; table rows and columns are addressed as `<uid>-r<n>` / `<uid>-c<n>` (0-based, header rows included, `head` = number of header rows); images by `id` (the bundled file stem), with `number` = display order among shipped images.
+- **Entities** carry `summary` (frontmatter, else first paragraph), `year`, `related` (typed: related, see, issue, denomination, handstamp, series, published in, in the book, reference) and type-specific fields: colours `hex`/`family`/`swatches`, abbreviations `abbr`/`forms`/`category`/`expansion`.
+- **Text** is otherwise cleaned of wiki syntax: emphasis and inline code markers are dropped. One paragraph per line.
 - **Images** are converted to WebP, long edge 2048 px, quality 82 (`wizard/config.yaml`). They are stored flat in `img/` (`media/image1.png` becomes `img/media__image1.webp`), because Flutter asset directories are not recursive.
 - **Translations** come from the `.i18n.yml` sidecars. Only entries with `status: ok` are used: stale or orphan text never ships.
+
+### Generated wiki pages
+
+`tools/extract_swatches.py` reads the colour tables' cell shading from the source book into `work/extract/swatches.json`; `tools/gen_colors.py` and `tools/gen_abbreviations.py` then write `wiki/entities/colors/` and `wiki/entities/abbreviations/`. Generated pages carry `generated_by:`; a generator never overwrites a page whose `generated_by` was removed (`tools/wikilib.py`).
 
 ## Languages (STRAT-OBJ-002)
 

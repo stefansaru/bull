@@ -15,7 +15,7 @@ from typing import Any
 
 import yaml
 
-from . import paths
+from . import links, paths
 
 UNIT_MARKER = re.compile(r"^<!--\s*u:(?P<uid>u\d+)\s+kind:(?P<kind>[\w-]+)\s*-->\s*$")
 IMAGE = re.compile(r"!\[[^\]]*\]\((?P<path>[^)\s]+)\)")
@@ -34,6 +34,7 @@ class Unit:
     rows: dict[str, list[list[str]]] = field(default_factory=dict)
     images: list[str] = field(default_factory=list)   # wiki-relative paths (assets/...)
     caption: dict[str, str] = field(default_factory=dict)
+    head: int = 0                                     # header rows of a table (before |---|)
 
 
 @dataclass
@@ -45,6 +46,8 @@ class Section:
     level: int
     title: dict[str, str]
     units: list[Unit]
+    page_id: str = ""
+    year: str = ""
 
 
 def split_frontmatter(raw: str) -> tuple[dict[str, Any], str]:
@@ -59,13 +62,8 @@ def split_frontmatter(raw: str) -> tuple[dict[str, Any], str]:
 
 
 def clean_inline(text: str) -> str:
-    """Strip wiki and markdown inline syntax down to readable text."""
-    def wikilink(m: re.Match[str]) -> str:
-        if m.group("label"):
-            return m.group("label")
-        return m.group("target").rstrip("/").split("/")[-1].replace("-", " ")
-
-    text = WIKILINK.sub(wikilink, text)
+    """Strip wiki and markdown inline syntax; wikilinks become `⟦page-id|label⟧` links."""
+    text = WIKILINK.sub(lambda m: links.wikilink(m.group("target"), m.group("label")), text)
     text = MDLINK.sub(lambda m: m.group("label"), text)
     text = EMPHASIS.sub(lambda m: m.group(2), text)
     return text.replace("`", "")
@@ -79,6 +77,20 @@ def clean_block(text: str) -> str:
             continue
         lines.append(clean_inline(line))
     return "\n".join(lines).strip()
+
+
+def table_head(text: str) -> int:
+    """Number of header rows: the rows above the |---| separator (0 if none)."""
+    seen = 0
+    for line in text.strip().splitlines():
+        line = line.strip()
+        if not line.startswith("|"):
+            continue
+        cells = [c.strip() for c in UNESCAPED_PIPE.split(line.strip("|"))]
+        if all(re.fullmatch(r":?-{2,}:?", c) for c in cells if c):
+            return seen
+        seen += 1
+    return 0
 
 
 def parse_table(text: str) -> list[list[str]]:
@@ -123,6 +135,7 @@ def parse_units(page: Path, body: str) -> list[Unit]:
                 current.caption["en"] = clean_inline(caption)
         elif current.kind == "table":
             current.rows["en"] = parse_table(block)
+            current.head = table_head(block)
             rest = "\n".join(line for line in block.splitlines() if not line.strip().startswith("|"))
             if rest.strip():
                 current.text["en"] = clean_block(rest)
@@ -177,9 +190,12 @@ def load_sections(languages: list[str], narrative: Path | None = None) -> list[S
         meta, body = split_frontmatter(page.read_text(encoding="utf-8"))
         if meta.get("type") != "narrative-section":
             continue
-        title = {"en": clean_inline(str((meta.get("title") or {}).get("en", page.stem)))}
+        token = links.current_page.set(page)
+        title = {"en": links.strip(clean_inline(str((meta.get("title") or {}).get("en", page.stem))))}
         units = parse_units(page, body)
         apply_sidecar(page, title, units, [lang for lang in languages if lang != "en"])
+        links.current_page.reset(token)
+        title = {k: links.strip(v) for k, v in title.items()}
         sections.append(Section(
             id=str(meta.get("id", page.relative_to(root.parent).with_suffix("").as_posix())),
             chapter=page.parent.name,
@@ -188,9 +204,96 @@ def load_sections(languages: list[str], narrative: Path | None = None) -> list[S
             level=int(meta.get("level", 2)),
             title=title,
             units=units,
+            page_id=page_id(page),
+            year=year_of(title["en"]),
         ))
     sections.sort(key=lambda s: s.order)
     return sections
+
+
+def page_id(page: Path) -> str:
+    return page.resolve().relative_to(paths.WIKI.resolve()).with_suffix("").as_posix()
+
+
+YEAR_RANGE = re.compile(r"^(?P<a>1[5-9]\d\d)(?:\s*[–-]\s*(?P<b>1[5-9]\d\d))?\b")
+YEAR_MARKER = re.compile(r"📅\s*(?P<a>1[5-9]\d\d)(?:\s*[–-]\s*(?P<b>1[5-9]\d\d))?")
+
+
+def year_of(title: str) -> str:
+    """A section's time: a leading year or range in its title, or a 📅 year marker."""
+    m = YEAR_RANGE.match(title.strip()) or YEAR_MARKER.search(title)
+    if not m:
+        return ""
+    return f"{m.group('a')}–{m.group('b')}" if m.group("b") else m.group("a")
+
+
+def summary_of(texts: list[str], limit: int = 240) -> str:
+    """First paragraph, cut at a sentence (or word) boundary near `limit` characters."""
+    for t in texts:
+        for para in links.strip(t).split("\n"):
+            para = para.strip()
+            if not para or para.startswith(("#", "|")) or len(para) < 20:
+                continue
+            if len(para) <= limit:
+                return para
+            cut = para[:limit]
+            end = max(cut.rfind(". "), cut.rfind("; "))
+            return cut[:end + 1] if end > limit // 2 else cut[:cut.rfind(" ")] + " …"
+    return ""
+
+
+# Frontmatter keys that hold typed relations, in the order Related lists them, with the
+# relation label the app shows (UIC-ART-05).
+RELATION_KEYS = {"related": "related", "see": "see", "issue": "issue", "denominations": "denomination",
+                 "handstamps": "handstamp", "series": "series", "in": "published in",
+                 "narrative_refs": "in the book", "refs": "reference"}
+PASS_THROUGH = {"color": ("hex", "family", "swatches"),
+                "abbreviation": ("abbr", "forms", "category", "expansion")}
+
+
+def entity_units(body: str, entity_id: str) -> list[dict[str, Any]]:
+    """Split an entity body into heading / text / list / table units.
+
+    Unit ids are positional (`<entity-id>#<n>`): stable while the page keeps its shape.
+    """
+    blocks: list[tuple[str, list[str]]] = []
+    for line in body.strip().splitlines():
+        s = line.strip()
+        kind = ("blank" if not s else "heading" if s.startswith("#") else "table" if s.startswith("|")
+                else "list" if re.match(r"^([-*+]|\d+\.)\s", s) else "text")
+        if s.startswith("<!--") or kind == "blank":
+            blocks.append(("blank", []))
+            continue
+        if kind == "heading" or not blocks or blocks[-1][0] != kind:
+            blocks.append((kind, [line]))
+        else:
+            blocks[-1][1].append(line)
+    units = []
+    for kind, lines in blocks:
+        if kind == "blank" or not lines:
+            continue
+        uid = f"{entity_id}#{len(units) + 1}"
+        raw = "\n".join(lines)
+        if kind == "table":
+            rows = parse_table(raw)
+            if rows:
+                units.append({"uid": uid, "kind": "table", "rows": {"en": rows}, "head": table_head(raw)})
+            continue
+        if kind == "text":
+            raw = " ".join(line.strip() for line in lines)             # one paragraph
+        text = clean_block(raw)
+        if text:
+            units.append({"uid": uid, "kind": kind, "text": {"en": text}})
+    return units
+
+
+def wikilinks_of(value: Any) -> list[tuple[str, str | None]]:
+    items = value if isinstance(value, list) else [value]
+    found = []
+    for item in items:
+        if isinstance(item, str):
+            found += [(m.group("target"), m.group("label")) for m in WIKILINK.finditer(item)]
+    return found
 
 
 def load_entities(entities: Path | None = None) -> list[dict[str, Any]]:
@@ -204,15 +307,41 @@ def load_entities(entities: Path | None = None) -> list[dict[str, Any]]:
         if not isinstance(titles, dict):
             titles = {"en": str(titles)}
         body = re.sub(r"^#\s+.*\n", "", body, count=1)          # title is shown separately
-        out.append({
-            "id": str(meta.get("id", page.relative_to(root.parent).with_suffix("").as_posix())),
-            "type": str(meta.get("type", page.parent.name)),
+        eid = str(meta.get("id", page.relative_to(root.parent).with_suffix("").as_posix()))
+        etype = str(meta.get("type", page.parent.name))
+        token = links.current_page.set(page)
+        units = entity_units(body, eid)
+        related = []
+        for key, rel in RELATION_KEYS.items():
+            for target, _label in wikilinks_of(meta.get(key)):
+                pid = links.resolver().resolve(target, page)
+                if pid:
+                    related.append({"id": pid, "rel": rel})
+        see = wikilinks_of(meta.get("see"))
+        see_id = links.resolver().resolve(see[0][0], page) if see else None
+        links.current_page.reset(token)
+        entry: dict[str, Any] = {
+            "id": eid,
+            "page_id": page_id(page),
+            "type": etype,
             # entities/references/books/x.md -> group "references", subgroup "books" (bull DR-014)
             "group": page.relative_to(root).parts[0],
             "subgroup": "/".join(page.relative_to(root).parts[1:-1]),
-            "title": {k: clean_inline(str(v)) for k, v in titles.items() if v},
-            "text": {"en": clean_block(body)},
-        })
+            "title": {k: links.strip(clean_inline(str(v))) for k, v in titles.items() if v},
+            "summary": {"en": str(meta.get("summary") or "").strip()
+                        or summary_of([u["text"]["en"] for u in units if u["kind"] == "text"])},
+            "year": str(meta.get("year") or meta.get("date") or ""),
+            "units": units,
+            "related": related,
+        }
+        if meta.get("marker"):
+            entry["marker"] = str(meta["marker"])
+        if see_id:
+            entry["see_id"] = see_id
+        for key in PASS_THROUGH.get(etype, ()):
+            if key in meta:
+                entry[key] = meta[key]
+        out.append(entry)
     return out
 
 

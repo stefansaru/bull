@@ -89,6 +89,43 @@ status: draft                                       # draft | reviewed | verifie
 ---
 ```
 
+## Keys every entity may carry (bull DR-015)
+
+```yaml
+summary: "One or two sentences."   # the app's preview text; else the first paragraph is used
+related: ["[[other-page]]"]          # curated links, shown under Related artefacts
+year: 1858                           # or a range "1858–1862": the app's date line
+generated_by: tools/gen_x.py         # set by generators; delete it to take the page over by hand
+```
+
+## Colour page (`entities/colors/<slug>.md`, generated)
+
+```yaml
+type: color
+title: {en: Carmine red, ro: Roşu carmin, fr: Rouge carmin, de: Karminrot}
+family: red                          # blue | green | red | neutral
+hex: '#A4343A'                       # the page swatch (first standard)
+swatches:                            # one per standard the book names
+- {system: pantone, code: '1807', name: Carmine Red, description: '', hex: '#A4343A'}
+hex_source: author's book, colour table cell shading (screen approximation; the standard's code is authoritative)
+```
+
+`hex` values are read from the cell shading of the author's colour tables
+(`tools/extract_swatches.py`). Systems: pantone, ral, ams, ams-std, ncs, web, other.
+
+## Abbreviation page (`entities/abbreviations/abbr-<slug>.md`, generated)
+
+```yaml
+type: abbreviation
+abbr: "MI Mi"                        # as printed in Table 2
+forms: [MI, Mi]
+category: catalogue                  # calendar | country | colour standard | catalogue | postal | money | handstamp | organisation | general
+expansion: {en: …, ro: …, fr: …, de: …}
+see: "[[../references/catalogues/michel]]"   # the fuller page, when one exists
+```
+
+Slugs carry an `abbr-` prefix so they never collide with catalogue or handstamp stems.
+
 ## Image rights registry (`assets/rights.yml`)
 
 Images carry no frontmatter of their own. Their rights live in one registry keyed by

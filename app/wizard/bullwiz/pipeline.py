@@ -1,6 +1,6 @@
 """The wizard pipeline: from a clean checkout to signed bundles (PROC-REPO-005).
 
-Development run:  doctor → content → validate → rights → bundle → pub get → analyze → tests → report
+Development run:  doctor → content → validate → links → rights → bundle → pub get → analyze → tests → report
 Release run adds: strict rights gate → bundle size gate → version bump → signed AAB → signature check
                   → release log. Store upload stays manual.
 
@@ -22,7 +22,7 @@ from pathlib import Path
 
 import yaml
 
-from . import bundle, content, paths, report, rights, validate
+from . import bundle, content, links, paths, report, rights, validate
 
 
 @dataclass
@@ -115,6 +115,7 @@ class Wizard:
         master = self.cfg.get("master_language", "en")
         candidates = list(self.cfg.get("candidate_languages", []))
         self.sections = content.load_sections([master, *candidates])
+        self.entities = content.load_entities()
         threshold = float(self.cfg.get("min_translation_coverage", 0.98))
         self.languages = [master]
         for lang in candidates:
@@ -123,16 +124,35 @@ class Wizard:
             if ships:
                 self.languages.append(lang)
             s.detail.append(f"{lang}: {cov:.1%} translated — {'ships' if ships else 'held back'}")
-        s.detail.insert(0, f"{len(self.sections)} sections; languages shipped: {', '.join(self.languages)}")
+        s.detail.insert(0, f"{len(self.sections)} sections, {len(self.entities)} entities; "
+                           f"languages shipped: {', '.join(self.languages)}")
         s.status = "pass" if self.sections else "fail"
 
     def validate(self) -> None:
         s = self.step("Content: validate")
-        errors, warnings = validate.validate(self.sections, content.referenced_images(self.sections))
+        errors, warnings = validate.validate(self.sections, content.referenced_images(self.sections),
+                                             self.entities)
         s.detail = [f"ERROR {e}" for e in errors] + [f"warn {w}" for w in warnings[:50]]
         if len(warnings) > 50:
             s.detail.append(f"… {len(warnings) - 50} more warnings")
         s.status = "fail" if errors else ("warn" if warnings else "pass")
+
+    def link_content(self) -> None:
+        s = self.step("Content: links and auto-links", gate=False)
+        stats = links.LinkStats()
+        artefacts = {sec.id for sec in self.sections} | {e["id"] for e in self.entities}             | set(bundle.INDEX_TITLES)
+        page_to_artefact = {sec.page_id: sec.id for sec in self.sections}
+        page_to_artefact |= {e["page_id"]: e["id"] for e in self.entities}
+        for e in self.entities:
+            if e.get("see_id"):
+                e["see_id"] = page_to_artefact.get(e["see_id"], e["see_id"])
+        links.finalize(self.sections, self.entities, page_to_artefact, artefacts, stats)
+        links.autolink_all(self.sections, self.entities, self.languages, stats)
+        lines = links.report_lines(stats)
+        paths.REPORTS.mkdir(parents=True, exist_ok=True)
+        (paths.REPORTS / "autolinks.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+        s.detail = lines[:5] + ["full list: build/reports/autolinks.txt"]
+        s.status = "pass"
 
     def rights_gate(self) -> None:
         s = self.step("Rights gate (images)")
@@ -159,7 +179,7 @@ class Wizard:
 
     def write_bundle(self) -> None:
         s = self.step("Bundle: write assets/content")
-        res = bundle.write(self.sections, content.load_entities(), self.languages, self.shipped, self.cfg)
+        res = bundle.write(self.sections, self.entities, self.languages, self.shipped, self.cfg)
         s.detail = [f"{res.sections} sections, {res.entities} entities, {res.images_shipped} images, "
                     f"{res.images_dropped} image references left out (not cleared), {res.size_mb} MB"]
         limit = float(self.cfg.get("bundle_size_limit_mb", 150))
@@ -224,6 +244,7 @@ class Wizard:
             self.doctor()
         self.load_content()
         self.validate()
+        self.link_content()
         self.rights_gate()
         if only == "content":
             if self.gates_ok():

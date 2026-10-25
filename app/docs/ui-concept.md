@@ -312,12 +312,10 @@ prerequisites, not UI work; the generation scripts are tracked in
   pages instead of duplicating them.
 - **UIC-DAT-02** — **Colour entities** (~22) in the currently empty
   `entities/colors/`, generated from `wiki/narrative/25-colors/`, each with the
-  **standard's code as the authoritative value** (Pantone/RAL/AMS) and an
-  **independently derived sRGB hex labelled as a screen approximation** — not
-  copied from a proprietary swatch library (review finding: public availability
-  of a conversion table is not a reuse licence). Each swatch records its
-  derivation method and provenance. `related:` links connect colour families
-  (UIC-ART-04/05).
+  **standard's code as the authoritative value** (Pantone/RAL/AMS) and the
+  **hex value from the author's own colour tables** (their cell shading), labelled
+  as a screen approximation (owner ruling, DR-015 addendum). `related:` links
+  connect colour families (UIC-ART-04/05).
 - **UIC-DAT-03** — **Calendar concept pages** (Julian, Gregorian) in
   `entities/concepts/`, already planned by the ontology, backing the ᴶ⁄ᴳ tag
   (UIC-ART-03) and the per-year calendar tables of chapter 21.

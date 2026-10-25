@@ -36,7 +36,8 @@ The target UI is specified in [`docs/ui-concept.md`](docs/ui-concept.md); IDs be
 - [ ] Landscape left rail + landscape-only title button, hidden title by default, breadcrumb always visible; pane ownership rules (UIC-LAY-02..04).
 - [ ] Platform detection (Phone/Tablet/TV/other→TV) via platform channel; busy's `TvKeyboard`; labelled keyboard-button fallback; 10-foot type scale from reviewer B's tokens, validated on hardware (UIC-PLT-01..04).
 - [ ] Three-dots menu: audio (sound effects + TTS via `SpeechService`/`flutter_tts`, offline voices preferred, graceful no-voice fallback, never cloud), language+country window, proportional help walkthroughs, two-axis colours (theme × vision mode; vision modes never recolour stamp images) (UIC-NAV-02..06).
-- [ ] Wiki content: generate abbreviation entities from Table 2, colour entities with independently derived approximate hex (standard code authoritative) from chapter 25, calendar concept pages, `summary` fields; stable unit/image/row IDs in the content bundle (UIC-DAT-01..05). The generator scripts live in `tools/`.
+- [x] Wiki content (UIC-DAT-01..05), 2026-10-25: 60 abbreviation pages + index (`tools/gen_abbreviations.py`), 22 colour pages with the author's swatch hex (`tools/extract_swatches.py`, `tools/gen_colors.py`), Julian/Gregorian/dual-date concept pages, bundle schema 2 (links, curated auto-links, DR-015 date notation, summaries, stable IDs, image index, indexes).
+- [ ] `summary:` fields written by hand for the most-visited entities (the first-paragraph fallback covers the rest).
 - [ ] Adopt reviewer B's 13 acceptance tests (its "Suggested acceptance tests") as the feature-level test checklist.
 
 ## Product work

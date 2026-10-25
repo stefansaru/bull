@@ -3,12 +3,14 @@
 from __future__ import annotations
 
 from collections import Counter
+from typing import Any
 
 from . import paths
 from .content import Section
 
 
-def validate(sections: list[Section], referenced: list[str]) -> tuple[list[str], list[str]]:
+def validate(sections: list[Section], referenced: list[str],
+             entities: list[dict[str, Any]] | None = None) -> tuple[list[str], list[str]]:
     """Return (errors, warnings). Errors block the run; warnings are reported."""
     errors: list[str] = []
     warnings: list[str] = []
@@ -25,6 +27,16 @@ def validate(sections: list[Section], referenced: list[str]) -> tuple[list[str],
                 warnings.append(f"{s.id} {u.uid}: figure unit without an image")
             elif u.kind != "figure" and not (u.text.get("en") or u.rows.get("en") or u.images):
                 warnings.append(f"{s.id} {u.uid}: empty {u.kind} unit")
+    entities = entities or []
+    ids = Counter([s.id for s in sections] + [e["id"] for e in entities])
+    for aid, n in ids.items():
+        if n > 1:
+            errors.append(f"artefact id used {n} times: {aid}")
+    for e in entities:
+        if not e["title"].get("en"):
+            errors.append(f"{e['id']}: missing English title")
+        if e.get("type") == "color" and not e.get("hex"):
+            errors.append(f"{e['id']}: colour without a hex swatch")
     missing = [i for i in referenced if not (paths.WIKI / i).exists()]
     for i in missing:
         errors.append(f"referenced image does not exist: {i}")

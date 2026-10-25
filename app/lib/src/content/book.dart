@@ -10,8 +10,14 @@ typedef Localized = Map<String, String>;
 String pick(Localized text, String lang) =>
     text[lang] ?? text['en'] ?? (text.isEmpty ? '' : text.values.first);
 
-Localized _localized(Object? json) =>
-    json is Map ? json.map((k, v) => MapEntry(k as String, v as String)) : {};
+final _link = RegExp(r'⟦[^|⟧]+\|([^⟧]*)⟧');
+
+/// Bundle text carries links as `⟦artefact-id|label⟧` (schema 2); plain text keeps the label.
+String plainLinks(String text) => text.replaceAllMapped(_link, (m) => m[1]!);
+
+Localized _localized(Object? json) => json is Map
+    ? json.map((k, v) => MapEntry(k as String, plainLinks(v as String)))
+    : {};
 
 class Unit {
   Unit({
@@ -30,7 +36,7 @@ class Unit {
     rows: (j['rows'] as Map<String, dynamic>? ?? {}).map(
       (lang, rows) => MapEntry(lang, [
         for (final row in rows as List)
-          [for (final cell in row as List) cell as String],
+          [for (final cell in row as List) plainLinks(cell as String)],
       ]),
     ),
     images: [for (final i in j['images'] as List? ?? const []) i as String],
@@ -116,8 +122,17 @@ class Entity {
     group: j['group'] as String,
     subgroup: j['subgroup'] as String? ?? '',
     title: _localized(j['title']),
-    text: _localized(j['text']),
+    text: {'en': _entityText(j['units'] as List? ?? const [])},
   );
+
+  static String _entityText(List units) => [
+    for (final u in units.cast<Map<String, dynamic>>())
+      if (u['kind'] == 'table')
+        for (final row in (u['rows'] as Map)['en'] as List)
+          (row as List).map((c) => plainLinks(c as String)).join(' · ')
+      else
+        plainLinks(((u['text'] as Map?)?['en'] as String?) ?? ''),
+  ].join('\n');
 
   final String id;
   final String group;

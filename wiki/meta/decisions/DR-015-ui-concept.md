@@ -51,6 +51,15 @@ language filter; the Material `toc` glyph for Sections; proportional help;
 vision modes that never recolour stamp images; hex swatches independently derived
 and labelled as screen approximations, with the standard's code authoritative.
 
+## Addendum — colour swatches (2026-10-25, owner ruling)
+
+The owner ruled that colour swatches use **the hex values written in his own book**:
+the cell shading of the "🎨 Colors" tables in the source document. They are read by
+`tools/extract_swatches.py` and stored per standard in the colour pages
+(`entities/colors/`), labelled as screen approximations with the standard's code as
+the authority. This replaces the review's suggestion to derive hex values
+independently (UIC-DAT-02 amended).
+
 ## Alternatives considered
 
 - Rotate-90° tables (original owner idea) — rejected by both reviews; kept out
