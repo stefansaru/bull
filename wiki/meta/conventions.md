@@ -56,4 +56,7 @@ or does not). See [[meta/audit-procedure]] for how these are checked, and
 - C-01 backtick grouping is unusual for an English-reading audience — keep, or switch
   to thin-space/`,` per edition? (Recorded pending; see [[strategy/multilanguage-analysis]].)
 - Whether `parale` is capitalised in titles vs. lowercase in prose — normalise which way.
-- Julian↔Gregorian: always show both, or primary + parenthetical?
+- Julian↔Gregorian: **resolved** by [[decisions/DR-015-ui-concept|DR-015]] — primary
+  (source calendar, Julian for this material) + Gregorian in parentheses, with a
+  tappable ᴶ⁄ᴳ tag in the app: `1 (13) June 1865`. Year ranges stay plain. Renotating
+  the existing prose markers is a separate audited pass.

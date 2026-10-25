@@ -20,21 +20,24 @@ The book's own work list is `../TODO.md`. Requirement IDs refer to [`docs/requir
 - [ ] **Title and front matter** of the app edition. This follows the book's front-matter decision (book TODO §A).
 - [ ] **Tax and Framework subscription** for income from a paid app as a natural person. This is a Hermes `jini-apps` decision and must come before the first paid release.
 
-## UI concept (docs/ui-concept.md, status: proposed)
+## UI concept (docs/ui-concept.md, accepted — bull DR-015)
 
-The target UI is specified in [`docs/ui-concept.md`](docs/ui-concept.md); IDs below refer to it.
+The target UI is specified in [`docs/ui-concept.md`](docs/ui-concept.md); IDs below refer to it. Two reviews ran 2026-10-25 (findings files next to the concept); DR-015 records the rulings: frozen-column tables, hybrid previews, best-effort TTS, `1 (13) June 1865 ᴶ⁄ᴳ` dates.
 
-- [ ] **Run the review**: have an LLM reviewer execute [`docs/ui-concept-review.md`](docs/ui-concept-review.md); owner accepts findings; record the accepting DR in the wiki.
-- [ ] Artefact page chrome: top menu (back, sections, star, search, three-dots), date line, title (UIC-NAV-01, UIC-ART-02..04).
-- [ ] Dotted-underline links with preview popup + More (UIC-LNK-01..04).
-- [ ] Image viewer: pinch zoom, swipe prev/next, global numbered index, viewer top bar (UIC-IMG-01..05).
-- [ ] Table viewer: rotate 90°, row/column/range selection, bookmarkable selections (UIC-TBL-01..04).
-- [ ] Favorites: star, bookmark kinds (table selection, image, text passage), tree view, deletes, favorites-filtered search (UIC-FAV-01..06).
-- [ ] Search filters subwindow with applied-count badge (UIC-SRC-01..03).
-- [ ] Landscape left rail + landscape-only title button, hidden title by default (UIC-LAY-02..03).
-- [ ] Platform detection (Phone/Tablet/TV/other→TV) via platform channel; busy's `TvKeyboard`; keyboard button fallback (UIC-PLT-01..03).
-- [ ] Three-dots menu: audio (sound effects + **TTS read-aloud, v1**), language+country window, help walkthroughs, two-axis colours (theme × vision mode) (UIC-NAV-02..06).
-- [ ] Wiki content: generate abbreviation entities from Table 2, colour entities with hex from chapter 25, calendar concept pages, `summary` fields; extend the content bundle (UIC-DAT-01..05). The generator scripts live in `tools/`.
+- [x] Run the review; owner accepted findings; DR-015 recorded (2026-10-25).
+- [ ] Navigation stack with semantic anchors (artefact, unit, scroll, focus, pane); Back contract (UIC-PRN-01).
+- [ ] Artefact page chrome: top menu, breadcrumb, date line (DR-015 notation), title (UIC-NAV-01, UIC-ART-02..06).
+- [ ] Sections window: TOC + Indexes (images, abbreviations, colours, calendars) + Favorites entry (UIC-NAV-01a).
+- [ ] Dotted-underline links with TalkBack link semantics; hybrid previews — popup + More in prose, direct open elsewhere (UIC-LNK-01..04).
+- [ ] Image viewer: pinch zoom, swipe prev/next, stable `imageId` + display numbers, two D-pad modes (fitted/zoomed-pan), viewer top bar (UIC-IMG-01..05).
+- [ ] Table viewer: frozen first column + header, horizontal scroll, full-screen mode; keyboard-first selection (anchor–extend–confirm); selections saved by stable row/column IDs (UIC-TBL-01..04).
+- [ ] Favorites: star toggle, bookmark kinds (table selection, image, text passage), tree view, deletes, Recently visited, Continue-reading moves only on linear reading (UIC-FAV-01..06).
+- [ ] Search: filter subwindow with applied-count badge and chips; fixed set type/chapter/favorites-only (UIC-SRC-01..03).
+- [ ] Landscape left rail + landscape-only title button, hidden title by default, breadcrumb always visible; pane ownership rules (UIC-LAY-02..04).
+- [ ] Platform detection (Phone/Tablet/TV/other→TV) via platform channel; busy's `TvKeyboard`; labelled keyboard-button fallback; 10-foot type scale from reviewer B's tokens, validated on hardware (UIC-PLT-01..04).
+- [ ] Three-dots menu: audio (sound effects + TTS via `SpeechService`/`flutter_tts`, offline voices preferred, graceful no-voice fallback, never cloud), language+country window, proportional help walkthroughs, two-axis colours (theme × vision mode; vision modes never recolour stamp images) (UIC-NAV-02..06).
+- [ ] Wiki content: generate abbreviation entities from Table 2, colour entities with independently derived approximate hex (standard code authoritative) from chapter 25, calendar concept pages, `summary` fields; stable unit/image/row IDs in the content bundle (UIC-DAT-01..05). The generator scripts live in `tools/`.
+- [ ] Adopt reviewer B's 13 acceptance tests (its "Suggested acceptance tests") as the feature-level test checklist.
 
 ## Product work
 

@@ -30,6 +30,7 @@ Alternatives / Consequences.
 | [[DR-012-source-translations]] | Sources carry cleaned + translated language variants | accepted |
 | [[DR-013-heritage-thesis-and-enrichment]] | Heritage-led thesis; curated-deep enrichment; legends labeled | accepted |
 | [[DR-014-reference-taxonomy]] | References are one type with kinds; images point to their source | accepted |
+| [[DR-015-ui-concept]] | App UI concept accepted with review revisions; date notation resolves C-04 | accepted |
 
 ## Template
 
