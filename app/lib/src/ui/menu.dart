@@ -256,7 +256,7 @@ class HelpWindow extends StatelessWidget {
           title: Text(l.helpTour),
           onTap: () {
             Navigator.of(context).pop();
-            startTour(shell, keys, mode);
+            startTour(shell, keys);
           },
         ),
         topic(l.helpLinksTitle, l.helpLinksBody),

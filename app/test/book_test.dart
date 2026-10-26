@@ -287,4 +287,42 @@ void main() {
     await tester.pumpAndSettle();
     expect(settings.tourSeen, isTrue);
   });
+
+  testWidgets('the tour spotlight follows the controls through a rotation', (
+    tester,
+  ) async {
+    // Started in landscape (rail), turned to portrait (top menu) mid-tour: the
+    // spotlight must sit on the control as it is now, not where it was.
+    await pumpApp(tester, size: phoneLandscape, prefs: const {});
+    Offset? hole() {
+      final paint = tester.widget<CustomPaint>(
+        find.byWidgetPredicate(
+          (w) => w is CustomPaint && '${w.painter.runtimeType}' == '_Spotlight',
+        ),
+      );
+      return ((paint.painter as dynamic).hole as Rect?)?.center;
+    }
+
+    Offset control(String tooltip) =>
+        tester.getCenter(find.byTooltip(tooltip).first);
+
+    await tester.tap(find.widgetWithText(FilledButton, 'Next').last);
+    await tester.pumpAndSettle();
+    expect(hole(), control('Back'));
+    expect(find.text('2/8'), findsOneWidget); // landscape has the title step
+
+    await setSize(tester, phonePortrait);
+    await tester.pumpAndSettle();
+    expect(hole(), control('Back'));
+    expect(find.text('2/7'), findsOneWidget); // portrait has no title button
+
+    for (final tooltip in ['Contents', 'Add to favorites', 'Search']) {
+      await tester.tap(find.widgetWithText(FilledButton, 'Next').last);
+      await tester.pumpAndSettle();
+      expect(hole(), control(tooltip), reason: tooltip);
+    }
+    await tester.tap(find.widgetWithText(FilledButton, 'Next').last);
+    await tester.pumpAndSettle();
+    expect(hole(), control('More options'));
+  });
 }

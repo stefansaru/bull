@@ -16,32 +16,25 @@ class TourKeys {
 }
 
 class _Step {
-  const _Step(this.rect, this.text);
-  final Rect? rect;
+  const _Step(this.target, this.text);
+
+  /// The control to spotlight, measured afresh on every frame: the shell may still
+  /// be settling (route transition, rotation, rail vs top menu) when the tour opens.
+  final GlobalKey? target;
   final String text;
 }
 
-Rect? _rectOf(GlobalKey key) {
-  final box = key.currentContext?.findRenderObject() as RenderBox?;
-  if (box == null || !box.hasSize || !box.attached) return null;
-  return box.localToGlobal(Offset.zero) & box.size;
-}
-
-Future<void> startTour(
-  BuildContext context,
-  TourKeys keys,
-  LayoutMode mode,
-) async {
+Future<void> startTour(BuildContext context, TourKeys keys) async {
   final l = AppLocalizations.of(context);
   final settings = AppScope.of(context).settings;
   final steps = [
     _Step(null, l.tourWelcome),
-    _Step(_rectOf(keys.back), l.tourBack),
-    _Step(_rectOf(keys.sections), l.tourSections),
-    _Step(_rectOf(keys.star), l.tourStar),
-    _Step(_rectOf(keys.search), l.tourSearch),
-    if (mode != LayoutMode.portrait) _Step(_rectOf(keys.title), l.tourTitle),
-    _Step(_rectOf(keys.more), l.tourMore),
+    _Step(keys.back, l.tourBack),
+    _Step(keys.sections, l.tourSections),
+    _Step(keys.star, l.tourStar),
+    _Step(keys.search, l.tourSearch),
+    _Step(keys.title, l.tourTitle), // rail only; skipped when not on screen
+    _Step(keys.more, l.tourMore),
     _Step(null, l.tourLinks),
   ];
   await Navigator.of(context).push(
@@ -62,16 +55,60 @@ class _TourOverlay extends StatefulWidget {
   State<_TourOverlay> createState() => _TourOverlayState();
 }
 
-class _TourOverlayState extends State<_TourOverlay> {
-  int _i = 0;
+class _TourOverlayState extends State<_TourOverlay>
+    with WidgetsBindingObserver {
+  _Step? _current;
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addObserver(this);
+    // Re-measure once the route transition and the shell's layout have settled.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) setState(() {});
+    });
+  }
+
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
+  }
+
+  @override
+  void didChangeMetrics() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) setState(() {});
+    });
+  }
+
+  /// The target's rect in this overlay's coordinates, or null when it is not on
+  /// screen (the step then shows as a centred card without a spotlight).
+  Rect? _rect(GlobalKey? key) {
+    if (key == null) return null;
+    final box = key.currentContext?.findRenderObject() as RenderBox?;
+    final me = context.findRenderObject() as RenderBox?;
+    if (box == null || !box.attached || !box.hasSize) return null;
+    if (me == null || !me.attached || !me.hasSize) return null;
+    return box.localToGlobal(Offset.zero) - me.localToGlobal(Offset.zero) &
+        box.size;
+  }
 
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
-    final step = widget.steps[_i];
-    final last = _i == widget.steps.length - 1;
+    // Only steps whose control is on screen now: the layout can change mid-tour
+    // (rotation swaps the top menu for the rail, which adds the title button).
+    final steps = [
+      for (final s in widget.steps)
+        if (s.target == null || s.target!.currentContext != null) s,
+    ];
+    final step = steps.contains(_current) ? _current! : steps.first;
+    final i = steps.indexOf(step);
+    final rect = _rect(step.target);
+    final last = i == steps.length - 1;
     final size = MediaQuery.sizeOf(context);
-    final below = step.rect == null || step.rect!.center.dy < size.height / 2;
+    final below = rect == null || rect.center.dy < size.height / 2;
     final card = Card(
       margin: const EdgeInsets.all(24),
       child: Padding(
@@ -90,12 +127,13 @@ class _TourOverlayState extends State<_TourOverlay> {
                     child: Text(l.skip),
                   ),
                 const Spacer(),
-                Text('${_i + 1}/${widget.steps.length}'),
+                Text('${i + 1}/${steps.length}'),
                 const SizedBox(width: 12),
                 FilledButton(
                   autofocus: true,
-                  onPressed: () =>
-                      last ? Navigator.of(context).pop() : setState(() => _i++),
+                  onPressed: () => last
+                      ? Navigator.of(context).pop()
+                      : setState(() => _current = steps[i + 1]),
                   child: Text(last ? l.done : l.next),
                 ),
               ],
@@ -108,12 +146,12 @@ class _TourOverlayState extends State<_TourOverlay> {
       type: MaterialType.transparency,
       child: Stack(
         children: [
-          Positioned.fill(child: CustomPaint(painter: _Spotlight(step.rect))),
+          Positioned.fill(child: CustomPaint(painter: _Spotlight(rect))),
           Positioned(
             left: 0,
             right: 0,
-            top: below ? (step.rect?.bottom ?? size.height / 3) + 8 : null,
-            bottom: below ? null : size.height - step.rect!.top + 8,
+            top: below ? (rect?.bottom ?? size.height / 3) + 8 : null,
+            bottom: below ? null : size.height - rect.top + 8,
             child: Center(
               child: ConstrainedBox(
                 constraints: const BoxConstraints(maxWidth: 480),

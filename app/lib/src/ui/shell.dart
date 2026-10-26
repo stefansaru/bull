@@ -146,7 +146,7 @@ class _ReaderShellState extends State<ReaderShell>
     if (_tourStarted || AppScope.of(context).settings.tourSeen) return;
     _tourStarted = true;
     WidgetsBinding.instance.addPostFrameCallback((_) {
-      if (mounted) startTour(context, tourKeys, layoutModeOf(context));
+      if (mounted) startTour(context, tourKeys);
     });
   }
 
