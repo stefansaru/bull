@@ -463,6 +463,12 @@ class AppLocalizationsFr extends AppLocalizations {
   String get skip => 'Passer';
 
   @override
+  String get skipAll => 'Tout passer';
+
+  @override
+  String get previous => 'Précédent';
+
+  @override
   String get keyboardSpace => 'Espace';
 
   @override

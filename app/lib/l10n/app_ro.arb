@@ -132,6 +132,8 @@
   "next": "Înainte",
   "done": "Gata",
   "skip": "Sari peste",
+  "skipAll": "Sari peste tot",
+  "previous": "Anterior",
   "keyboardSpace": "Spațiu",
   "keyboardBackspace": "Șterge înapoi",
   "keyboardShift": "Majuscule",

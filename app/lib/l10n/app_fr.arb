@@ -132,6 +132,8 @@
   "next": "Suivant",
   "done": "Terminé",
   "skip": "Passer",
+  "skipAll": "Tout passer",
+  "previous": "Précédent",
   "keyboardSpace": "Espace",
   "keyboardBackspace": "Retour arrière",
   "keyboardShift": "Majuscule",

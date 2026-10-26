@@ -462,6 +462,12 @@ class AppLocalizationsRo extends AppLocalizations {
   String get skip => 'Sari peste';
 
   @override
+  String get skipAll => 'Sari peste tot';
+
+  @override
+  String get previous => 'Anterior';
+
+  @override
   String get keyboardSpace => 'Spațiu';
 
   @override

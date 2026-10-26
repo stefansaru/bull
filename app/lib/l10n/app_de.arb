@@ -132,6 +132,8 @@
   "next": "Weiter",
   "done": "Fertig",
   "skip": "Überspringen",
+  "skipAll": "Alle überspringen",
+  "previous": "Zurück",
   "keyboardSpace": "Leerzeichen",
   "keyboardBackspace": "Rücktaste",
   "keyboardShift": "Umschalt",

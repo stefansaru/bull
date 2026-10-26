@@ -6,6 +6,7 @@ import 'package:capdebour/src/content/inline.dart';
 import 'package:capdebour/src/settings.dart';
 import 'package:capdebour/src/speech/speech_service.dart';
 import 'package:capdebour/src/ui/search_page.dart';
+import 'package:capdebour/src/ui/tour.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -278,15 +279,71 @@ void main() {
     expect(speech.spoken, isEmpty);
   });
 
-  testWidgets('the first-run tour shows once and can be skipped', (
+  testWidgets('Skip defers the first-run tour; Skip all ends it', (
     tester,
   ) async {
     final (_, settings) = await pumpApp(tester, prefs: const {});
     expect(find.textContaining('short tour'), findsOneWidget);
     await tester.tap(find.text('Skip'));
     await tester.pumpAndSettle();
+    expect(find.textContaining('short tour'), findsNothing);
+    expect(settings.tourSeen, isFalse); // shows again next launch
+
+    await tapTooltip(tester, 'More options');
+    await tapText(tester, 'Help');
+    await tapText(tester, 'Tour of the controls');
+    await tester.tap(find.text('Skip all'));
+    await tester.pumpAndSettle();
     expect(settings.tourSeen, isTrue);
   });
+
+  Rect? spotlight(WidgetTester tester) {
+    final paint = tester.widget<CustomPaint>(
+      find.byWidgetPredicate(
+        (w) => w is CustomPaint && w.painter is TourSpotlightPainter,
+      ),
+    );
+    return (paint.painter! as TourSpotlightPainter).hole;
+  }
+
+  Future<void> tourButton(WidgetTester tester, String label) async {
+    await tester.tap(
+      find
+          .ancestor(
+            of: find.text(label),
+            matching: find.byWidgetPredicate((w) => w is ButtonStyleButton),
+          )
+          .last,
+    );
+    await tester.pumpAndSettle();
+  }
+
+  /// The frame surrounds the control and all four sides are on screen.
+  void framesControl(WidgetTester tester, String tooltip) {
+    final hole = spotlight(tester)!;
+    final control = tester.getRect(
+      find
+          .ancestor(
+            of: find.byTooltip(tooltip).first,
+            matching: find.byType(IconButton),
+          )
+          .first,
+    );
+    final screen = Offset.zero & tester.view.physicalSize;
+    expect(hole.contains(control.center), isTrue, reason: tooltip);
+    expect(hole.overlaps(control), isTrue, reason: tooltip);
+    expect(
+      screen.deflate(tourFrameWidth / 2).contains(hole.topLeft) &&
+          screen.deflate(tourFrameWidth / 2).contains(hole.bottomRight),
+      isTrue,
+      reason: '$tooltip frame $hole leaves the screen $screen',
+    );
+    expect(
+      hole.width,
+      greaterThanOrEqualTo(control.width - 2),
+      reason: tooltip,
+    );
+  }
 
   testWidgets('the tour spotlight follows the controls through a rotation', (
     tester,
@@ -294,35 +351,49 @@ void main() {
     // Started in landscape (rail), turned to portrait (top menu) mid-tour: the
     // spotlight must sit on the control as it is now, not where it was.
     await pumpApp(tester, size: phoneLandscape, prefs: const {});
-    Offset? hole() {
-      final paint = tester.widget<CustomPaint>(
-        find.byWidgetPredicate(
-          (w) => w is CustomPaint && '${w.painter.runtimeType}' == '_Spotlight',
-        ),
-      );
-      return ((paint.painter as dynamic).hole as Rect?)?.center;
-    }
-
-    Offset control(String tooltip) =>
-        tester.getCenter(find.byTooltip(tooltip).first);
-
-    await tester.tap(find.widgetWithText(FilledButton, 'Next').last);
-    await tester.pumpAndSettle();
-    expect(hole(), control('Back'));
-    expect(find.text('2/8'), findsOneWidget); // landscape has the title step
+    await tourButton(tester, 'Next');
+    framesControl(tester, 'Back');
+    expect(find.text('2 / 8'), findsOneWidget); // landscape has the title step
 
     await setSize(tester, phonePortrait);
     await tester.pumpAndSettle();
-    expect(hole(), control('Back'));
-    expect(find.text('2/7'), findsOneWidget); // portrait has no title button
+    framesControl(tester, 'Back');
+    expect(find.text('2 / 7'), findsOneWidget); // portrait has no title button
 
     for (final tooltip in ['Contents', 'Add to favorites', 'Search']) {
-      await tester.tap(find.widgetWithText(FilledButton, 'Next').last);
-      await tester.pumpAndSettle();
-      expect(hole(), control(tooltip), reason: tooltip);
+      await tourButton(tester, 'Next');
+      framesControl(tester, tooltip);
     }
-    await tester.tap(find.widgetWithText(FilledButton, 'Next').last);
+    await tourButton(tester, 'Next');
+    framesControl(tester, 'More options');
+
+    await tourButton(tester, 'Previous');
+    framesControl(tester, 'Search');
+    expect(find.text('5 / 7'), findsOneWidget);
+  });
+
+  testWidgets('the tour spotlight glides between controls', (tester) async {
+    await pumpApp(tester, prefs: const {});
+    await tourButton(tester, 'Next');
+    final back = spotlight(tester)!;
+    await tester.tap(
+      find
+          .ancestor(
+            of: find.text('Next'),
+            matching: find.byWidgetPredicate((w) => w is ButtonStyleButton),
+          )
+          .last,
+    );
+    await tester.pump();
+    await tester.pump(tourMorphDuration ~/ 2);
+    final midway = spotlight(tester)!;
     await tester.pumpAndSettle();
-    expect(hole(), control('More options'));
+    final contents = spotlight(tester)!;
+    expect(midway, isNot(back));
+    expect(midway, isNot(contents));
+    expect(
+      midway.center.dx,
+      inExclusiveRange(back.center.dx, contents.center.dx),
+    );
   });
 }

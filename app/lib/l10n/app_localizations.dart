@@ -894,6 +894,18 @@ abstract class AppLocalizations {
   /// **'Skip'**
   String get skip;
 
+  /// No description provided for @skipAll.
+  ///
+  /// In en, this message translates to:
+  /// **'Skip all'**
+  String get skipAll;
+
+  /// No description provided for @previous.
+  ///
+  /// In en, this message translates to:
+  /// **'Previous'**
+  String get previous;
+
   /// No description provided for @keyboardSpace.
   ///
   /// In en, this message translates to:

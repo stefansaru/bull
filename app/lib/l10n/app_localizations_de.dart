@@ -464,6 +464,12 @@ class AppLocalizationsDe extends AppLocalizations {
   String get skip => 'Überspringen';
 
   @override
+  String get skipAll => 'Alle überspringen';
+
+  @override
+  String get previous => 'Zurück';
+
+  @override
   String get keyboardSpace => 'Leerzeichen';
 
   @override

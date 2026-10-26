@@ -461,6 +461,12 @@ class AppLocalizationsEn extends AppLocalizations {
   String get skip => 'Skip';
 
   @override
+  String get skipAll => 'Skip all';
+
+  @override
+  String get previous => 'Previous';
+
+  @override
   String get keyboardSpace => 'Space';
 
   @override
